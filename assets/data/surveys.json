@@ -2,12 +2,14 @@
   "_instructions": [
     "Add each survey as one object inside the surveys array below.",
     "name: the survey's displayed name.",
+    "logo: optional path to the survey's logo, for example assets/images/survey-logo.jpg.",
     "description: a short explanation of the survey or EGAMI's connection to it.",
     "url: the full link to the survey's website."
   ],
   "surveys": [
     {
       "name": "SAPPHIRES",
+      "logo": "assets/images/sapphires_logo.jpg",
       "url": "https://jwst-sapphires.github.io/"
     }
   ]

@@ -28,6 +28,13 @@ async function loadSurveys() {
       link.href = survey.url;
       link.target = "_blank";
       link.rel = "noopener noreferrer";
+      if (survey.logo) {
+        const logo = document.createElement("img");
+        logo.className = "survey-logo";
+        logo.src = survey.logo;
+        logo.alt = `${survey.name} logo`;
+        link.append(logo);
+      }
       link.append(surveyElement("h3", "survey-name", survey.name));
       if (survey.description) {
         link.append(surveyElement("p", "survey-description", survey.description));
