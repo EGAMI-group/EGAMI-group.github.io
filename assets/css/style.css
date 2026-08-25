@@ -113,7 +113,33 @@ a.person-card:focus-visible {
 }
 
 .person-photo-placeholder {
+  position: relative;
+  overflow: hidden;
   background: linear-gradient(135deg, #d8e6e9, #a8c2ca);
+}
+
+.person-photo-placeholder::before,
+.person-photo-placeholder::after {
+  position: absolute;
+  display: block;
+  content: "";
+  background: #6f8d97;
+}
+
+.person-photo-placeholder::before {
+  top: 21%;
+  left: 37%;
+  width: 26%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.person-photo-placeholder::after {
+  bottom: -5%;
+  left: 21%;
+  width: 58%;
+  height: 46%;
+  border-radius: 50% 50% 0 0;
 }
 
 .person-details {
