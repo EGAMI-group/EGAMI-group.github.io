@@ -51,9 +51,9 @@ function renderProfile(person) {
 }
 
 async function loadProfile() {
-  const id = new URLSearchParams(window.location.search).get("id");
+  const name = new URLSearchParams(window.location.search).get("name");
 
-  if (!id) {
+  if (!name) {
     profileContainer.textContent = "No group member was selected.";
     return;
   }
@@ -64,7 +64,7 @@ async function loadProfile() {
 
     const roster = await response.json();
     const people = Array.isArray(roster) ? roster : roster.people || [];
-    const person = people.find((member) => member.id === id);
+    const person = people.find((member) => member.name === name);
 
     if (!person) {
       profileContainer.textContent = "This group member could not be found.";

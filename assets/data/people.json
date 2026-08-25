@@ -2,8 +2,8 @@
   "_instructions": [
     "Add each group member as one object inside the people array below.",
     "The website ignores this _instructions section, so you may keep it here.",
-    "id: a unique lowercase identifier with hyphens, such as jane-doe. Adding an id makes the person's card open their profile page.",
     "name: the person's displayed name.",
+    "Each person's name must be unique. The website uses it automatically to open the correct profile page.",
     "role: their role in the group, such as Undergraduate Researcher or Faculty Advisor.",
     "interests: optional research interests. These appear on the person's profile page, not on their People card.",
     "photo: optional path to their image, for example assets/images/people/jane-smith.jpg.",

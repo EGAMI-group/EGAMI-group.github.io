@@ -9,8 +9,8 @@ function createElement(tagName, className, text) {
 }
 
 function createCard(person) {
-  const profileUrl = person.id
-    ? `person.html?id=${encodeURIComponent(person.id)}`
+  const profileUrl = person.name
+    ? `person.html?name=${encodeURIComponent(person.name)}`
     : person.profile;
   const card = profileUrl
     ? document.createElement("a")
