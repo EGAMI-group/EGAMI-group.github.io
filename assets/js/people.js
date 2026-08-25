@@ -9,12 +9,15 @@ function createElement(tagName, className, text) {
 }
 
 function createCard(person) {
-  const card = person.profile
+  const profileUrl = person.id
+    ? `person.html?id=${encodeURIComponent(person.id)}`
+    : person.profile;
+  const card = profileUrl
     ? document.createElement("a")
     : document.createElement("article");
   card.className = "person-card";
 
-  if (person.profile) card.href = person.profile;
+  if (profileUrl) card.href = profileUrl;
 
   const image = document.createElement("img");
   image.className = "person-photo";
@@ -25,10 +28,6 @@ function createCard(person) {
   const details = createElement("div", "person-details");
   details.append(createElement("h3", "person-name", person.name));
   details.append(createElement("p", "person-role", person.role));
-
-  if (person.interests) {
-    details.append(createElement("p", "person-interests", person.interests));
-  }
 
   card.append(details);
   return card;

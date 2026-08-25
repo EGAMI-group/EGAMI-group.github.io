@@ -116,8 +116,7 @@ a.person-card:focus-visible {
 }
 
 .person-name,
-.person-role,
-.person-interests {
+.person-role {
   margin: 0;
 }
 
@@ -133,16 +132,81 @@ a.person-card:focus-visible {
   font-size: 0.88rem;
 }
 
-.person-interests {
-  margin-top: 0.9rem;
-  color: #303a40;
-  font-size: 0.88rem;
-  line-height: 1.5;
-}
-
 .empty-roster {
   margin: 0;
   color: #56626a;
+}
+
+.profile-page {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 4rem 5vw;
+}
+
+.profile-layout {
+  display: grid;
+  grid-template-columns: minmax(220px, 330px) minmax(0, 1fr);
+  gap: clamp(2rem, 7vw, 6rem);
+  align-items: start;
+}
+
+.profile-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background: #eef1f2;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 2.4rem;
+  color: var(--navy);
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.back-link:hover,
+.back-link:focus-visible {
+  text-decoration: underline;
+}
+
+.profile-name {
+  margin: 0;
+  color: var(--navy);
+  font-size: clamp(2.25rem, 5vw, 4rem);
+  line-height: 1.1;
+}
+
+.profile-role {
+  margin: 0.75rem 0 3.2rem;
+  color: #56626a;
+  font-size: 1.1rem;
+}
+
+.profile-heading {
+  margin: 0 0 0.7rem;
+  color: var(--navy);
+  font-size: 1.15rem;
+}
+
+.profile-interests {
+  max-width: 650px;
+  margin: 0 0 2rem;
+  line-height: 1.7;
+}
+
+.ads-link {
+  display: inline-block;
+  padding: 0.8rem 1rem;
+  color: #ffffff;
+  background: var(--navy);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.ads-link:hover,
+.ads-link:focus-visible {
+  background: #0c314a;
 }
 
 @media (max-width: 500px) {
@@ -164,5 +228,13 @@ a.person-card:focus-visible {
 @media (max-width: 520px) {
   .people-grid {
     grid-template-columns: 1fr;
+  }
+
+  .profile-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-photo {
+    max-width: 260px;
   }
 }

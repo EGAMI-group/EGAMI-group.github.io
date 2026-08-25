@@ -1,0 +1,80 @@
+const profileContainer = document.querySelector("#profile");
+const defaultPhoto = "assets/images/Default_pfp.jpg";
+
+function createElement(tagName, className, text) {
+  const element = document.createElement(tagName);
+  if (className) element.className = className;
+  if (text) element.textContent = text;
+  return element;
+}
+
+function adsUrl(person) {
+  if (!person.adsAuthor) return null;
+  const query = `author:"${person.adsAuthor}"`;
+  return `https://ui.adsabs.harvard.edu/search/q=${encodeURIComponent(query)}`;
+}
+
+function renderProfile(person) {
+  document.title = `${person.name} | EGAMI Group`;
+
+  const layout = createElement("article", "profile-layout");
+  const image = document.createElement("img");
+  image.className = "profile-photo";
+  image.src = person.photo || defaultPhoto;
+  image.alt = person.photo ? person.name : "Default profile image";
+  layout.append(image);
+
+  const content = createElement("div", "profile-content");
+  content.append(createElement("a", "back-link", "← Back to People"));
+  content.lastChild.href = "index.html#people";
+  content.append(createElement("h1", "profile-name", person.name));
+  content.append(createElement("p", "profile-role", person.role));
+
+  if (person.interests) {
+    content.append(createElement("h2", "profile-heading", "Research interests"));
+    content.append(createElement("p", "profile-interests", person.interests));
+  }
+
+  const papersUrl = adsUrl(person);
+  if (papersUrl) {
+    const papers = document.createElement("a");
+    papers.className = "ads-link";
+    papers.href = papersUrl;
+    papers.target = "_blank";
+    papers.rel = "noopener noreferrer";
+    papers.textContent = "View papers on ADS ↗";
+    content.append(papers);
+  }
+
+  layout.append(content);
+  profileContainer.replaceChildren(layout);
+}
+
+async function loadProfile() {
+  const id = new URLSearchParams(window.location.search).get("id");
+
+  if (!id) {
+    profileContainer.textContent = "No group member was selected.";
+    return;
+  }
+
+  try {
+    const response = await fetch("assets/data/people.json");
+    if (!response.ok) throw new Error("Could not load the roster.");
+
+    const roster = await response.json();
+    const people = Array.isArray(roster) ? roster : roster.people || [];
+    const person = people.find((member) => member.id === id);
+
+    if (!person) {
+      profileContainer.textContent = "This group member could not be found.";
+      return;
+    }
+
+    renderProfile(person);
+  } catch (error) {
+    profileContainer.textContent = "This profile could not be loaded.";
+  }
+}
+
+loadProfile();
