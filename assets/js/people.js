@@ -16,15 +16,11 @@ function createCard(person) {
 
   if (person.profile) card.href = person.profile;
 
-  if (person.photo) {
-    const image = document.createElement("img");
-    image.className = "person-photo";
-    image.src = person.photo;
-    image.alt = person.name;
-    card.append(image);
-  } else {
-    card.append(createElement("div", "person-photo-placeholder"));
-  }
+  const image = document.createElement("img");
+  image.className = "person-photo";
+  image.src = person.photo || "assets/images/Default_pfp.jpg";
+  image.alt = person.photo ? person.name : "Default profile image";
+  card.append(image);
 
   const details = createElement("div", "person-details");
   details.append(createElement("h3", "person-name", person.name));
