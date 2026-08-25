@@ -57,8 +57,200 @@ main {
   padding: 2rem 5vw;
 }
 
+.research-section,
 .people-section {
   max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.research-section {
+  margin-top: 5rem;
+}
+
+.section-label {
+  margin: 0 0 0.55rem;
+  color: #526d7a;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.research-section > h1 {
+  margin: 0;
+  color: var(--navy);
+  font-size: clamp(2.2rem, 5vw, 4rem);
+}
+
+.research-block {
+  margin-top: 4.5rem;
+}
+
+.research-block h2 {
+  margin: 0 0 1rem;
+  color: var(--navy);
+  font-size: 1.45rem;
+}
+
+.overview-placeholder {
+  max-width: 760px;
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.75;
+}
+
+.muted-copy,
+.empty-surveys,
+.empty-publications {
+  margin: 0;
+  color: #56626a;
+}
+
+.survey-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+.survey-card {
+  display: flex;
+  min-height: 180px;
+  flex-direction: column;
+  padding: 1.4rem;
+  border: 1px solid #dce1e4;
+  color: inherit;
+  text-decoration: none;
+}
+
+.survey-card:hover,
+.survey-card:focus-visible {
+  border-color: var(--navy);
+  box-shadow: 0 6px 20px rgba(3, 19, 31, 0.12);
+}
+
+.survey-name {
+  margin: 0;
+  color: var(--navy);
+  font-size: 1.1rem;
+}
+
+.survey-description {
+  margin: 0.6rem 0 1.3rem;
+  color: #56626a;
+  font-size: 0.9rem;
+}
+
+.survey-action {
+  margin-top: auto;
+  color: var(--navy);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.publications-section {
+  padding: 2rem;
+  border: 1px solid #dce1e4;
+  background: #f6f8f8;
+}
+
+.publications-heading {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.publications-heading h2 {
+  margin-bottom: 0.45rem;
+}
+
+.filter-reset {
+  padding: 0.65rem 0.8rem;
+  border: 1px solid #9da9af;
+  color: var(--navy);
+  background: #ffffff;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.filter-reset:hover,
+.filter-reset:focus-visible {
+  border-color: var(--navy);
+}
+
+.publication-filters {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.publication-filters label {
+  color: var(--navy);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.publication-filters span,
+.publication-filters select {
+  display: block;
+}
+
+.publication-filters select {
+  width: 100%;
+  margin-top: 0.45rem;
+  padding: 0.7rem 0.75rem;
+  border: 1px solid #b4bec3;
+  border-radius: 0;
+  color: #111111;
+  background: #ffffff;
+  font: inherit;
+  font-size: 0.95rem;
+}
+
+.publication-results {
+  border-top: 1px solid #dce1e4;
+}
+
+.publication-card {
+  padding: 1.45rem 0;
+  border-bottom: 1px solid #dce1e4;
+}
+
+.publication-meta,
+.publication-authors {
+  margin: 0;
+  color: #56626a;
+  font-size: 0.88rem;
+}
+
+.publication-title {
+  margin: 0.5rem 0;
+  color: var(--navy);
+  font-size: 1.1rem;
+}
+
+.publication-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.85rem;
+}
+
+.publication-links a {
+  color: var(--navy);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.publication-links a:hover,
+.publication-links a:focus-visible {
+  text-decoration: underline;
+}
+
+.people-section {
   margin: 5rem auto 0;
 }
 
@@ -220,12 +412,34 @@ a.person-card:focus-visible {
 }
 
 @media (max-width: 950px) {
+  .survey-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .people-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 520px) {
+  .research-block {
+    margin-top: 3.5rem;
+  }
+
+  .survey-grid,
+  .publication-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .publications-section {
+    padding: 1.3rem;
+  }
+
+  .publications-heading {
+    align-items: start;
+    flex-direction: column;
+  }
+
   .people-grid {
     grid-template-columns: 1fr;
   }

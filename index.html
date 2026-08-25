@@ -24,6 +24,57 @@
     <main id="home">
       <p>test</p>
 
+      <section class="research-section" id="research" aria-labelledby="research-heading">
+        <p class="section-label">Research</p>
+        <h1 id="research-heading">Research</h1>
+        <section class="research-block" aria-labelledby="overview-heading">
+          <h2 id="overview-heading">Overview</h2>
+          <p class="overview-placeholder">Place holder text.</p>
+        </section>
+
+        <section class="research-block" aria-labelledby="themes-heading">
+          <h2 id="themes-heading">Research themes</h2>
+          <p class="muted-copy">Research themes will be added here.</p>
+        </section>
+
+        <section class="research-block" aria-labelledby="surveys-heading">
+          <h2 id="surveys-heading">Surveys</h2>
+          <div id="survey-links" class="survey-grid" aria-live="polite"></div>
+        </section>
+
+        <section class="research-block publications-section" aria-labelledby="publications-heading">
+          <div class="publications-heading">
+            <div>
+              <h2 id="publications-heading">Publications Explorer</h2>
+              <p class="muted-copy">Group papers, automatically updated from ADS.</p>
+            </div>
+            <button class="filter-reset" id="publication-reset" type="button">Reset filters</button>
+          </div>
+
+          <form class="publication-filters" id="publication-filters">
+            <label>
+              <span>Person</span>
+              <select id="publication-person" name="person">
+                <option value="">All members</option>
+              </select>
+            </label>
+            <label>
+              <span>Year</span>
+              <select id="publication-year" name="year">
+                <option value="">All years</option>
+              </select>
+            </label>
+            <label>
+              <span>Publication type</span>
+              <select id="publication-type" name="type">
+                <option value="">All types</option>
+              </select>
+            </label>
+          </form>
+          <div id="publication-results" class="publication-results" aria-live="polite"></div>
+        </section>
+      </section>
+
       <section class="people-section" id="people" aria-labelledby="people-heading">
         <h1 id="people-heading">People</h1>
         <div id="current-members" class="people-group" aria-live="polite"></div>
@@ -31,5 +82,7 @@
       </section>
     </main>
     <script src="assets/js/people.js"></script>
+    <script src="assets/js/surveys.js"></script>
+    <script src="assets/js/publications.js"></script>
   </body>
 </html>

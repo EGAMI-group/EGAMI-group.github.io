@@ -1,0 +1,14 @@
+{
+  "_instructions": [
+    "Add each survey as one object inside the surveys array below.",
+    "name: the survey's displayed name.",
+    "description: a short explanation of the survey or EGAMI's connection to it.",
+    "url: the full link to the survey's website."
+  ],
+  "surveys": [
+    {
+      "name": "SAPPHIRES",
+      "url": "https://jwst-sapphires.github.io/"
+    }
+  ]
+}
