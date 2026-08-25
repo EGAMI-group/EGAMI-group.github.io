@@ -57,6 +57,99 @@ main {
   padding: 2rem 5vw;
 }
 
+.people-section {
+  max-width: 1400px;
+  margin: 5rem auto 0;
+}
+
+.people-section h1,
+.people-group h2 {
+  margin: 0;
+  font-size: 1.45rem;
+  font-weight: 700;
+}
+
+.people-group {
+  margin-top: 3.5rem;
+}
+
+.people-group h2 {
+  margin-bottom: 1.25rem;
+  color: var(--navy);
+}
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.4rem;
+}
+
+.person-card {
+  display: block;
+  overflow: hidden;
+  min-height: 100%;
+  border: 1px solid #dce1e4;
+  background: #ffffff;
+}
+
+a.person-card {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.person-card:hover,
+a.person-card:focus-visible {
+  border-color: var(--navy);
+  box-shadow: 0 6px 20px rgba(3, 19, 31, 0.12);
+}
+
+.person-photo,
+.person-photo-placeholder {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background: #eef1f2;
+}
+
+.person-photo-placeholder {
+  background: linear-gradient(135deg, #d8e6e9, #a8c2ca);
+}
+
+.person-details {
+  padding: 1rem;
+}
+
+.person-name,
+.person-role,
+.person-interests {
+  margin: 0;
+}
+
+.person-name {
+  color: var(--navy);
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.person-role {
+  margin-top: 0.25rem;
+  color: #56626a;
+  font-size: 0.88rem;
+}
+
+.person-interests {
+  margin-top: 0.9rem;
+  color: #303a40;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.empty-roster {
+  margin: 0;
+  color: #56626a;
+}
+
 @media (max-width: 500px) {
   .site-header {
     padding: 0 1.25rem;
@@ -64,5 +157,17 @@ main {
 
   nav {
     gap: 1rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .people-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .people-grid {
+    grid-template-columns: 1fr;
   }
 }
