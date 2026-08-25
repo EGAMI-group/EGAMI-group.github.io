@@ -6,14 +6,21 @@
     "role: their role in the group, such as Undergraduate Researcher or Faculty Advisor.",
     "interests: optional short description of their research interests.",
     "photo: optional path to their image, for example assets/images/people/jane-smith.jpg.",
-    "status: use current for present members or alumni for former members.",
+    "status: optional. Leave it out for present members; use alumni only for former members.",
     "profile: optional link to a future individual profile page, for example people/jane-smith.html. Leave it out if there is no profile page yet."
   ],
   "people": [
     {
-    "name": "Jane Doe",
-    "role": "Undergraduate",
-    "interests": "Galaxy evolution"
+      "name": "Jane Doe",
+      "role": "Undergraduate",
+      "interests": "Galaxy evolution",
+      "status": "active"
+    },
+    {
+      "name": "Jane Doe 2",
+      "role": "Graduate student",
+      "interests": "Cosmology",
+      "status": "active"
     }
 
 

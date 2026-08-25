@@ -55,8 +55,9 @@ async function loadPeople() {
     const roster = await response.json();
     // `_instructions` in people.json is for editors; only `people` is displayed.
     const people = Array.isArray(roster) ? roster : roster.people || [];
-    const current = people.filter((person) => person.status === "current");
-    const alumni = people.filter((person) => person.status === "alumni");
+    const memberStatus = (person) => person.status || "active";
+    const current = people.filter((person) => memberStatus(person) === "active");
+    const alumni = people.filter((person) => memberStatus(person) === "alumni");
 
     renderGroup(currentContainer, "Current members", current);
     renderGroup(alumniContainer, "Alumni", alumni);
