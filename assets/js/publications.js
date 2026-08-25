@@ -20,7 +20,7 @@ function addOptions(select, values) {
   });
 }
 
-function renderPublications(papers) {
+function renderPublications(papers, showAll = false) {
   publicationResults.replaceChildren();
   const person = personFilter.value;
   const year = yearFilter.value;
@@ -45,9 +45,18 @@ function renderPublications(papers) {
     return;
   }
 
-  matching
-    .sort((first, second) => Number(second.year) - Number(first.year))
-    .forEach((paper) => {
+  matching.sort((first, second) => Number(second.year) - Number(first.year));
+  const visiblePapers = showAll ? matching : matching.slice(0, 5);
+
+  publicationResults.append(
+    publicationElement(
+      "p",
+      "publication-summary",
+      `Showing ${visiblePapers.length} of ${matching.length} publications`
+    )
+  );
+
+  visiblePapers.forEach((paper) => {
       const article = publicationElement("article", "publication-card");
       article.append(publicationElement("p", "publication-meta", `${paper.year} · ${paper.type}`));
       article.append(publicationElement("h3", "publication-title", paper.title));
@@ -68,7 +77,18 @@ function renderPublications(papers) {
       });
       if (links.childElementCount) article.append(links);
       publicationResults.append(article);
-    });
+  });
+
+  if (!showAll && matching.length > visiblePapers.length) {
+    const showAllButton = publicationElement(
+      "button",
+      "show-all-publications",
+      `Show all ${matching.length} publications`
+    );
+    showAllButton.type = "button";
+    showAllButton.addEventListener("click", () => renderPublications(papers, true));
+    publicationResults.append(showAllButton);
+  }
 }
 
 async function loadPublicationExplorer() {

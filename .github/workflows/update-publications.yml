@@ -1,0 +1,38 @@
+name: Update ADS publications
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the website
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch publication data from ADS
+        env:
+          ADS_API_TOKEN: ${{ secrets.ADS_API_TOKEN }}
+        run: node scripts/fetch_ads_papers.mjs
+
+      - name: Commit updated publication data
+        run: |
+          if git diff --quiet -- assets/data/papers.json; then
+            echo "No publication changes found."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/data/papers.json
+          git commit -m "chore: update ADS publications"
+          git push

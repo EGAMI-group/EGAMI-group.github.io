@@ -215,6 +215,12 @@ main {
   border-top: 1px solid #dce1e4;
 }
 
+.publication-summary {
+  margin: 1rem 0 0;
+  color: #56626a;
+  font-size: 0.85rem;
+}
+
 .publication-card {
   padding: 1.45rem 0;
   border-bottom: 1px solid #dce1e4;
@@ -248,6 +254,24 @@ main {
 .publication-links a:hover,
 .publication-links a:focus-visible {
   text-decoration: underline;
+}
+
+.show-all-publications {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--navy);
+  color: var(--navy);
+  background: transparent;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.show-all-publications:hover,
+.show-all-publications:focus-visible {
+  color: #ffffff;
+  background: var(--navy);
 }
 
 .people-section {
