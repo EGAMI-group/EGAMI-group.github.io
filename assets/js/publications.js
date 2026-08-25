@@ -20,7 +20,9 @@ function addOptions(select, values) {
   });
 }
 
-function renderPublications(papers, showAll = false) {
+const isPublicationArchive = publicationResults.dataset.showAll === "true";
+
+function renderPublications(papers, showAll = isPublicationArchive) {
   publicationResults.replaceChildren();
   const person = personFilter.value;
   const year = yearFilter.value;
@@ -80,14 +82,13 @@ function renderPublications(papers, showAll = false) {
   });
 
   if (!showAll && matching.length > visiblePapers.length) {
-    const showAllButton = publicationElement(
-      "button",
+    const showAllLink = publicationElement(
+      "a",
       "show-all-publications",
       `Show all ${matching.length} publications`
     );
-    showAllButton.type = "button";
-    showAllButton.addEventListener("click", () => renderPublications(papers, true));
-    publicationResults.append(showAllButton);
+    showAllLink.href = "publications.html";
+    publicationResults.append(showAllLink);
   }
 }
 
@@ -109,16 +110,18 @@ async function loadPublicationExplorer() {
     addOptions(typeFilter, [...new Set(papers.map((paper) => paper.type))].filter(Boolean).sort());
 
     [personFilter, yearFilter, typeFilter].forEach((filter) => {
-      filter.addEventListener("change", () => renderPublications(papers));
+      filter.addEventListener("change", () => renderPublications(papers, isPublicationArchive));
     });
-    publicationReset.addEventListener("click", () => {
-      personFilter.value = "";
-      yearFilter.value = "";
-      typeFilter.value = "";
-      renderPublications(papers);
-    });
+    if (publicationReset) {
+      publicationReset.addEventListener("click", () => {
+        personFilter.value = "";
+        yearFilter.value = "";
+        typeFilter.value = "";
+        renderPublications(papers, isPublicationArchive);
+      });
+    }
 
-    renderPublications(papers);
+    renderPublications(papers, isPublicationArchive);
   } catch (error) {
     publicationResults.textContent = "The publication list could not be loaded.";
   }

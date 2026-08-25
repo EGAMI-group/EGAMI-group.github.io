@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Publications | EGAMI Group</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo-placeholder" href="index.html" aria-label="Home"></a>
+      <nav aria-label="Primary navigation">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#research">Research</a>
+        <a href="index.html#people">People</a>
+      </nav>
+    </header>
+    <main class="publications-archive-page">
+      <section class="publications-section" aria-labelledby="publications-heading">
+        <div class="publications-heading">
+          <div>
+            <p class="section-label">Research</p>
+            <h1 id="publications-heading">All publications</h1>
+            <p class="muted-copy">Group papers, automatically updated from ADS.</p>
+          </div>
+          <a class="back-to-research" href="index.html#research">← Back to Research</a>
+        </div>
+
+        <form class="publication-filters" id="publication-filters">
+          <label>
+            <span>Person</span>
+            <select id="publication-person" name="person">
+              <option value="">All members</option>
+            </select>
+          </label>
+          <label>
+            <span>Year</span>
+            <select id="publication-year" name="year">
+              <option value="">All years</option>
+            </select>
+          </label>
+          <label>
+            <span>Publication type</span>
+            <select id="publication-type" name="type">
+              <option value="">All types</option>
+            </select>
+          </label>
+        </form>
+        <div id="publication-results" class="publication-results" data-show-all="true" aria-live="polite"></div>
+      </section>
+    </main>
+    <script src="assets/js/publications.js"></script>
+  </body>
+</html>
