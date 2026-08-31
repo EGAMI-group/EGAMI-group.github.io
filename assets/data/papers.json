@@ -3,7 +3,7 @@
     "This file is generated automatically by the ADS update workflow.",
     "Do not edit the papers array by hand; edit people.json to update the group roster instead."
   ],
-  "generatedAt": "2026-08-25T15:09:02.726Z",
+  "generatedAt": "2026-08-31T18:53:05.989Z",
   "papers": [
     {
       "title": "Optimal Deep Learning Models for Post-Flood House Detection in Drone Imagery",
