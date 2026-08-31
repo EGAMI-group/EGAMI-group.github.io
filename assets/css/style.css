@@ -137,7 +137,8 @@ main {
 }
 
 .research-section,
-.people-section {
+.people-section,
+.contact-section {
   max-width: 1400px;
   margin-right: auto;
   margin-left: auto;
@@ -390,6 +391,20 @@ main {
 
 .people-section {
   margin: 5rem auto 0;
+}
+
+.contact-section {
+  margin: 5rem auto;
+}
+
+.contact-section h1 {
+  margin: 0;
+  color: var(--navy);
+}
+
+.contact-section p {
+  margin: 1rem 0 0;
+  color: #526d7a;
 }
 
 .people-section h1,
