@@ -35,15 +35,30 @@ function renderProfile(person) {
     content.append(createElement("p", "profile-interests", person.interests));
   }
 
+  const profileLinks = createElement("div", "profile-links");
+  if (person.website) {
+    const website = document.createElement("a");
+    website.className = "profile-external-link";
+    website.href = person.website;
+    website.target = "_blank";
+    website.rel = "noopener noreferrer";
+    website.textContent = "Personal website ↗";
+    profileLinks.append(website);
+  }
+
   const papersUrl = adsUrl(person);
   if (papersUrl) {
     const papers = document.createElement("a");
-    papers.className = "ads-link";
+    papers.className = "profile-external-link";
     papers.href = papersUrl;
     papers.target = "_blank";
     papers.rel = "noopener noreferrer";
     papers.textContent = "View papers on ADS ↗";
-    content.append(papers);
+    profileLinks.append(papers);
+  }
+
+  if (profileLinks.childElementCount) {
+    content.append(profileLinks);
   }
 
   layout.append(content);
