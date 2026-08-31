@@ -2,7 +2,6 @@ const publicationResults = document.querySelector("#publication-results");
 const personFilter = document.querySelector("#publication-person");
 const roleFilter = document.querySelector("#publication-role");
 const yearFilter = document.querySelector("#publication-year");
-const typeFilter = document.querySelector("#publication-type");
 const publicationReset = document.querySelector("#publication-reset");
 let memberRoles = new Map();
 
@@ -29,13 +28,11 @@ function renderPublications(papers, showAll = isPublicationArchive) {
   const person = personFilter.value;
   const role = roleFilter.value;
   const year = yearFilter.value;
-  const type = typeFilter.value;
   const matching = papers.filter((paper) => {
     const hasPerson = !person || (paper.members || []).includes(person);
     const hasRole = !role || (paper.members || []).some((member) => memberRoles.get(member) === role);
     const hasYear = !year || String(paper.year) === year;
-    const hasType = !type || paper.type === type;
-    return hasPerson && hasRole && hasYear && hasType;
+    return hasPerson && hasRole && hasYear;
   });
 
   if (!matching.length) {
@@ -113,9 +110,8 @@ async function loadPublicationExplorer() {
     addOptions(personFilter, people.map((person) => person.name).sort());
     addOptions(roleFilter, [...new Set(memberRoles.values())].sort());
     addOptions(yearFilter, [...new Set(papers.map((paper) => String(paper.year)))].sort().reverse());
-    addOptions(typeFilter, [...new Set(papers.map((paper) => paper.type))].filter(Boolean).sort());
 
-    [personFilter, roleFilter, yearFilter, typeFilter].forEach((filter) => {
+    [personFilter, roleFilter, yearFilter].forEach((filter) => {
       filter.addEventListener("change", () => renderPublications(papers, isPublicationArchive));
     });
     if (publicationReset) {
@@ -123,7 +119,6 @@ async function loadPublicationExplorer() {
         personFilter.value = "";
         roleFilter.value = "";
         yearFilter.value = "";
-        typeFilter.value = "";
         renderPublications(papers, isPublicationArchive);
       });
     }
