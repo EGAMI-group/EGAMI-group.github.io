@@ -1,8 +1,10 @@
 const publicationResults = document.querySelector("#publication-results");
 const personFilter = document.querySelector("#publication-person");
+const roleFilter = document.querySelector("#publication-role");
 const yearFilter = document.querySelector("#publication-year");
 const typeFilter = document.querySelector("#publication-type");
 const publicationReset = document.querySelector("#publication-reset");
+let memberRoles = new Map();
 
 function publicationElement(tagName, className, text) {
   const element = document.createElement(tagName);
@@ -25,13 +27,15 @@ const isPublicationArchive = publicationResults.dataset.showAll === "true";
 function renderPublications(papers, showAll = isPublicationArchive) {
   publicationResults.replaceChildren();
   const person = personFilter.value;
+  const role = roleFilter.value;
   const year = yearFilter.value;
   const type = typeFilter.value;
   const matching = papers.filter((paper) => {
     const hasPerson = !person || (paper.members || []).includes(person);
+    const hasRole = !role || (paper.members || []).some((member) => memberRoles.get(member) === role);
     const hasYear = !year || String(paper.year) === year;
     const hasType = !type || paper.type === type;
-    return hasPerson && hasYear && hasType;
+    return hasPerson && hasRole && hasYear && hasType;
   });
 
   if (!matching.length) {
@@ -104,17 +108,20 @@ async function loadPublicationExplorer() {
     const paperData = await papersResponse.json();
     const people = Array.isArray(roster) ? roster : roster.people || [];
     const papers = Array.isArray(paperData) ? paperData : paperData.papers || [];
+    memberRoles = new Map(people.map((person) => [person.name, person.role]).filter(([, role]) => role));
 
     addOptions(personFilter, people.map((person) => person.name).sort());
+    addOptions(roleFilter, [...new Set(memberRoles.values())].sort());
     addOptions(yearFilter, [...new Set(papers.map((paper) => String(paper.year)))].sort().reverse());
     addOptions(typeFilter, [...new Set(papers.map((paper) => paper.type))].filter(Boolean).sort());
 
-    [personFilter, yearFilter, typeFilter].forEach((filter) => {
+    [personFilter, roleFilter, yearFilter, typeFilter].forEach((filter) => {
       filter.addEventListener("change", () => renderPublications(papers, isPublicationArchive));
     });
     if (publicationReset) {
       publicationReset.addEventListener("click", () => {
         personFilter.value = "";
+        roleFilter.value = "";
         yearFilter.value = "";
         typeFilter.value = "";
         renderPublications(papers, isPublicationArchive);
