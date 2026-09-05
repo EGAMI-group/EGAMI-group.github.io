@@ -8,6 +8,7 @@
     "interests: optional research interests. These appear on the person's profile page, not on their People card.",
     "photo: optional filename from assets/images/profile_pictures/, for example jane-smith.jpg. A full path also works.",
     "status: optional. Leave it out for present members; use alumni only for former members.",
+    "email: optional public email address. It appears as a clickable email link on the person's profile page.",
     "orcid: optional ORCID iD, written as 0000-0000-0000-0000. It enables the publication updater and View papers on ADS link for that person.",
     "website: optional full URL for a personal or professional website, such as https://example.com. This creates a Personal website link on their profile page."
   ],
@@ -17,7 +18,8 @@
       "role": "Professor",
       "status": "active",
       "orcid": "0000-0003-1344-9475",
-      "photo": "Eiichi_Egami.jpg"
+      "photo": "Eiichi_Egami.jpg",
+      "email": "egami@arizona.edu"
     },
     {
       "name": "Yongda Zhu",
@@ -25,28 +27,32 @@
       "status": "active",
       "orcid": "0000-0003-3307-7525",
       "website": "ydzhuastro.github.io",
-      "photo": "Yongda_Zhu.jpg"
+      "photo": "Yongda_Zhu.jpg",
+      "email": "yongdaz@arizona.edu"
     },
     {
       "name": "Christa DeCoursey",
       "role": "Postdoc",
       "status":"active",
       "orcid": "0000-0002-4781-9078",
-      "photo": "Christa_DeCoursey.jpg"
+      "photo": "Christa_DeCoursey.jpg",
+      "email": "cndecoursey@arizona.edu"
     },
     {
       "name":"Zheng Ma",
       "role": "Graduate Student",
       "status": "active",
       "orcid": "0009-0003-5402-4809",
-      "photo": "Zheng_Ma.jpg"
+      "photo": "Zheng_Ma.jpg",
+      "email": "mazh@arizona.edu"
     },
     {
       "name": "Junyu Zhang",
       "role": "Graduate Student",
       "status": "active",
       "orcid": "0000-0002-1574-2045",
-      "photo": "Junyu_Zhang.jpg"
+      "photo": "Junyu_Zhang.jpg",
+      "email": "junyuzhang@arizona.edu"
     },
     {
       "name": "Yichen Liu",
@@ -54,13 +60,15 @@
       "status": "active",
       "orcid": "0000-0003-4247-0169",
       "website": "https://yliu.fit/",
-      "photo": "Yichen_Liu.png"
+      "photo": "Yichen_Liu.png",
+      "email": "yichenliu@arizona.edu"
     },
     {
       "name": "Madi VanWyngarden",
       "role": "Graduate Student",
       "status": "active",
-      "orcid": "0000-0002-7456-2167"
+      "orcid": "0000-0002-7456-2167",
+      "email": "madiv@arizona.edu"
     },
     {
       "name": "Arshia Akhtarkavan",
@@ -68,17 +76,20 @@
       "status": "active",
       "orcid": "0009-0003-7532-3197",
       "website": "https://aakavan.com/",
-      "photo": "Arshia_Akhtarkavan.jpg"
+      "photo": "Arshia_Akhtarkavan.jpg",
+      "email": "aakhtarkavan@arizona.edu"
     },
     {
       "name": "Magdalena Sammut",
       "role": "Undergraduate Student",
-      "status": "active"
+      "status": "active",
+      "email": "msammut@arizona.edu"
     },
     {
       "name": "Shruti Karandikar",
       "role": "Undergraduate Student",
-      "status": "active"
+      "status": "active",
+      "email": "shrutikarandikar@arizona.edu"
     }
 
 

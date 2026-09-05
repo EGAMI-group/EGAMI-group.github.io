@@ -42,6 +42,15 @@ function renderProfile(person) {
   }
 
   const profileLinks = createElement("div", "profile-links");
+  if (person.email?.trim()) {
+    const email = person.email.trim();
+    const emailLink = document.createElement("a");
+    emailLink.className = "profile-external-link";
+    emailLink.href = `mailto:${email}`;
+    emailLink.textContent = email;
+    profileLinks.append(emailLink);
+  }
+
   if (person.website) {
     const website = document.createElement("a");
     website.className = "profile-external-link";
