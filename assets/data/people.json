@@ -8,23 +8,67 @@
     "interests: optional research interests. These appear on the person's profile page, not on their People card.",
     "photo: optional path to their image, for example assets/images/people/jane-smith.jpg.",
     "status: optional. Leave it out for present members; use alumni only for former members.",
-    "adsAuthor: optional ADS author name in Last, First format, such as Doe, Jane. This creates a View papers on ADS link on their profile page.",
+    "orcid: optional ORCID iD, written as 0000-0000-0000-0000. It enables the publication updater and View papers on ADS link for that person.",
     "website: optional full URL for a personal or professional website, such as https://example.com. This creates a Personal website link on their profile page."
   ],
   "people": [
     {
-      "name": "Jane Doe",
-      "role": "Undergraduate",
-      "interests": "Galaxy evolution",
+      "name": "Eiichi Egami",
+      "role": "Professor",
       "status": "active",
-      "adsAuthor": "Einstein, Albert"
+      "orcid": "0000-0003-1344-9475"
     },
     {
-      "name": "Jane Doe 2",
-      "role": "Graduate student",
-      "interests": "Cosmology",
+      "name": "Yongda Zhu",
+      "role": "Postdoc",
+      "status": "active",
+      "orcid": "0000-0003-3307-7525",
+      "website": "ydzhuastro.github.io"
+    },
+    {
+      "name":"Zheng Ma",
+      "role": "Graduate Student",
+      "status": "active",
+      "orcid": "0009-0003-5402-4809"
+    },
+    {
+      "name": "Junyu Zhang",
+      "role": "Graduate Student",
+      "status": "active",
+      "orcid": "0000-0002-1574-2045"
+    },
+    {
+      "name": "Yichen Liu",
+      "role": "Graduate Student",
+      "status": "active",
+      "orcid": "0000-0003-4247-0169",
+      "website": "https://yliu.fit/"
+    },
+    {
+      "name": "Madi VanWyngarden",
+      "role": "Graduate Student",
+      "status": "active",
+      "orcid": "0000-0002-7456-2167"
+    },
+    {
+      "name": "Arshia Akhtarkavan",
+      "role": "Undergraduate Student",
+      "status": "active",
+      "orcid": "0009-0003-7532-3197",
+      "website": "https://aakavan.com/"
+    },
+    {
+      "name": "Magdalena Sammut",
+      "role": "Undergraduate Student",
+      "status": "active"
+    },
+    {
+      "name": "Shruti Karandikar",
+      "role": "Undergraduate Student",
       "status": "active"
     }
+
+
 
 
 

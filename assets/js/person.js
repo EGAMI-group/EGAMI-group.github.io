@@ -9,9 +9,9 @@ function createElement(tagName, className, text) {
 }
 
 function adsUrl(person) {
-  if (!person.adsAuthor) return null;
-  const query = `author:"${person.adsAuthor}"`;
-  return `https://ui.adsabs.harvard.edu/search/q=${encodeURIComponent(query)}`;
+  const orcid = person.orcid?.trim();
+  if (!orcid) return null;
+  return `https://ui.adsabs.harvard.edu/search/q=${encodeURIComponent(`orcid:${orcid}`)}`;
 }
 
 function renderProfile(person) {

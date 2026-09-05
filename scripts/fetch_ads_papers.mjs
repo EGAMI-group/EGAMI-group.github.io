@@ -33,10 +33,15 @@ function arxivUrl(identifiers = []) {
   return `https://arxiv.org/abs/${identifier.replace(/^arxiv:/i, "")}`;
 }
 
-async function searchAds(author) {
+function adsQuery(person) {
+  const orcid = person.orcid?.trim();
+  return orcid ? `orcid:${orcid}` : null;
+}
+
+async function searchAds(query, memberName) {
   const url = new URL("https://api.adsabs.harvard.edu/v1/search/query");
   url.search = new URLSearchParams({
-    q: `author:"${author}"`,
+    q: query,
     fl: "bibcode,title,author,year,doctype,pub,doi,identifier",
     rows: "2000",
     sort: "date desc,bibcode desc"
@@ -47,7 +52,7 @@ async function searchAds(author) {
   });
 
   if (!response.ok) {
-    throw new Error(`ADS search failed for ${author}: ${response.status} ${response.statusText}`);
+    throw new Error(`ADS search failed for ${memberName}: ${response.status} ${response.statusText}`);
   }
 
   const data = await response.json();
@@ -55,12 +60,13 @@ async function searchAds(author) {
 }
 
 const rosterData = JSON.parse(await readFile(peoplePath, "utf8"));
-const members = getRoster(rosterData).filter((person) => person.adsAuthor);
+const members = getRoster(rosterData).filter((person) => adsQuery(person));
 const publications = new Map();
 
 for (const member of members) {
-  console.log(`Fetching ADS papers for ${member.name}...`);
-  const documents = await searchAds(member.adsAuthor);
+  const query = adsQuery(member);
+  console.log(`Fetching ADS papers for ${member.name} using ORCID...`);
+  const documents = await searchAds(query, member.name);
 
   for (const document of documents) {
     if (!document.bibcode || !document.title?.[0]) continue;
