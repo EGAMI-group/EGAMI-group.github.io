@@ -1,6 +1,12 @@
 const profileContainer = document.querySelector("#profile");
 const defaultPhoto = "assets/images/Default_pfp.jpg";
 
+function photoUrl(photo) {
+  const filename = photo?.trim();
+  if (!filename) return defaultPhoto;
+  return filename.includes("/") ? filename : `assets/images/profile_pictures/${filename}`;
+}
+
 function createElement(tagName, className, text) {
   const element = document.createElement(tagName);
   if (className) element.className = className;
@@ -20,8 +26,8 @@ function renderProfile(person) {
   const layout = createElement("article", "profile-layout");
   const image = document.createElement("img");
   image.className = "profile-photo";
-  image.src = person.photo || defaultPhoto;
-  image.alt = person.photo ? person.name : "Default profile image";
+  image.src = photoUrl(person.photo);
+  image.alt = person.photo?.trim() ? person.name : "Default profile image";
   layout.append(image);
 
   const content = createElement("div", "profile-content");

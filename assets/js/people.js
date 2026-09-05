@@ -1,5 +1,12 @@
 const currentContainer = document.querySelector("#current-members");
 const alumniContainer = document.querySelector("#alumni-members");
+const defaultPhoto = "assets/images/Default_pfp.jpg";
+
+function photoUrl(photo) {
+  const filename = photo?.trim();
+  if (!filename) return defaultPhoto;
+  return filename.includes("/") ? filename : `assets/images/profile_pictures/${filename}`;
+}
 
 function createElement(tagName, className, text) {
   const element = document.createElement(tagName);
@@ -21,8 +28,8 @@ function createCard(person) {
 
   const image = document.createElement("img");
   image.className = "person-photo";
-  image.src = person.photo || "assets/images/Default_pfp.jpg";
-  image.alt = person.photo ? person.name : "Default profile image";
+  image.src = photoUrl(person.photo);
+  image.alt = person.photo?.trim() ? person.name : "Default profile image";
   card.append(image);
 
   const details = createElement("div", "person-details");

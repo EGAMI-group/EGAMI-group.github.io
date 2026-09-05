@@ -6,7 +6,7 @@
     "Each person's name must be unique. The website uses it automatically to open the correct profile page.",
     "role: their role in the group, such as Undergraduate Researcher or Faculty Advisor.",
     "interests: optional research interests. These appear on the person's profile page, not on their People card.",
-    "photo: optional path to their image, for example assets/images/people/jane-smith.jpg.",
+    "photo: optional filename from assets/images/profile_pictures/, for example jane-smith.jpg. A full path also works.",
     "status: optional. Leave it out for present members; use alumni only for former members.",
     "orcid: optional ORCID iD, written as 0000-0000-0000-0000. It enables the publication updater and View papers on ADS link for that person.",
     "website: optional full URL for a personal or professional website, such as https://example.com. This creates a Personal website link on their profile page."
@@ -16,33 +16,38 @@
       "name": "Eiichi Egami",
       "role": "Professor",
       "status": "active",
-      "orcid": "0000-0003-1344-9475"
+      "orcid": "0000-0003-1344-9475",
+      "photo": "Eiichi_Egami.jpg"
     },
     {
       "name": "Yongda Zhu",
       "role": "Postdoc",
       "status": "active",
       "orcid": "0000-0003-3307-7525",
-      "website": "ydzhuastro.github.io"
+      "website": "ydzhuastro.github.io",
+      "photo": "Yongda_Zhu.jpg"
     },
     {
       "name":"Zheng Ma",
       "role": "Graduate Student",
       "status": "active",
-      "orcid": "0009-0003-5402-4809"
+      "orcid": "0009-0003-5402-4809",
+      "photo": "Zheng_Ma.jpg"
     },
     {
       "name": "Junyu Zhang",
       "role": "Graduate Student",
       "status": "active",
-      "orcid": "0000-0002-1574-2045"
+      "orcid": "0000-0002-1574-2045",
+      "photo": "Junyu_Zhang.jpg"
     },
     {
       "name": "Yichen Liu",
       "role": "Graduate Student",
       "status": "active",
       "orcid": "0000-0003-4247-0169",
-      "website": "https://yliu.fit/"
+      "website": "https://yliu.fit/",
+      "photo": "Yichen_Liu.png"
     },
     {
       "name": "Madi VanWyngarden",
@@ -55,7 +60,8 @@
       "role": "Undergraduate Student",
       "status": "active",
       "orcid": "0009-0003-7532-3197",
-      "website": "https://aakavan.com/"
+      "website": "https://aakavan.com/",
+      "photo": "Arshia_Akhtarkavan.jpg"
     },
     {
       "name": "Magdalena Sammut",
