@@ -3,7 +3,7 @@
     "This file is generated automatically by the ADS update workflow.",
     "Do not edit the papers array by hand; edit people.json to update the group roster instead."
   ],
-  "generatedAt": "2026-09-05T22:43:33.064Z",
+  "generatedAt": "2026-09-05T23:23:39.556Z",
   "papers": [
     {
       "title": "A Compact Protogroup at z ∼ 5: A Massive Galaxy Caught in Formation",
@@ -109,6 +109,7 @@
       "year": "2026",
       "type": "Journal article",
       "members": [
+        "Christa DeCoursey",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1002L...3S/abstract",
@@ -121,6 +122,7 @@
       "year": "2026",
       "type": "Journal article",
       "members": [
+        "Christa DeCoursey",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1002..162F/abstract",
@@ -133,6 +135,7 @@
       "year": "2026",
       "type": "Journal article",
       "members": [
+        "Christa DeCoursey",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1002...83C/abstract",
@@ -186,6 +189,7 @@
       "year": "2026",
       "type": "Journal article",
       "members": [
+        "Christa DeCoursey",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJS..283....6E/abstract",
@@ -210,6 +214,7 @@
       "year": "2026",
       "type": "Journal article",
       "members": [
+        "Christa DeCoursey",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998..239J/abstract",
@@ -728,6 +733,18 @@
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae27a2"
     },
     {
+      "title": "The VLA Frontier Fields Survey: A 6 GHz High-resolution Radio Survey of A2744",
+      "authors": "Orozco, Esteban A., Jiménez-Andrade, Eric F., Murphy, Eric J., Smail, Ian, Momjian, Emmanuel, Heywood, Ian, Vega, Miguel A., DeCoursey, Christa",
+      "year": "2026",
+      "type": "Journal article",
+      "members": [
+        "Christa DeCoursey"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1005..244O/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2506.20634",
+      "doiUrl": "https://doi.org/10.3847/1538-4357/ae7a2f"
+    },
+    {
       "title": "COSMOS-3D: Black Hole Mass Estimators and Luminosity Functions of Paschen-line AGNs",
       "authors": "Jiang, Danyang, Jiang, Linhua, Fu, Shuqi, Zhang, Zijian, Chen, Jie, Pan, Zhiwei, Sun, Shengxiu, Sun, Fengwu, Ho, Luis C., Shangguan, Jinyi, Faisst, Andreas L., Gilbert, Olivier, Li, Mingyu, Liu, Yichen, Li, Zi-Jian, Tanaka, Takumi S.",
       "year": "2026",
@@ -781,6 +798,7 @@
       "year": "2025",
       "type": "Journal article",
       "members": [
+        "Christa DeCoursey",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJS..281...50E/abstract",
@@ -885,6 +903,7 @@
       "type": "Journal article",
       "members": [
         "Arshia Akhtarkavan",
+        "Christa DeCoursey",
         "Eiichi Egami",
         "Junyu Zhang"
       ],
@@ -898,6 +917,7 @@
       "year": "2025",
       "type": "Journal article",
       "members": [
+        "Christa DeCoursey",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025PASJ...77..851M/abstract",
@@ -1091,6 +1111,7 @@
       "year": "2025",
       "type": "Journal article",
       "members": [
+        "Christa DeCoursey",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...981L...9P/abstract",
@@ -1127,6 +1148,7 @@
       "year": "2025",
       "type": "Journal article",
       "members": [
+        "Christa DeCoursey",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...979..250D/abstract",
@@ -1638,6 +1660,7 @@
       "year": "2024",
       "type": "Journal article",
       "members": [
+        "Christa DeCoursey",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...972L..13S/abstract",
@@ -1650,6 +1673,7 @@
       "year": "2024",
       "type": "Journal article",
       "members": [
+        "Christa DeCoursey",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...971L..32P/abstract",
@@ -1685,6 +1709,7 @@
       "year": "2024",
       "type": "Journal article",
       "members": [
+        "Christa DeCoursey",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...968...34W/abstract",
@@ -1851,6 +1876,7 @@
       "year": "2024",
       "type": "Journal article",
       "members": [
+        "Christa DeCoursey",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...961...69S/abstract",
@@ -2109,6 +2135,7 @@
       "year": "2023",
       "type": "Journal article",
       "members": [
+        "Christa DeCoursey",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023ApJS..269...16R/abstract",
@@ -2797,6 +2824,18 @@
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2021ApJ...923...87C/abstract",
       "arxivUrl": "https://arxiv.org/abs/2109.13170",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ac2a34"
+    },
+    {
+      "title": "The VLA Frontier Fields Survey: Deep, High-resolution Radio Imaging of the MACS Lensing Clusters at 3 and 6 GHz",
+      "authors": "Heywood, I., Murphy, E. J., Jiménez-Andrade, E. F., Armus, L., Cotton, W. D., DeCoursey, C., Dickinson, M., Lazio, T. J. W., Momjian, E., Penner, K., Smail, I., Smirnov, O. M.",
+      "year": "2021",
+      "type": "Journal article",
+      "members": [
+        "Christa DeCoursey"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2021ApJ...910..105H/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2103.07806",
+      "doiUrl": "https://doi.org/10.3847/1538-4357/abdf61"
     },
     {
       "title": "The Magellan M2FS Spectroscopic Survey of High-redshift Galaxies: A Sample of 260 Lyα Emitters at Redshift z ≍ 5.7",
