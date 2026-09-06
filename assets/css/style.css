@@ -38,6 +38,22 @@ body {
   height: 64px;
 }
 
+.menu-toggle {
+  display: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 nav {
   display: flex;
   gap: 2.2rem;
@@ -580,15 +596,57 @@ a.person-card:focus-visible {
   background: #0c314a;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .site-header {
+    position: relative;
+    min-height: 82px;
     padding: 0 1.25rem;
   }
 
-  nav {
-    gap: 1rem;
+  .site-logo {
+    height: 52px;
   }
 
+  .menu-toggle {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    color: #ffffff;
+    font-size: 1.65rem;
+    line-height: 1;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.72);
+    border-radius: 0.3rem;
+    cursor: pointer;
+  }
+
+  .site-header nav {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    padding: 0.35rem 1.25rem 1rem;
+    background: var(--navy);
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+    z-index: 10;
+  }
+
+  .site-header.menu-open nav {
+    display: flex;
+  }
+
+  .site-header nav a {
+    padding: 0.8rem 0;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
   .site-logo {
     height: 44px;
   }

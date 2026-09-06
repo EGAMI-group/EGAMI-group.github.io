@@ -14,14 +14,22 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="logo-placeholder" href="index.html" aria-label="Home"></a>
-      <nav aria-label="Primary navigation">
+      <a class="site-logo-link" href="index.html">
+        <img class="site-logo" src="assets/images/Group_Logo.png" alt="EGAMI Astrophysics Group" />
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+        <span aria-hidden="true">☰</span>
+        <span class="sr-only">Open navigation menu</span>
+      </button>
+      <nav id="primary-navigation" aria-label="Primary navigation">
         <a href="index.html#home">Home</a>
         <a href="index.html#research">Research</a>
         <a href="index.html#people">People</a>
+        <a href="index.html#contact">Contact</a>
       </nav>
     </header>
     <main class="profile-page" id="profile" aria-live="polite"></main>
     <script src="assets/js/person.js"></script>
+    <script src="assets/js/navigation.js"></script>
   </body>
 </html>
