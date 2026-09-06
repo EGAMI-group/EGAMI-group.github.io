@@ -20,6 +20,16 @@ function adsUrl(person) {
   return `https://ui.adsabs.harvard.edu/search/q=${encodeURIComponent(`orcid:${orcid}`)}`;
 }
 
+function websiteUrl(website) {
+  const address = website?.trim();
+
+  if (!address) {
+    return null;
+  }
+
+  return /^https?:\/\//i.test(address) ? address : `https://${address}`;
+}
+
 function renderProfile(person) {
   document.title = `${person.name} | EGAMI Group`;
 
@@ -51,10 +61,12 @@ function renderProfile(person) {
     profileLinks.append(emailLink);
   }
 
-  if (person.website) {
+  const personalWebsite = websiteUrl(person.website);
+
+  if (personalWebsite) {
     const website = document.createElement("a");
     website.className = "profile-external-link";
-    website.href = person.website;
+    website.href = personalWebsite;
     website.target = "_blank";
     website.rel = "noopener noreferrer";
     website.textContent = "Personal website ↗";

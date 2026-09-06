@@ -10,7 +10,7 @@
     "status: optional. Leave it out for present members; use alumni only for former members.",
     "email: optional public email address. It appears as a clickable email link on the person's profile page.",
     "orcid: optional ORCID iD, written as 0000-0000-0000-0000. It enables the publication updater and View papers on ADS link for that person.",
-    "website: optional full URL for a personal or professional website, such as https://example.com. This creates a Personal website link on their profile page."
+    "website: optional personal or professional website, such as https://example.com. A domain without https:// also works. This creates a Personal website link on their profile page."
   ],
   "people": [
     {
@@ -26,7 +26,7 @@
       "role": "Postdoc",
       "status": "active",
       "orcid": "0000-0003-3307-7525",
-      "website": "ydzhuastro.github.io",
+      "website": "https://ydzhuastro.github.io/",
       "photo": "Yongda_Zhu.jpg",
       "email": "yongdaz@arizona.edu"
     },
@@ -44,7 +44,8 @@
       "status": "active",
       "orcid": "0009-0003-5402-4809",
       "photo": "Zheng_Ma.jpg",
-      "email": "mazh@arizona.edu"
+      "email": "mazh@arizona.edu",
+      "website": "https://zhengmaastro.github.io/"
     },
     {
       "name": "Junyu Zhang",
@@ -82,14 +83,12 @@
     {
       "name": "Magdalena Sammut",
       "role": "Undergraduate Student",
-      "status": "active",
-      "email": "msammut@arizona.edu"
+      "status": "active"
     },
     {
       "name": "Shruti Karandikar",
       "role": "Undergraduate Student",
-      "status": "active",
-      "email": "shrutikarandikar@arizona.edu"
+      "status": "active"
     }
 
 
