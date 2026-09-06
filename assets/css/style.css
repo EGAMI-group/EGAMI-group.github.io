@@ -180,6 +180,15 @@ main {
   line-height: 1.75;
 }
 
+.research-themes {
+  max-width: 760px;
+  margin: 0;
+  padding-left: 1.35rem;
+  color: #56626a;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
 .muted-copy,
 .empty-surveys,
 .empty-publications {
