@@ -346,6 +346,14 @@ main {
   font-size: 0.88rem;
 }
 
+.group-author {
+  padding: 0 0.14em;
+  color: var(--navy);
+  font-weight: 700;
+  background: #d8edf0;
+  border-radius: 0.16rem;
+}
+
 .publication-title {
   margin: 0.5rem 0;
   color: var(--navy);

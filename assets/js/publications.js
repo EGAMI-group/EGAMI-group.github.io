@@ -21,6 +21,46 @@ function addOptions(select, values) {
   });
 }
 
+function escapeForRegex(text) {
+  return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function authorVariants(memberName) {
+  const nameParts = memberName.trim().split(/\s+/);
+  if (nameParts.length < 2) return [memberName];
+
+  const surname = nameParts.at(-1);
+  const givenName = nameParts.slice(0, -1).join(" ");
+  const initial = givenName.charAt(0);
+  return [memberName, `${surname}, ${givenName}`, `${surname}, ${initial}.`];
+}
+
+function appendAuthorsWithHighlights(container, authors, members = []) {
+  const variants = members
+    .flatMap(authorVariants)
+    .filter(Boolean)
+    .sort((first, second) => second.length - first.length);
+
+  if (!variants.length) {
+    container.textContent = authors;
+    return;
+  }
+
+  const pattern = new RegExp(variants.map(escapeForRegex).join("|"), "gi");
+  let lastIndex = 0;
+  let match;
+
+  while ((match = pattern.exec(authors))) {
+    container.append(document.createTextNode(authors.slice(lastIndex, match.index)));
+    const highlightedAuthor = publicationElement("span", "group-author", match[0]);
+    highlightedAuthor.title = "EGAMI Group member";
+    container.append(highlightedAuthor);
+    lastIndex = pattern.lastIndex;
+  }
+
+  container.append(document.createTextNode(authors.slice(lastIndex)));
+}
+
 const isPublicationArchive = publicationResults.dataset.showAll === "true";
 
 function renderPublications(papers, showAll = isPublicationArchive) {
@@ -63,7 +103,11 @@ function renderPublications(papers, showAll = isPublicationArchive) {
       const article = publicationElement("article", "publication-card");
       article.append(publicationElement("p", "publication-meta", `${paper.year} · ${paper.type}`));
       article.append(publicationElement("h3", "publication-title", paper.title));
-      if (paper.authors) article.append(publicationElement("p", "publication-authors", paper.authors));
+      if (paper.authors) {
+        const authors = publicationElement("p", "publication-authors");
+        appendAuthorsWithHighlights(authors, paper.authors, paper.members);
+        article.append(authors);
+      }
 
       const links = publicationElement("div", "publication-links");
       [
