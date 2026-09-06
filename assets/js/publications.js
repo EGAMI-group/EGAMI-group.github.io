@@ -4,6 +4,7 @@ const roleFilter = document.querySelector("#publication-role");
 const yearFilter = document.querySelector("#publication-year");
 const publicationReset = document.querySelector("#publication-reset");
 let memberRoles = new Map();
+let groupMemberNames = [];
 
 function publicationElement(tagName, className, text) {
   const element = document.createElement(tagName);
@@ -105,7 +106,7 @@ function renderPublications(papers, showAll = isPublicationArchive) {
       article.append(publicationElement("h3", "publication-title", paper.title));
       if (paper.authors) {
         const authors = publicationElement("p", "publication-authors");
-        appendAuthorsWithHighlights(authors, paper.authors, paper.members);
+        appendAuthorsWithHighlights(authors, paper.authors, groupMemberNames);
         article.append(authors);
       }
 
@@ -150,6 +151,7 @@ async function loadPublicationExplorer() {
     const people = Array.isArray(roster) ? roster : roster.people || [];
     const papers = Array.isArray(paperData) ? paperData : paperData.papers || [];
     memberRoles = new Map(people.map((person) => [person.name, person.role]).filter(([, role]) => role));
+    groupMemberNames = people.map((person) => person.name).filter(Boolean);
 
     addOptions(personFilter, people.map((person) => person.name).sort());
     addOptions(roleFilter, [...new Set(memberRoles.values())].sort());
