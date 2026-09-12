@@ -3,7 +3,7 @@
     "This file is generated automatically by the ADS update workflow.",
     "Do not edit the papers array by hand; edit people.json to update the group roster instead."
   ],
-  "generatedAt": "2026-09-07T17:24:26.793Z",
+  "generatedAt": "2026-09-12T08:21:35.330Z",
   "papers": [
     {
       "title": "A Compact Protogroup at z ∼ 5: A Massive Galaxy Caught in Formation",
@@ -362,8 +362,8 @@
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae70fa"
     },
     {
-      "title": "Possible chemical signatures of first-star enrichment in a very metal-poor galaxy overdensity near the end of reionization",
-      "authors": "Li, Zihao, Kakiichi, Koki, Christensen, Lise, Cai, Zheng, D'Odorico, Valentina, Matthee, Jorryt, Kashino, Daichi, Bordoloi, Rongmon, Mackenzie, Ruari, Berg, Trystyn A. M., Vanni, Irene, Salvadori, Stefania, Venditti, Alessandra, Zhang, Shiwu, Bosman, Sarah E. I., Bañados, Eduardo, Davies, Frederick B., Fan, Xiaohui, Jun, Hyunsung, Jin, Xiangyu, Li, Mingyu, Rojas-Ruiz, Sofía, Wang, Feige, Yang, Jinyi, Zou, Siwei, Zhang, Huanian, Zhu, Yongda",
+      "title": "First-star imprints in a metal-poor galaxy overdensity near the end of reionization",
+      "authors": "Li, Zihao, Kakiichi, Koki, Christensen, Lise, Cai, Zheng, D'Odorico, Valentina, Matthee, Jorryt, Kashino, Daichi, Bordoloi, Rongmon, Mackenzie, Ruari, Berg, Trystyn A. M., Vanni, Irene, Salvadori, Stefania, Venditti, Alessandra, Zhang, Shiwu, Bosman, Sarah E. I., Bañados, Eduardo, Davies, Frederick B., Fan, Xiaohui, Jun, Hyunsung D., Jin, Xiangyu, Li, Mingyu, Rojas-Ruiz, Sofía, Wang, Feige, Yang, Jinyi, Zou, Siwei, Zhang, Huanian, Zhu, Yongda",
       "year": "2026",
       "type": "Preprint",
       "members": [
@@ -567,18 +567,6 @@
       "doiUrl": "https://doi.org/10.48550/arXiv.2602.24162"
     },
     {
-      "title": "Little Red Dots: One Photometric Tag Concealing Diverse Spectroscopic Flavors of Massive Star Formation and Black Hole Activity",
-      "authors": "Pérez-González, Pablo G., Barro, Guillermo, Carniani, Stefano, D'Eugenio, Francesco, Rieke, George H., Tripodi, Roberta, Bunker, Andrew J., Ji, Xihan, Marques-Chaves, Rui, Schaerer, Daniel, Venturi, Giacomo, Arévalo-González, Flor, Arribas, Santiago, Rinaldi, Pierluigi, Rodríguez Del Pino, Bruno, Witstok, Joris, Bhatawdekar, Rachana, Boogaard, Leindert A., Charlot, Stephane, Chevallard, Jacopo, Costantin, Luca, Curti, Mirko, Curtis-Lake, Emma, Daddi, Emanuele, Davis, Kelcey, Dickinson, Mark, Donnan, Callum T., Donnan, Fergus R., Dunlop, James S., Eisenstein, Daniel J., Ferguson, Henry C., Fernández Aranda, Román, Finkelstein, Steven L., Fujimoto, Seiji, Gandolfi, Giovanni, Giavalisco, Mauro, Grogin, Norman A., Hamed, Mahmoud, Hirschmann, Michaela, Kartaltepe, Jeyhan S., Kocevski, Dale D., Leung, Gene C. K., Lofaro, Cristina M., Lucas, Ray A., McLeod, Derek J., Melinder, Jens, Östlin, Goran, Papovich, Casey, Pentericci, Laura, Pérez-Díaz, Borja, Rieke, Marcia, Scholtz, Jan, Somerville, Rachel S., Stanton, Thomas M., Stevenson, Struan D., Shivaei, Irene, Tacchella, Sandro, Trump, Jonathan R., Übler, Hannah, Wang, Xin, Williams, Christina C., Willmer, Christopher N. A., Yung, L. Y. Aaron, Zhu, Yongda",
-      "year": "2026",
-      "type": "Preprint",
-      "members": [
-        "Yongda Zhu"
-      ],
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260220247P/abstract",
-      "arxivUrl": "https://arxiv.org/abs/2602.20247",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2602.20247"
-    },
-    {
       "title": "E-XQR-30: evidence for an increase in the ionization state of metal absorbers from z ∼ 6 to z ∼ 2",
       "authors": "Rowlands, Stephanie, Davies, R. L., Ryan-Weber, E., Keating, L. C., Sebastian, A. M., Becker, G. D., Bischetti, M., Bosman, S. E. I., Chen, H., Davies, F. B., D'Odorico, V., Gaikwad, P., Gallerani, S., Haehnelt, M. G., Kulkarni, G., Meyer, R. A., Welsh, L., Zhu, Y.",
       "year": "2026",
@@ -619,7 +607,7 @@
       "title": "AGN-Host Decomposition with z = 4-7 Little-Red-Dot (LRD) AGN Galaxies from FRESCO and JADES",
       "authors": "Ma, Zheng, Egami, Eiichi, Zhu, Yongda, Sun, Fengwu, Jades",
       "year": "2026",
-      "type": "abstract",
+      "type": "Meeting abstract",
       "members": [
         "Yongda Zhu"
       ],
@@ -629,7 +617,7 @@
       "title": "Quasar Radiative Feedback May Suppress Galaxy Growth on Intergalactic Scales at z = 6.3",
       "authors": "Zhu, Yongda, Egami, Eiichi, Fan, Xiaohui, Sun, Fengwu, Becker, George, Cain, Christopher, Chen, Huanqing, Eilers, Anna-Christina, Fudamoto, Yoshinobu, Helton, Jakob, Jin, Xiangyu, Pudoka, Maria, Bunker, Andrew, Cai, Zheng, Champagne, Jaclyn, Ji, Zhiyuan, Lin, Xiaojing, Liu, Weizhe, Ma, Hai-Xia, Ma, Zheng, Maiolino, Roberto, Rieke, George, Rieke, Marcia, Rinaldi, Pierluigi, Sun, Yang, Tee, WeiLeong, Wang, Feige, Yang, Jinyi, Yue, Minghao, Zhang, Junyu",
       "year": "2026",
-      "type": "abstract",
+      "type": "Meeting abstract",
       "members": [
         "Yongda Zhu"
       ],
@@ -940,7 +928,7 @@
       "title": "Unravel the Puzzles of Little Red Dots: HST View on Local Analogs",
       "authors": "Lin, Xiaojing, Bian, Fuyan, Cai, Zheng, Egami, Eiichi, Fan, Xiaohui, Greene, Jenny Emma, Ma, Yilun, Mao, Junjie, Setton, David, Strauss, Michael A., Sun, Fengwu, Yang, Jinyi",
       "year": "2025",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -976,7 +964,7 @@
       "title": "Rest-Frame Optical Nebular Emission Lines at Cosmic Dawn: MIRI/LRS Follow-Up for JADES-GS-z14-0",
       "authors": "Helton, Jakob, Alberts, Stacey, Baker, William Michael, Bunker, Andrew, Carniani, Stefano, Charlot, Stephane, Chevallard, Jacopo, Curti, Mirko, Curtis-Lake, Emma, D'Eugenio, Francesco, Egami, Eiichi, Eisenstein, Daniel J., Hainline, Kevin, Ji, Zhiyuan, Johnson, Benjamin D., Kumari, Nimisha, Lin, Xiaojing, Lyu, Jianwei, Maiolino, Roberto, Maseda, Michael, Perez-Gonzalez, Pablo G., Rieke, George, Rieke, Marcia J., Rinaldi, Pierluigi, Robertson, Brant, Saxena, Aayush, Scholtz, Jan, Sun, Fengwu, Tacchella, Sandro, Venturi, Giacomo, Williams, Christina C., Willmer, Christopher Nicholas Andrew, Willott, Chris J., Witstok, Joris, Wu, Zihao, Zhu, Yongda",
       "year": "2025",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami",
         "Yongda Zhu"
@@ -987,7 +975,7 @@
       "title": "JWST Multi-Cycle Deep Transient Survey in GOODS-S",
       "authors": "Egami, Eiichi, Maiolino, Roberto, Rest, Armin, Bunker, Andrew, Charlot, Stephane, Coulter, David, DeCoursey, Christa Noel, DerKacy, James M., Eisenstein, Daniel J., Engesser, Mike, Fox, Ori Dosovitz, Gomez, Sebastian, Griggio, Massimo, Hainline, Kevin, Jakobsen, Peter, Ji, Zhiyuan, Kumari, Nimisha, Lin, Xiaojing, Lyu, Jianwei, Moriya, Takashi, Padilla Gonzalez, Estefania, Pierel, Justin, Robertson, Brant, Shahbandeh, Melissa, Siebert, Matthew Ryan, Strolger, Louis-Gregory, Sun, Fengwu, Tacchella, Sandro, Willmer, Christopher Nicholas Andrew, Willott, Chris J., Zhu, Yongda",
       "year": "2025",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami",
         "Yongda Zhu"
@@ -998,7 +986,7 @@
       "title": "DIVER: Deep Insights into UV Spectroscopy at the Epoch of Reionization",
       "authors": "Lin, Xiaojing, Bunker, Andrew, Cai, Zheng, Carniani, Stefano, Charlot, Stephane, Chevallard, Jacopo, Egami, Eiichi, Eisenstein, Daniel J., Fan, Xiaohui, Fudamoto, Yoshinobu, Hainline, Kevin, Helton, Jakob, Ikeda, Ryota, Ji, Zhiyuan, Kumari, Nimisha, Lyu, Jianwei, Pudoka, Maria, Rinaldi, Pierluigi, Robertson, Brant, Scholtz, Jan, Sun, Fengwu, Wang, Feige, Willmer, Christopher Nicholas Andrew, Wu, Yunjing, Wu, Zihao, Zhu, Yongda",
       "year": "2025",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami",
         "Yongda Zhu"
@@ -1009,7 +997,7 @@
       "title": "Efficient Measurement of the Emergence Rate of AGN in Legacy Deep Field",
       "authors": "Sun, Fengwu, Lin, Xiaojing, Arribas, Santiago, Bhatawdekar, Rachana, Bunker, Andrew, Carniani, Stefano, Charlot, Stephane, Curti, Mirko, Curtis-Lake, Emma, Danhaive, Lola, Egami, Eiichi, Eisenstein, Daniel J., Fan, Xiaohui, Hainline, Kevin, Helton, Jakob, Ji, Zhiyuan, Jin, Xiangyu, Kumari, Nimisha, Laseter, Isaac, Liu, Weizhe, Lyu, Jianwei, Maiolino, Roberto, Rieke, Marcia J., Rinaldi, Pierluigi, Robertson, Brant, Scholtz, Jan, Tacchella, Sandro, Uebler, Hannah, Willmer, Christopher Nicholas Andrew, Willott, Chris J., Witstok, Joris, Wu, Yunjing, Zhang, Haowen, Zhang, Junyu, Zhu, Yongda",
       "year": "2025",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami",
         "Yongda Zhu"
@@ -1020,7 +1008,7 @@
       "title": "The first complete picture of the star-formation cycle at z=1 from molecular clouds to star cluster complexes",
       "authors": "Dessauges-Zavadsky, Miroslava, Messa, Matteo, Adamo, Angela, Brammer, Gabriel, Claeyssens, Adelaide Marie, Combes, Francoise, Egami, Eiichi, Mayer, Lucio, Richard, Johan Pierre, Schaerer, Daniel, Xiao, Mengyuan",
       "year": "2025",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -1030,7 +1018,7 @@
       "title": "The Dragon survey: A Direct Probe of the Early Stellar Luminosity Function and Dark Matter through Multi-cycle Multi-cadence Microlensing at z=0.73",
       "authors": "Fudamoto, Yoshinobu, Sun, Fengwu, Bauer, Franz, Bhatawdekar, Rachana, Broadhurst, Tom, Cai, Zheng, Chen (TC), Chian-Chou, Chen, Wenlei, Cohen, Seth H., Dai, Liang, Diego, Jose M., Egami, Eiichi, Eisenstein, Daniel J., Espada, Daniel, Frye, Brenda Louise, Fujimoto, Seiji, Furtak, Lukas Jonathan, Hashimoto, Takuya, Hsiao, Tiger, Inoue, Akio, Jauzac, Mathilde, Kelly, Patrick, Knudsen, Kirsten Kraiberg, Koekemoer, Anton M., Kohno, Kotaro, Li, Mingyu, Li, Zihao, Magdis, Georgios, Meena, Ashish Kumar, Oguri, Masamune, Palencia, Jose Maria, Richard, Johan Pierre, Tamura, Yoichi, Ueda, Yoshihiro, Umehata, Hideki, Walth, Gregory, Wang, Wei-Hao, Williams, Hayley Madeleine, Windhorst, Rogier A., Wu, Yunjing, Yan, Haojing, Zackrisson, Erik, Zhu, Yongda, Zitrin, Adi, Zou, Siwei",
       "year": "2025",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami",
         "Yongda Zhu"
@@ -1041,7 +1029,7 @@
       "title": "Commission a new R~2500 `IFU` on JWST: Calibrating second-order spectra of NIRCam/WFSS through Hubble Ultra Deep Field",
       "authors": "Sun, Fengwu, Boyer, Martha L., Bunker, Andrew, Carniani, Stefano, Curtis-Lake, Emma, D'Eugenio, Francesco, Danhaive, Lola, DeCoursey, Christa Noel, Egami, Eiichi, Eisenstein, Daniel J., Hainline, Kevin, Helton, Jakob, Ji, Zhiyuan, Lin, Xiaojing, Lyu, Jianwei, Pirzkal, Norbert, Rieke, Marcia J., Robertson, Brant, Tacchella, Sandro, Willmer, Christopher Nicholas Andrew, Wu, Zihao, Zhu, Yongda",
       "year": "2025",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami",
         "Yongda Zhu"
@@ -1052,7 +1040,7 @@
       "title": "Forever Blowing Bubbles: What Powers a 24-kpc Ionized Gas Nebula Around a Normal Galaxy at z=6?",
       "authors": "D'Eugenio, Francesco, Hainline, Kevin, Arribas, Santiago, Bertola, Elena, Bunker, Andrew, Carniani, Stefano, Charlot, Stephane, Circosta, Chiara, Cresci, Giovanni, Curti, Mirko, Egami, Eiichi, Eisenstein, Daniel J., Helton, Jakob, Ji, Xihan, Ji, Zhiyuan, Johnson, Benjamin D., Juneau, Stephanie, Kumari, Nimisha, Lamperti, Isabella, Lebowitz, Sophie N., Lyu, Jianwei, Mahatma, Vijay, Maiolino, Roberto, Parlanti, Eleonora, Perez Gonzalez, Pablo G., Perna, Michele, Robertson, Brant, Rodriguez Del Pino, Bruno, Scholtz, Jan, Sun, Fengwu, Sun, Yang, Tacchella, Sandro, Uebler, Hannah, Venturi, Giacomo, Willmer, Christopher Nicholas Andrew, Zhu, Yongda",
       "year": "2025",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami",
         "Yongda Zhu"
@@ -1063,7 +1051,7 @@
       "title": "Vast Exploration for Nascent, Unexplored Sources (VENUS)",
       "authors": "Fujimoto, Seiji, Coe, Dan, Abdurro'uf, Abdurro'uf, Abraham, Roberto G., Adamo, Angela, Akins, Hollis, Amorin, Ricardo, Arrabal Haro, Pablo, Asada, Yoshihisa, Atek, Hakim, Bagley, Micaela, Bhatawdekar, Rachana, Bradac, Marusa, Bradley, Larry, Brammer, Gabriel, Bromm, Volker, Casey, Caitlin M., Chisholm, John, Conselice, Christopher, Dai, Liang, Dayal, Pratika, Desprez, Guillaume, Dessauges-Zavadsky, Miroslava, Dickinson, Mark, Diego, Jose M., Egami, Eiichi, Eisenstein, Daniel J., Ferguson, Henry C., Finkelstein, Steven L., Furtak, Lukas Jonathan, Hamilton, Timothy S., Harikane, Yuichi, Hashimoto, Takuya, Hathi, Nimish P., Hsiao, Tiger, Inayoshi, Kohei, Jimenez-Teja, Yolanda, Jogee, Shardha, Kartaltepe, Jeyhan, Koekemoer, Anton M., Kohno, Kotaro, Kokorev, Vasily, Kumari, Nimisha, Labbe, Ivo, Larson, Rebecca L., Lucas, Ray A., Magdis, Georgios, Marchesini, Danilo, Markov, Vladan, Martis, Nicholas, Matthee, Jorryt, Meena, Ashish Kumar, Messa, Matteo, Mowla, Lamiya, Munoz, Julian B., Naidu, Rohan, Nakajima, Kimihiko, Nakane, Minami, Noirot, Gael, Oesch, Pascal, Oguri, Masamune, Ono, Yoshiaki, Ouchi, Masami, Pan, Richard, Papovich, Casey, Pascale, Massimo, Pierel, Justin, Postman, Marc, Resseguier, Tom, Rest, Armin, Richard, Johan Pierre, Ricotti, Massimo, Rigby, Jane R., Sawicki, Marcin, Schneider, Raffaella, Shimasaku, Kazuhiro, Strolger, Louis-Gregory, Sun, Fengwu, Toft, Sune, Tripodi, Roberta, Trussler, James, Tsujita, Akiyoshi, Umeda, Hiroya, Valentino, Francesco Maria, Vanzella, Eros, Venditti, Alessandra, Watson, Darach, Weaver, John R., Welch, Brian, Willott, Chris J., Windhorst, Rogier A., Xu, Yi, Yanagisawa, Hiroto, Zackrisson, Erik, Zitrin, Adi",
       "year": "2025",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -1073,7 +1061,7 @@
       "title": "Resolving Multi-phase Outflow/Inflow via Gas Dynamics and Chemical Abundance Distribution in a Sub-L* Dwarf Galaxy at z=6.1",
       "authors": "Fujimoto, Seiji, Chisholm, John, Abraham, Roberto G., Ao, Yiping, Bartosch Caminha, Gabriel, Bauer, Franz, Berg, Danielle, Bergeron, Louis, Bradley, Larry, Brammer, Gabriel, Casey, Caitlin M., Dayal, Pratika, Dencheva, Nadia, Dessauges-Zavadsky, Miroslava, Egami, Eiichi, Ferrara, Andrea, Finkelstein, Steven L., Fudamoto, Yoshinobu, Furtak, Lukas Jonathan, Gonzalez Lopez, Jorge Ignacio, Hatsukade, Bunyo, Hu, Weida, Hughes, David, Jung, Intae, Kassin, Susan, Knudsen, Kirsten Kraiberg, Koekemoer, Anton M., Kohandel, Mahsa, Kohno, Kotaro, Kokorev, Vasily, Laporte, Nicolas, Larson, Rebecca L., Law, David R., Lee, Minju, Magdis, Georgios, Morrison, Jane, Mulcahey, Celia, Nakane, Minami, Oesch, Pascal, Oguri, Masamune, Ono, Yoshiaki, Ouchi, Masami, Pacifici, Camilla, Pallottini, Andrea, Rawle, Tim, Regan, Michael W., Richard, Johan Pierre, Rujopakarn, Wiphu, Shimasaku, Kazuhiro, Smail, Ian, Stephenson, Mabel, Sugahara, Yuma, Sukay, Ezra, Sun, Fengwu, Tsujita, Akiyoshi, Umehata, Hideki, Urbina, Claudia Lagos, Valentino, Francesco Maria, Wang, Tao, Wang, Wei-Hao, Xu, Yi, Yanagisawa, Hiroto, Zitrin, Adi",
       "year": "2025",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -1450,7 +1438,7 @@
       "title": "VizieR Online Data Catalog: Lyβ dark gaps in z&lt;~6 QSOs spectra (Zhu+, 2022)",
       "authors": "Zhu, Y., Becker, G. D., Bosman, S. E. I., Keating, L. C., D'Odorico, V., Davies, R. L., Christenson, H. M., Banados, E., Bian, F., Bischetti, M., Chen, H., Davies, F. B., Eilers, A.-C., Fan, X., Gaikwad, P., Greig, B., Haehnelt, M. G., Kulkarni, G., Lai, S., Pallottini, A., Qin, Y., Ryan-Weber, E. V., Walter, F., Wang, F., Yang, J.",
       "year": "2025",
-      "type": "dataset",
+      "type": "Dataset",
       "members": [
         "Yongda Zhu"
       ],
@@ -1460,7 +1448,7 @@
       "title": "The Last Neutral Islands at the End of Reionization? Characterizing the Nature of the Longest Dark Gaps in IGM Transmission at z~5.3",
       "authors": "Jin, Xiangyu, Becker, George D., Champagne, Jaclyn, Chen, Zuyi, Fan, Xiaohui, Kakiichi, Koki, Liu, Weizhe, Pudoka, Maria, Satyavolu, Sindhu, Stark, Daniel P., Sun, Fengwu, Tang, Mengtao, Tee, Wei Leong, Wang, Feige, Wu, Yunjing, Yang, Jinyi, Zhang, Haowen, Zhu, Yongda, Zou, Siwei",
       "year": "2025",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Yongda Zhu"
       ],
@@ -1470,7 +1458,7 @@
       "title": "Probing Pair-Instability Supernovae through the Triply-lensed MACS0647-JD at z=10.17",
       "authors": "Wu, Yunjing, Cai, Zheng, Sun, Fengwu, Bian, Fuyan, Cai, Sijia, Champagne, Jaclyn, Chen, Zuyi, Coe, Dan, Fan, Xiaohui, Finlator, Kristian, Hsiao, Tiger, Jin, Xiangyu, Li, Mingyu, Li, Zihao, Lin, Xiaojing, Liu, Guan-Fu, Maiolino, Roberto, Mao, Junjie, Pudoka, Maria, Stark, Daniel P., Tang, Mengtao, Tee, Wei Leong, Wang, Ben, Wang, Feige, Yang, Jinyi, Zhu, Peixin, Zhu, Qinnan, Zhu, Yongda",
       "year": "2025",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Yongda Zhu"
       ],
@@ -1564,7 +1552,7 @@
       "title": "Multi-phase AGN feedback and a bright, extended [CII] halo in a LoBAL quasar at z~6.6",
       "authors": "Choi, Hyunseop, Bischetti, Manuela, Fiore, Fabrizio, Feruglio, Chiara, Carniani, Stefano, D'Odorico, Valentina, Banados, Eduardo, Chen, Huanqing, Decarli, Roberto, Gallerani, Simona, Hlavacek-Larrondo, Julie, Lai, Samuel, Leighly, Karen, Mazzucchelli, Chiara, Perreault Levasseur, Laurence, Tripodi, Roberta, Walter, Fabian, Wang, Feige, Yang, Jinyi, Zanchettin, Maria Vittoria, Zhu, Yongda",
       "year": "2025",
-      "type": "abstract",
+      "type": "Meeting abstract",
       "members": [
         "Yongda Zhu"
       ],
@@ -1768,7 +1756,7 @@
       "title": "The High-z Menagerie: A Rare Chance to Study the Early and Exotic Transient Universe",
       "authors": "Coulter, David, Engesser, Mike, Pierel, Justin, Akins, Hollis, Casey, Caitlin M., DeCoursey, Christa Noel, Egami, Eiichi, Fox, Ori Dosovitz, Franco, Maximilien, Fujimoto, Seiji, Gezari, Suvi, Gomez, Sebastian, Guolo, Muryel, Harish, Santosh, Jencson, Jacob, Karmen, Mitchell, Kartaltepe, Jeyhan, Koekemoer, Anton M., McCracken, Henry Joy, Moriya, Takashi, Quimby, Robert M., Rest, Armin, Rhodes, Jason D., Robertson, Brant, Shahbandeh, Melissa, Shuntov, Marko, Siebert, Matthew Ryan, Strolger, Louis-Gregory, Suzuki, Nao, Wang, Qinan, Yang, Lilan, Zenati, Yossef",
       "year": "2024",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -1778,7 +1766,7 @@
       "title": "SAPPHIRES: Slitless Areal Pure-Parallel High-Redshift Emission Survey",
       "authors": "Egami, Eiichi, Fan, Xiaohui, Sun, Fengwu, Wang, Feige, Yang, Jinyi, Bunker, Andrew, Cai, Zheng, Charlot, Stephane, DeCoursey, Christa Noel, Eisenstein, Daniel J., Hainline, Kevin, Harikane, Yuichi, Ji, Zhiyuan, Kakiichi, Koki, Ma, Zheng, Maiolino, Roberto, Rieke, Marcia J., Willmer, Christopher Nicholas Andrew",
       "year": "2024",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -1812,7 +1800,7 @@
       "title": "OASIS: Observing All phases of StochastIc Star formation - A census of galaxies at z = 5?8 over the entire SFR?M? plane",
       "authors": "Looser, Tobias Jakob, D'Eugenio, Francesco, Arribas, Santiago, Bhatawdekar, Rachana, Bunker, Andrew, Carniani, Stefano, Charlot, Stephane, Chevallard, Jacopo, Curti, Mirko, Curtis-Lake, Emma, Dome, Tibor, Egami, Eiichi, Eisenstein, Daniel J., Hainline, Kevin, Johnson, Benjamin D., Kumari, Nimisha, Laseter, Isaac, Maiolino, Roberto, Robertson, Brant, Rodriguez Del Pino, Bruno, Scholtz, Jan, Smit, Renske, Uebler, Hannah, Villanueva, Natalia C., Willott, Chris J., Witstok, Joris, de Graaff, Anna G.",
       "year": "2024",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -1822,7 +1810,7 @@
       "title": "COSMOS-3D: A Legacy Spectroscopic/Imaging Survey of the Early Universe",
       "authors": "Kakiichi, Koki, Egami, Eiichi, Fan, Xiaohui, Lyu, Jianwei, Wang, Feige, Yang, Jinyi, Bechtel, Shane, Behroozi, Peter, Bosman, Sarah E. I., Cai, Zheng, Champagne, Jaclyn, Davies, Frederick, De Rosa, Gisella, Decarli, Roberto, Eilers, Anna-Christina, Ellis, Richard S., Endsley, Ryan, Farina, Emanuele Paolo, Finkelstein, Steven L., Fujimoto, Seiji, Hennawi, Joseph, Inoue, Akio, Jiang, Linhua, Jin, Xiangyu, Khusanova, Yana, Kirkpatrick, Allison, Kocevski, Dale D., Kulkarni, Girish, Lee, Khee-Gan, Liu, Weizhe, Meyer, Romain Alexis, Ono, Yoshiaki, Onoue, Masafusa, Ouchi, Masami, Papovich, Casey, Satyavolu, Sindhu, Schindler, Jan-Torge, Sun, Fengwu, Tee, Wei Leong, Vestergaard, Marianne, Zhang, Haowen, Zou, Siwei",
       "year": "2024",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -1832,7 +1820,7 @@
       "title": "Confirming Population III or a Direct Collapse Black Hole in the halo of GN-z11 at z=10.6",
       "authors": "Maiolino, Roberto, Arribas, Santiago, Bunker, Andrew, Carniani, Stefano, Charlot, Stephane, Cresci, Giovanni, Curti, Mirko, Curtis-Lake, Emma, D'Eugenio, Francesco, Egami, Eiichi, Eisenstein, Daniel J., Ji, Xihan, Ji, Zhiyuan, Kumari, Nimisha, Mazzolari, Giovanni, Perna, Michele, Robertson, Brant, Saxena, Aayush, Scholtz, Jan, Tacchella, Sandro, Uebler, Hannah, Venturi, Giacomo, Witstok, Joris, Witten, Callum",
       "year": "2024",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -1842,7 +1830,7 @@
       "title": "Unveiling the nature and impact of the first population of black holes: an extensive NIRSpec-IFU survey in the first billion years",
       "authors": "Uebler, Hannah, Maiolino, Roberto, Arribas, Santiago, Bennett, Jake Samuel, Bunker, Andrew, Carniani, Stefano, Charlot, Stephane, Cresci, Giovanni, Curti, Mirko, Curtis-Lake, Emma, D'Eugenio, Francesco, Danhaive, Lola, Egami, Eiichi, Hainline, Kevin, Jones, Gareth C., Koudmani, Sophie, Kumari, Nimisha, Laporte, Nicolas, Looser, Tobias Jakob, Lyu, Jianwei, Mazzolari, Giovanni, Nelson, Erica, Parlanti, Eleonora, Perna, Michele, Robertson, Brant, Rodriguez Del Pino, Bruno, Schneider, Raffaella, Scholtz, Jan, Shivaei, Irene, Sijacki, Debora, Simmonds, Charlotte, Sun, Fengwu, Tacchella, Sandro, Trinca, Alessandro, Valiante, Rosa, Venturi, Giacomo, Volonteri, Marta, Willott, Chris J., Witstok, Joris, Witten, Callum, de Graaff, Anna G.",
       "year": "2024",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -1852,7 +1840,7 @@
       "title": "A Novel Wavelength Calibration of NIRCam WFSS with a Nearby Star-Forming Galaxy",
       "authors": "Sun, Fengwu, Boyer, Martha L., Egami, Eiichi, Pirzkal, Norbert, Rieke, Marcia J., Sun, Jiayi",
       "year": "2024",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2123,7 +2111,7 @@
       "title": "JWST NIRSpec/NIRCam Follow-Up of the High-Redshift Transients Discovered in the GOODS-S JADES-Deep Field",
       "authors": "Egami, Eiichi, Bonaventura, Nina, Charlot, Stephane, Curti, Mirko, DeCoursey, Christa Noel, Eisenstein, Daniel J., Engesser, Mike, Fox, Ori Dosovitz, Jakobsen, Peter, Maiolino, Roberto, Pierel, Justin, Rest, Armin, Robertson, Brant, Siebert, Matthew Ryan, Strolger, Louis-Gregory, Sun, Fengwu, Willmer, Christopher Nicholas Andrew",
       "year": "2023",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2182,7 +2170,7 @@
       "title": "IFU Trio of ALMA, MUSE, JWST: Revealing Dynamical Interplay of Inflow/Outflow at z=6 with Strong Lensing Aid",
       "authors": "Fujimoto, Seiji, Ao, Yiping, Bartosch Caminha, Gabriel, Bauer, Franz, Bradley, Larry, Brammer, Gabriel, Caputi, Karina, Dessauges-Zavadsky, Miroslava, Egami, Eiichi, Espada, Daniel, Fudamoto, Yoshinobu, Gonzalez Lopez, Jorge Ignacio, Hatsukade, Bunyo, Hughes, David, Iono, Daisuke, Ivison, Rob J., Knudsen, Kirsten Kraiberg, Koekemoer, Anton M., Kohno, Kotaro, Kokorev, Vasily, Kusakabe, Haruka, Lagos, Claudia del Pilar, Laporte, Nicolas, Lee, Kianhong, Lee, Minju, Magdis, Georgios, Morokuma, Kana, Oesch, Pascal, Oguri, Masamune, Ono, Yoshiaki, Ouchi, Masami, Rawle, Tim, Richard, Johan Pierre, Rujopakarn, Wiphu, Schaerer, Daniel, Shimasaku, Kazuhiro, Smail, Ian, Sun, Fengwu, Tamura, Yoichi, Toft, Sune, Umehata, Hideki, Valentino, Francesco Maria, Wang, Tao, Wang, Wei-Hao, Yoshimura, Yuki, Yun, Min S., Zitrin, Adi",
       "year": "2023",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2192,7 +2180,7 @@
       "title": "AGN Feedback and Radio Jet Driven Outflows in 3C 305",
       "authors": "Ogle, Patrick Michael, Alatalo, Katherine Anne, Appleton, Philip N., Baum, Stefi A., Egami, Eiichi, Emonts, Bjorn, Garcia-Burillo, Santiago, Guillard, Pierre, Labiano, Alvaro, Lanz, Lauranne, Lehnert, Matthew D., Morganti, Raffaella, O'Dea, Christopher P., Tadhunter, Clive N., Togi, Aditya",
       "year": "2023",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2202,7 +2190,7 @@
       "title": "Complete NIRCam Grism Redshift Survey (CONGRESS)",
       "authors": "Egami, Eiichi, Sun, Fengwu, Alberts, Stacey, Baum, Stefi A., Boyett, Kristan, Bunker, Andrew, Cameron, Alex James, Carniani, Stefano, Charlot, Stephane, Chen, Zuyi, Chevallard, Jacopo, Curti, Mirko, D'Eugenio, Francesco, Danhaive, Lola, DeCoursey, Christa Noel, Dudzeviciute, Ugne, Eisenstein, Daniel J., Hainline, Kevin, Helton, Jakob, Ji, Zhiyuan, Johnson, Benjamin D., Kumari, Nimisha, Looser, Tobias Jakob, Lyu, Jianwei, Ma, Zheng, Maiolino, Roberto, Maseda, Michael, Nelson, Erica, Rawle, Tim, Rieke, Marcia J., Robertson, Brant, Sandles, Lester, Shivaei, Irene, Smit, Renske, Suess, Katherine, Tacchella, Sandro, Uebler, Hannah, Whitler, Lily, Williams, Christina C., Willmer, Christopher Nicholas Andrew, Willott, Chris J., Witstok, Joris, de Graaff, Anna G.",
       "year": "2023",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2284,7 +2272,7 @@
       "title": "JWST/NIRCam Slitless Spectroscopy in the JWST/MIRI HUDF Region",
       "authors": "Rieke, George, Helton, Jakob, Ji, Zhiyuan, Lyu, Jianwei, Alberts, Stacey, Bonaventura, Nina, Egami, Eiichi, Florian, Michael, Hainline, Kevin, Morrison, Jane, Perez-Gonzalez, Pablo G., Rieke, Marcia J., Shivaei, Irene, Stone, Meredith, Sun, Fengwu, Williams, Christina C., Willmer, Christopher Nicholas Andrew",
       "year": "2023",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2294,7 +2282,7 @@
       "title": "Deep NIRCam grism observations in the 1210 parallel field",
       "authors": "Eisenstein, Daniel J., Alberts, Stacey, Egami, Eiichi, Hainline, Kevin, Helton, Jakob, Ji, Zhiyuan, Lyu, Jianwei, Rieke, Marcia J., Robertson, Brant, Sun, Fengwu, Williams, Christina C., Willmer, Christopher Nicholas Andrew",
       "year": "2023",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2304,7 +2292,7 @@
       "title": "iCe astrocHemistry at the EdgE of a staR-formIng clOud (CHEERIO): Cha I",
       "authors": "Smith, Zak Luka, Boogert, Abraham C., Noble, Jennifer, Chu, Laurie E., Crouzet, Nicolas Michael, Dartois, Emmanuel, Egami, Eiichi, Erkal, Jessica Sudiye, Fraser, Helen Jane, Harsono, Daniel, Herrero, Victor Jose, Ioppolo, Sergio, Jimenez-Serra, Izaskun, Jorgensen, Jes K., Kristensen, Lars E., Lamberts, Thanja, Linnartz, Harold, Mate, Belen, McClure, Melissa, Melnick, Gary, Palumbo, Maria Elisabetta, Pendleton, Yvonne Jean, Perotti, Giulia, Qasim, Danna Nedal, Shimonishi, Takashi, Sun, Fengwu, Taillard, Angele, Wakelam, Valentine",
       "year": "2023",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2314,7 +2302,7 @@
       "title": "Data-Driven Wisp Templates and Flat Fields for NIRCam",
       "authors": "Johnson, Benjamin D., Eisenstein, Daniel J., Egami, Eiichi, Misselt, Karl, Rieke, Marcia J., Robertson, Brant, Schlawin, Everett, Tacchella, Sandro, Willmer, Christopher Nicholas Andrew, Willott, Chris J.",
       "year": "2023",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2324,7 +2312,7 @@
       "title": "What quenched the first massive quiescent galaxy? A comprehensive analysis from stellar kinematics to gas emission lines",
       "authors": "D'Eugenio, Francesco, Alberts, Stacey, Arribas, Santiago, Bonaventura, Nina, Bunker, Andrew, Carnall, Adam, Carniani, Stefano, Charlot, Stephane, Chevallard, Jacopo, Cresci, Giovanni, Curti, Mirko, Dudzeviciute, Ugne, Egami, Eiichi, Eisenstein, Daniel J., Helton, Jakob, Ji, Zhiyuan, Jones, Gareth C., Kumari, Nimisha, Looser, Tobias Jakob, Maiolino, Roberto, Maseda, Michael, Nelson, Erica, Perez Gonzalez, Pablo G., Perna, Michele, Rawle, Tim, Robertson, Brant, Rodriguez Del Pino, Bruno, Sandles, Lester, Scholtz, Jan, Suess, Katherine, Tacchella, Sandro, Uebler, Hannah, Williams, Christina C., Willott, Chris J., Witstok, Joris, de Graaff, Anna G.",
       "year": "2023",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2334,7 +2322,7 @@
       "title": "A Unique Characterization of Early Quenching in a Young, Transitional Cluster at z=1.84 with NGDEEP and JEMS",
       "authors": "Alberts, Stacey, Bonaventura, Nina, Bunker, Andrew, Charlot, Stephane, Egami, Eiichi, Ji, Zhiyuan, Johnson, Benjamin D., Lyu, Jianwei, Sandles, Lester, Suess, Katherine, Sun, Fengwu, Tacchella, Sandro, Williams, Christina C., Willmer, Christopher Nicholas Andrew, Willott, Chris J.",
       "year": "2023",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2344,7 +2332,7 @@
       "title": "Unveiling the Redshift Frontier with JWST",
       "authors": "Eisenstein, Daniel J., Maiolino, Roberto, Alberts, Stacey, Arribas, Santiago, Baum, Stefi A., Bhatawdekar, Rachana, Bonaventura, Nina, Boyett, Kristan, Bunker, Andrew, Cameron, Alex James, Carniani, Stefano, Charlot, Stephane, Chen, Zuyi, Chevallard, Jacopo, Curti, Mirko, Curtis-Lake, Emma, D'Eugenio, Francesco, Egami, Eiichi, Hainline, Kevin, Helton, Jakob, Jakobsen, Peter, Ji, Zhiyuan, Johnson, Benjamin D., Jones, Gareth C., Kumari, Nimisha, Looser, Tobias Jakob, Luetzgendorf, Nora, Lyu, Jianwei, Maseda, Michael, Nelson, Erica, Puskas, David, Rawle, Tim, Rieke, Marcia J., Robertson, Brant, Sandles, Lester, Saxena, Aayush, Scholtz, Jan, Smit, Renske, Sun, Fengwu, Tacchella, Sandro, Topping, Michael, Uebler, Hannah, Whitler, Lily, Williams, Christina C., Willmer, Christopher Nicholas Andrew, Willott, Chris J., Witstok, Joris, de Graaff, Anna G.",
       "year": "2023",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2354,7 +2342,7 @@
       "title": "Resolving early galaxy disks at z 8 with NIRSpec-IFS",
       "authors": "Scholtz, Jan, Arribas, Santiago, Baker, William Michael, Boyett, Kristan, Charlot, Stephane, Chevallard, Jacopo, Curti, Mirko, Curtis-Lake, Emma, Danhaive, Lola, Dudzeviciute, Ugne, Egami, Eiichi, Eisenstein, Daniel J., Helton, Jakob, Ji, Zhiyuan, Kumari, Nimisha, Laporte, Nicolas, Maiolino, Roberto, Perna, Michele, Puskas, David, Robertson, Brant, Rodriguez Del Pino, Bruno, Smit, Renske, Tacchella, Sandro, Witstok, Joris, Witten, Callum, de Graaff, Anna G.",
       "year": "2023",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2364,7 +2352,7 @@
       "title": "The search for Population III stars in low-metallicity 7",
       "authors": "Uebler, Hannah, Maiolino, Roberto, Arribas, Santiago, Baker, William Michael, Baum, Stefi A., Bhatawdekar, Rachana, Boyett, Kristan, Bunker, Andrew, Cameron, Alex James, Carniani, Stefano, Charlot, Stephane, Chevallard, Jacopo, Curti, Mirko, Curtis-Lake, Emma, D'Eugenio, Francesco, Egami, Eiichi, Eisenstein, Daniel J., Graziani, Luca, Ji, Zhiyuan, Johnson, Benjamin D., Jones, Gareth C., Kumari, Nimisha, Laporte, Nicolas, Looser, Tobias Jakob, Maseda, Michael, Nelson, Erica, Perez-Gonzalez, Pablo G., Perna, Michele, Rieke, Marcia J., Robertson, Brant, Rodriguez Del Pino, Bruno, Sandles, Lester, Saxena, Aayush, Schneider, Raffaella, Scholtz, Jan, Simmonds, Charlotte, Smit, Renske, Tacchella, Sandro, Trinca, Alessandro, Valiante, Rosa, Venditti, Alessandra, Williams, Christina C., Willmer, Christopher Nicholas Andrew, Willott, Chris J., Witstok, Joris, Witten, Callum",
       "year": "2023",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2374,7 +2362,7 @@
       "title": "MAGNIF: Medium-band Astrophysics with the Grism of NIRCam in Frontier Fields",
       "authors": "Sun, Fengwu, Bauer, Franz, Bian, Fuyan, Cai, Zheng, Caputi, Karina, Chen (Tc), Chian-Chou, Chen, Wenlei, Cheng, Cheng, Coe, Dan, Danhaive, Lola, Dessauges-Zavadsky, Miroslava, Egami, Eiichi, Eilers, Anna-Christina, Espada, Daniel, Fan, Xiaohui, Farina, Emanuele Paolo, Frye, Brenda Louise, Fujimoto, Seiji, Furtak, Lukas Jonathan, Huang, Shuo, Hainline, Kevin, Helton, Jakob, Huang, Jiasheng, Hughes, David, Jauzac, Mathilde, Ji, Zhiyuan, Jin, Xiangyu, Jolly, Jean-Baptiste, Kneib, Jean-Paul Richard, Knudsen, Kirsten Kraiberg, Koekemoer, Anton M., Kohno, Kotaro, Kokorev, Vasily, Lee, Minju, Li, Mingyu, Li, Zihao, Lin, Xiaojing, Liu, Daizhong, Liu, Weizhe, Magdis, Georgios, Maseda, Michael, Oguri, Masamune, Pascale, Massimo, Perez-Gonzalez, Pablo G., Richard, Johan Pierre, Schaerer, Daniel, Steinhardt, Charles Louis, Sun, Bangzheng, Sun, Zechang, Tacchella, Sandro, Tee, Wei Leong, Trebitsch, Maxime, Tsujita, Akiyoshi, Ueda, Yoshihiro, Uematsu, Ryosuke, Umehata, Hideki, Walth, Gregory, Wang, Feige, Wang, Wei-Hao, Weaver, John Raymond, Williams, Christina C., Willmer, Christopher Nicholas Andrew, Windhorst, Rogier A., Wu, Yunjing, Yan, Haojing, Yang, Jinyi, Zhang, Haowen, Zitrin, Adi, Zou, Siwei",
       "year": "2023",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2408,7 +2396,7 @@
       "title": "An unprecedented spatially resolved analysis of the brightest galaxy at z&gt;10 in GOODS-N",
       "authors": "Maiolino, Roberto, Arribas, Santiago, Baker, William Michael, Boyett, Kristan, Bunker, Andrew, Carniani, Stefano, Curti, Mirko, Curtis-Lake, Emma, D'Eugenio, Francesco, Egami, Eiichi, Eisenstein, Daniel J., Ji, Zhiyuan, Kumari, Nimisha, Laseter, Isaac, Maseda, Michael, Perna, Michele, Robertson, Brant, Rodriguez Del Pino, Bruno, Sandles, Lester, Saxena, Aayush, Scholtz, Jan, Sun, Fengwu, Tacchella, Sandro, Uebler, Hannah, Williams, Christina C., Witstok, Joris",
       "year": "2023",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2536,7 +2524,7 @@
       "title": "VizieR Online Data Catalog: VLT/X-SHOOTER &amp; Keck/ESI spectra of z~5 QSOs (Zhu+, 2021)",
       "authors": "Zhu, Y., Becker, G. D., Bosman, S. E. I., Keating, L. C., Christenson, H. M., Banados, E., Bian, F., Davies, F. B., D'Odorico, V., Eilers, A.-C., Fan, X., Haehnelt, M. G., Kulkarni, G., Pallottini, A., Qin, Y., Wang, F., Yang, J.",
       "year": "2023",
-      "type": "dataset",
+      "type": "Dataset",
       "members": [
         "Yongda Zhu"
       ],
@@ -2546,7 +2534,7 @@
       "title": "How Does Reionization End? A Search for [O III] Emitters in the Most Transparent Regions of the IGM Near Redshift Six",
       "authors": "Becker, George D., Christenson, Holly, D'Aloisio, Anson, Endsley, Ryan, Mason, Charlotte, Zhu, Yongda",
       "year": "2023",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Yongda Zhu"
       ],
@@ -2616,7 +2604,7 @@
       "title": "Modeling Radius Valley Emergence Mechanisms With Multi-Transiting Systems",
       "authors": "VanWyngarden, Madison, Cloutier, Ryan",
       "year": "2023",
-      "type": "abstract",
+      "type": "Meeting abstract",
       "members": [
         "Madi VanWyngarden"
       ],
@@ -2733,7 +2721,7 @@
       "title": "HST/WFC3-IR Imaging of Exceptionally Luminous Himiko/CR7-Like Galaxies at z&gt;6",
       "authors": "Egami, Eiichi, Harikane, Yuichi, Jiang, Linhua, Ono, Yoshiaki, Ouchi, Masami, Sun, Fengwu",
       "year": "2021",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2743,7 +2731,7 @@
       "title": "JWST probes star formation efficiency in giant molecular clouds at z=1",
       "authors": "Dessauges-Zavadsky, Miroslava, Richard, Johan Pierre, Adamo, Angela, Brammer, Gabriel, Chevance, Melanie, Combes, Francoise, Egami, Eiichi, Kruijssen, Diederik, Mayer, Lucio, Messa, Matteo, Nagy, David, Schaerer, Daniel",
       "year": "2021",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2753,7 +2741,7 @@
       "title": "Absolute Brightness Measuremt of the Extragalactic Background Light Using Gallilean Satellites Eclipse Occultations",
       "authors": "Tsumura, Kohji, Arimatsu, Ko, Egami, Eiichi, Matsuura, Shuji, Sano, Kei, Surace, Jason A., Wada, Takehiko",
       "year": "2021",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2763,7 +2751,7 @@
       "title": "A SPectroscopic survey of biased halos In the Reionization Era (ASPIRE): A JWST Quasar Legacy Survey",
       "authors": "Wang, Feige, Fan, Xiaohui, Hennawi, Joseph, Banados, Eduardo, Barth, Aaron J., Bieri, Rebekka, Blecha, Laura, Bosman, Sarah, Cai, Zheng, Connor, Thomas, Costa, Tiago, Davies, Frederick, De Rosa, Gisella, Decarli, Roberto, Drake, Alyssa Bryony, Egami, Eiichi, Eilers, Anna-Christina, Endsley, Ryan, Farina, Emanuele Paolo, Habouzit, Melanie, Huang, Yun-Hsin, Jiang, Linhua, Jones, Victoria R., Jun, Hyunsung, Kakiichi, Koki, Khusanova, Yana, Lupi, Alessandro, Mazzucchelli, Chiara Giulia, Meyer, Romain Alexis, Onoue, Masafusa, Rojas, Sofia, Schindler, Jan-Torge, Strauss, Michael A., Sun, Fengwu, Trakhtenbrot, Benny, Trebitsch, Maxime, Venemans, Bram, Vestergaard, Marianne, Volonteri, Marta, Walter, Fabian, Wu, Yunjing, Yang, Jinyi, Yue, Minghao, Zhang, Haowen",
       "year": "2021",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2773,7 +2761,7 @@
       "title": "UDF medium band survey: Using H-alpha emission to reconstruct Ly-alpha escape during the Epoch of Reionization",
       "authors": "Williams, Christina C., Maseda, Michael, Tacchella, Sandro, Alberts, Stacey, Bhatawdekar, Rachana, Bunker, Andrew, Charlot, Stephane, Chevallard, Jacopo, Curtis-Lake, Emma, Egami, Eiichi, Eisenstein, Daniel J., Franx, Marijn, Hainline, Kevin, Johnson, Benjamin D., Maiolino, Roberto, Nelson, Erica, Rieke, Marcia J., Robertson, Brant, Shivaei, Irene, Smit, Renske, Stark, Daniel P., Uebler, Hannah, Willmer, Christopher Nicholas Andrew, Willott, Chris J., de Graaff, Anna G.",
       "year": "2021",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2783,7 +2771,7 @@
       "title": "Early Galaxy Assembly Uncovered with ALMA and JWST: A Remarkably UV and [CII] Bright, Strongly Lensed Sub-L* Galaxy at z=6.072",
       "authors": "Fujimoto, Seiji, Ao, Yiping, Bartosch Caminha, Gabriel, Bauer, Franz, Brammer, Gabriel, Dessauges-Zavadsky, Miroslava, Egami, Eiichi, Fudamoto, Yoshinobu, Hatsukade, Bunyo, Hughes, David, Knudsen, Kirsten Kraiberg, Koekemoer, Anton M., Kohno, Kotaro, Laporte, Nicolas, Lee, Minju, Magdis, Georgios, Oguri, Masamune, Ouchi, Masami, Rawle, Tim, Richard, Johan Pierre, Rujopakarn, Wiphu, Shimasaku, Kazuhiro, Sun, Fengwu, Umehata, Hideki, Urbina, Claudia Lagos, Valentino, Francesco Maria, Wang, Tao, Wang, Wei-Hao, Zitrin, Adi",
       "year": "2021",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2877,7 +2865,7 @@
       "title": "Near-IR Imaging of Three Spectacular Lensed Submillimeter Galaxies Discovered by the Herschel Lensing Survey",
       "authors": "Egami, Eiichi, Blain, Andrew, Boone, Frederic, Bridge, Carrie, Clement, Benjamin, Dessauges-Zavadsky, Miroslava, Ebeling, Harald, Edge, Alastair C., Kneib, Jean-Paul Richard, Perez-Gonzalez, Pablo G., Rawle, Timothy, Richard, Johan Pierre, Rujopakarn, Wiphu, Schaerer, Daniel, Smail, Ian, Swinbank, Mark, Walth, Gregory, Zamojski, Michel, van der Werf, Paul",
       "year": "2016",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
@@ -2887,7 +2875,7 @@
       "title": "Absolute Measurement of the Cosmic Near-Infrared Background Using Eclipsed Galilean Satellites as Occulters",
       "authors": "Tsumura, Kohji, Arai, Toshiaki, Arimatsu, Ko, Egami, Eiichi, Honda, Chikatoshi, Kimura, Jun, Kuramoto, Kiyoshi, Matsuura, Shuji, Nakajima, Kensuke, Nakamoto, Taishi, Onishi, Yosuke, Sano, Kei, Shirahata, Mai, Surace, Jason A., Takahashi, Yasuto, Wada, Takehiko",
       "year": "2015",
-      "type": "proposal",
+      "type": "Observing proposal",
       "members": [
         "Eiichi Egami"
       ],
