@@ -50,9 +50,9 @@ function renderProfile(person) {
   intro.append(createTagGroups(person, { includeRole: false, fullHonors: true, linkHonors: true }));
   content.append(intro);
 
-  if (person.interests) {
-    content.append(createElement("h2", "profile-heading", "Research interests"));
-    content.append(createElement("p", "profile-interests", person.interests));
+  if (person.bio) {
+    content.append(createElement("h2", "profile-heading", "About"));
+    content.append(createElement("p", "profile-bio", person.bio));
   }
 
   const profileLinks = createElement("div", "profile-links");

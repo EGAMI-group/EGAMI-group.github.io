@@ -32,11 +32,11 @@ function normalizeHonors(honors) {
     .filter((honor) => honor.short);
 }
 
-function normalizeThemes(themes) {
-  if (!themes) return [];
+function normalizeInterests(interests) {
+  if (!interests) return [];
 
-  return (Array.isArray(themes) ? themes : [themes])
-    .map((theme) => String(theme).trim())
+  return (Array.isArray(interests) ? interests : [interests])
+    .map((interest) => String(interest).trim())
     .filter(Boolean);
 }
 
@@ -47,20 +47,19 @@ function tagRow(className, tags) {
   return row;
 }
 
-// Builds the role/honour row and the research theme row for one person.
+// Builds the role/honour row and the research interest row for one person.
 // includeRole: cards show the role as a tag, profile pages print it above instead.
-// maxThemes:   cards show only the first few themes so they stay the same height.
 // fullHonors:  profile pages have room for "NSF Graduate Research Fellow",
 //              cards fall back to the shorter "NSF GRFP".
 // linkHonors:  a card is itself a link, so its honours must not be links too.
 function createTagGroups(
   person,
-  { includeRole = true, maxThemes = Infinity, fullHonors = false, linkHonors = false } = {}
+  { includeRole = true, fullHonors = false, linkHonors = false } = {}
 ) {
   const groups = document.createDocumentFragment();
   const role = person.role?.trim();
   const honors = normalizeHonors(person.honors);
-  const themes = normalizeThemes(person.themes);
+  const interests = normalizeInterests(person.interests);
 
   const statusTags = [];
   if (includeRole && role) statusTags.push(tagElement("person-tag tag-role", role));
@@ -76,10 +75,8 @@ function createTagGroups(
   });
   if (statusTags.length) groups.append(tagRow("person-tags", statusTags));
 
-  const themeTags = themes
-    .slice(0, maxThemes)
-    .map((theme) => tagElement("person-tag tag-theme", theme));
-  if (themeTags.length) groups.append(tagRow("person-tags", themeTags));
+  const interestTags = interests.map((interest) => tagElement("person-tag tag-interest", interest));
+  if (interestTags.length) groups.append(tagRow("person-tags", interestTags));
 
   return groups;
 }

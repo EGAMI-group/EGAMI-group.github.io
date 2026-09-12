@@ -530,7 +530,7 @@ a.person-card:focus-visible {
   background: #0f6b52;
 }
 
-.tag-theme {
+.tag-interest {
   color: #0d3b52;
   background: #d8edf0;
 }
@@ -609,7 +609,7 @@ a.person-tag:focus-visible {
   font-size: 1.15rem;
 }
 
-.profile-interests {
+.profile-bio {
   max-width: 650px;
   margin: 0 0 2rem;
   line-height: 1.7;

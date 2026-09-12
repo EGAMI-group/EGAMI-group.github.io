@@ -5,10 +5,10 @@
     "name: the person's displayed name.",
     "Each person's name must be unique. The website uses it automatically to open the correct profile page.",
     "role: their role in the group, such as Undergraduate Researcher or Faculty Advisor.",
-    "interests: optional research interests. These appear on the person's profile page, not on their People card.",
+    "interests: optional list of research areas, for example [\"Gravitational Lensing\", \"Galaxy Kinematics\", \"Epoch of Reionization\"]. These appear as tags on the person's People card and on their profile page.",
+    "bio: optional free text about the person. It appears under an About heading on their profile page only, so it can be as long as you like.",
     "photo: optional filename from assets/images/profile_pictures/, for example jane-smith.jpg. A full path also works.",
     "honors: optional fellowships or named awards, as a list. Each one may be plain text, for example \"NSF Graduate Research Fellow\", or an object with short, name and url. Use short for a card-sized abbreviation such as \"NSF GRFP\"; the full name still shows on the profile page and in the tooltip. url is optional and links the tag on the profile page.",
-    "themes: optional list of research areas, for example [\"Gravitational lensing\", \"Cosmology\"]. The People card shows the first three and the profile page shows all of them.",
     "status: optional. Leave it out for present members; use alumni only for former members.",
     "email: optional public email address. It appears as a clickable email link on the person's profile page.",
     "orcid: optional ORCID iD, written as 0000-0000-0000-0000. It enables the publication updater and View papers on ADS link for that person.",
@@ -30,7 +30,8 @@
       "orcid": "0000-0003-3307-7525",
       "website": "https://ydzhuastro.github.io/",
       "photo": "Yongda_Zhu.jpg",
-      "email": "yongdaz@arizona.edu"
+      "email": "yongdaz@arizona.edu",
+      "honors": "JASPER scholar"
     },
     {
       "name": "Christa DeCoursey",
