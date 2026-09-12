@@ -496,21 +496,48 @@ a.person-card:focus-visible {
   padding: 1rem;
 }
 
-.person-name,
-.person-role {
-  margin: 0;
-}
-
 .person-name {
+  margin: 0;
   color: var(--navy);
   font-size: 1.05rem;
   font-weight: 700;
 }
 
-.person-role {
-  margin-top: 0.25rem;
-  color: #56626a;
-  font-size: 0.88rem;
+.person-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.55rem;
+}
+
+.person-tag {
+  display: inline-block;
+  padding: 0.22rem 0.5rem;
+  border-radius: 0.16rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.tag-role {
+  color: #ffffff;
+  background: #0c314a;
+}
+
+.tag-honor {
+  color: #ffffff;
+  background: #0f6b52;
+}
+
+.tag-theme {
+  color: #0d3b52;
+  background: #d8edf0;
+}
+
+a.person-tag:hover,
+a.person-tag:focus-visible {
+  text-decoration: underline;
 }
 
 .empty-roster {
@@ -558,10 +585,22 @@ a.person-card:focus-visible {
   line-height: 1.1;
 }
 
+.profile-intro {
+  margin-bottom: 3.2rem;
+}
+
 .profile-role {
-  margin: 0.75rem 0 3.2rem;
+  margin: 0.75rem 0 0;
   color: #56626a;
   font-size: 1.1rem;
+}
+
+.profile-intro .person-tags {
+  margin-top: 0.9rem;
+}
+
+.profile-intro .person-tag {
+  font-size: 0.78rem;
 }
 
 .profile-heading {

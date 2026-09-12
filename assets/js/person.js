@@ -44,7 +44,11 @@ function renderProfile(person) {
   content.append(createElement("a", "back-link", "← Back to People"));
   content.lastChild.href = "index.html#people";
   content.append(createElement("h1", "profile-name", person.name));
-  content.append(createElement("p", "profile-role", person.role));
+
+  const intro = createElement("div", "profile-intro");
+  intro.append(createElement("p", "profile-role", person.role));
+  intro.append(createTagGroups(person, { includeRole: false, fullHonors: true, linkHonors: true }));
+  content.append(intro);
 
   if (person.interests) {
     content.append(createElement("h2", "profile-heading", "Research interests"));

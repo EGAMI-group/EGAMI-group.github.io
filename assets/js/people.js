@@ -34,7 +34,7 @@ function createCard(person) {
 
   const details = createElement("div", "person-details");
   details.append(createElement("h3", "person-name", person.name));
-  details.append(createElement("p", "person-role", person.role));
+  details.append(createTagGroups(person, { maxThemes: 3 }));
 
   card.append(details);
   return card;
