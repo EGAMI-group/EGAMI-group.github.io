@@ -12,7 +12,8 @@
     "status: optional. Leave it out for present members; use alumni only for former members.",
     "email: optional public email address. It appears as a clickable email link on the person's profile page.",
     "orcid: optional ORCID iD, written as 0000-0000-0000-0000. It enables the publication updater and View papers on ADS link for that person.",
-    "website: optional personal or professional website, such as https://example.com. A domain without https:// also works. This creates a Personal website link on their profile page."
+    "website: optional personal or professional website, such as https://example.com. A domain without https:// also works. This creates a Personal website link on their profile page.",
+    "scholar: optional Google Scholar profile. Paste the full URL from the address bar of your Scholar profile page. This creates a Google Scholar link on their profile page."
   ],
   "people": [
     {

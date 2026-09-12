@@ -19,12 +19,29 @@ function publicationType(doctype) {
     eprint: "Preprint",
     inproceedings: "Conference paper",
     proceedings: "Conference proceeding",
+    abstract: "Meeting abstract",
+    proposal: "Observing proposal",
+    circular: "Astronomical circular",
+    newsletter: "Newsletter",
+    catalog: "Catalog",
+    dataset: "Dataset",
     software: "Software",
+    book: "Book",
+    inbook: "Book chapter",
+    erratum: "Erratum",
+    bookreview: "Book review",
+    pressrelease: "Press release",
     phdthesis: "PhD thesis",
     mastersthesis: "Master's thesis",
-    talk: "Talk"
+    talk: "Talk",
+    misc: "Other"
   };
-  return labels[doctype] || doctype || "Publication";
+  if (labels[doctype]) return labels[doctype];
+  if (!doctype) return "Publication";
+
+  // ADS adds doctypes over time. Show an unrecognised one capitalised rather
+  // than raw, so it still reads correctly next to the labels above.
+  return doctype.charAt(0).toUpperCase() + doctype.slice(1);
 }
 
 function arxivUrl(identifiers = []) {

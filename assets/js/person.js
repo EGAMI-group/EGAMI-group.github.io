@@ -30,6 +30,20 @@ function websiteUrl(website) {
   return /^https?:\/\//i.test(address) ? address : `https://${address}`;
 }
 
+// Adds one button to the profile link row. Missing links are skipped,
+// so every field this reads from people.json stays optional.
+function addExternalLink(container, href, text, newTab = true) {
+  if (!href || !text) return;
+
+  const link = createElement("a", "profile-external-link", text);
+  link.href = href;
+  if (newTab) {
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+  }
+  container.append(link);
+}
+
 function renderProfile(person) {
   document.title = `${person.name} | EGAMI Group`;
 
@@ -56,37 +70,11 @@ function renderProfile(person) {
   }
 
   const profileLinks = createElement("div", "profile-links");
-  if (person.email?.trim()) {
-    const email = person.email.trim();
-    const emailLink = document.createElement("a");
-    emailLink.className = "profile-external-link";
-    emailLink.href = `mailto:${email}`;
-    emailLink.textContent = email;
-    profileLinks.append(emailLink);
-  }
-
-  const personalWebsite = websiteUrl(person.website);
-
-  if (personalWebsite) {
-    const website = document.createElement("a");
-    website.className = "profile-external-link";
-    website.href = personalWebsite;
-    website.target = "_blank";
-    website.rel = "noopener noreferrer";
-    website.textContent = "Personal website ↗";
-    profileLinks.append(website);
-  }
-
-  const papersUrl = adsUrl(person);
-  if (papersUrl) {
-    const papers = document.createElement("a");
-    papers.className = "profile-external-link";
-    papers.href = papersUrl;
-    papers.target = "_blank";
-    papers.rel = "noopener noreferrer";
-    papers.textContent = "View papers on ADS ↗";
-    profileLinks.append(papers);
-  }
+  const email = person.email?.trim();
+  addExternalLink(profileLinks, email && `mailto:${email}`, email, false);
+  addExternalLink(profileLinks, websiteUrl(person.website), "Personal website ↗");
+  addExternalLink(profileLinks, websiteUrl(person.scholar), "Google Scholar ↗");
+  addExternalLink(profileLinks, adsUrl(person), "View papers on ADS ↗");
 
   if (profileLinks.childElementCount) {
     content.append(profileLinks);
