@@ -3,8 +3,32 @@
     "This file is generated automatically by the ADS update workflow.",
     "Do not edit the papers array by hand; edit people.json to update the group roster instead."
   ],
-  "generatedAt": "2026-09-12T08:21:35.330Z",
+  "generatedAt": "2026-09-14T17:50:41.146Z",
   "papers": [
+    {
+      "title": "No Luminous Little Red Dots: A Sharp Cutoff in Their Luminosity Function",
+      "authors": "Ma, Yilun, Greene, Jenny E., Volonteri, Marta, Goulding, Andy D., Setton, David J., Annunziatella, Marianna, Egami, Eiichi, Fan, Xiaohui, Kokorev, Vasily, Labbe, Ivo, Lin, Xiaojing, Marchesini, Danilo, Matthee, Jorryt, Nanayakkara, Themiya, Robbins, Luke, Sajina, Anna, Sawicki, Marcin",
+      "year": "2026",
+      "type": "Journal article",
+      "members": [
+        "Eiichi Egami"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1008L..64M/abstract",
+      "doiUrl": "https://doi.org/10.3847/2041-8213/aea071"
+    },
+    {
+      "title": "SAPPHIRES: A Galaxy Overdensity in the Heart of Cosmic Reionization at z = 8.47",
+      "authors": "Fudamoto, Yoshinobu, Helton, Jakob M., Lin, Xiaojing, Sun, Fengwu, Behroozi, Peter, Hsiao, Tiger Yu-Yang, Egami, Eiichi, Bunker, Andrew J., D'Eugenio, Francesco, Harikane, Yuichi, Ouchi, Masami, Liu, Yichen, Liu, Weizhe, Maiolino, Roberto, Ji, Zhiyuan, Jin, Xiangyu, Tee, Wei Leong, Wang, Feige, Willmer, Christopher N. A., Xu, Yi, Yang, Jinyi, Zhu, Yongda",
+      "year": "2026",
+      "type": "Journal article",
+      "members": [
+        "Eiichi Egami",
+        "Yichen Liu",
+        "Yongda Zhu"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1008..217F/abstract",
+      "doiUrl": "https://doi.org/10.3847/1538-4357/ae743f"
+    },
     {
       "title": "A Compact Protogroup at z ∼ 5: A Massive Galaxy Caught in Formation",
       "authors": "Laishram, Ronaldo, Koyama, Yusei, Sun, Fengwu, Morishita, Takahiro, Fudamoto, Yoshinobu, Kusakabe, Haruka, Helton, Jakob M., Lin, Xiaojing, Kodama, Tadayuki, Egami, Eiichi, Takahashi, Kosuke, Sutanto, Ryo Albert, Haryana, Novan Saputra, Chen, Zhengyi",
@@ -289,6 +313,17 @@
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...996...93L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2504.08039",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae1b9b"
+    },
+    {
+      "title": "Compact Core, Extended Reach: A Bipolar Kiloparsec-scale Elongation in a Little Red Dot at z ≈ 5.5",
+      "authors": "Ji, Zhiyuan, Sun, Yang, Giavalisco, Mauro, Zhu, Yongda, Rieke, George H., Williams, Christina C., Maseda, Michael V., Lyu, Jianwei, Rieke, Marcia, Tacchella, Sandro",
+      "year": "2026",
+      "type": "Journal article",
+      "members": [
+        "Yongda Zhu"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1008L..55J/abstract",
+      "doiUrl": "https://doi.org/10.3847/2041-8213/ae9fea"
     },
     {
       "title": "Determining Total Infrared Luminosities from Submillimeter Measurements of High-redshift Galaxies",
@@ -779,6 +814,16 @@
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1008...52V/abstract",
       "arxivUrl": "https://arxiv.org/abs/2511.04786",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae8c3d"
+    },
+    {
+      "title": "Forward-Modeling Emission Line Galaxy Kinematics and Morphology with JWST NIRCam Grisms",
+      "authors": "Akhtarkavan, Arshia, Liu, Yichen, Egami, Eiichi, Sun, Fengwu, Jwst-Sapphires",
+      "year": "2026",
+      "type": "Meeting abstract",
+      "members": [
+        "Arshia Akhtarkavan"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026AAS...24728204A/abstract"
     },
     {
       "title": "The JADES Origins Field: A New JWST Deep Field in the JADES Second NIRCam Data Release",
@@ -1482,6 +1527,7 @@
       "year": "2025",
       "type": "Preprint",
       "members": [
+        "Arshia Akhtarkavan",
         "Yongda Zhu"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025arXiv250315587S/abstract",
@@ -2106,6 +2152,16 @@
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024zndo..12785928V/abstract",
       "doiUrl": "https://doi.org/10.5281/zenodo.12785928"
+    },
+    {
+      "title": "Discovery of 39 Transients/Variables (z_host = 0.437-5.271) in GOODS-N using JADES and CONGRESS JWST/NIRCam Images",
+      "authors": "DeCoursey, C., Egami, E., Sun, F., Akhtarkavan, A., Salamat, S., Mewhirter, L., Pokharel, A., Haynes, P., Rest, A., Pierel, J., Coulter, D., Li, X., Hainline, K., Robertson, B., Tacchella, S., Williams, C. C., Willmer, C. N. A.",
+      "year": "2024",
+      "type": "Astronomical circular",
+      "members": [
+        "Arshia Akhtarkavan"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024TNSAN.264....1D/abstract"
     },
     {
       "title": "JWST NIRSpec/NIRCam Follow-Up of the High-Redshift Transients Discovered in the GOODS-S JADES-Deep Field",
