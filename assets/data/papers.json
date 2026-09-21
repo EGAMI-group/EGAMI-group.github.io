@@ -3,7 +3,7 @@
     "This file is generated automatically by the ADS update workflow.",
     "Do not edit the papers array by hand; edit people.json to update the group roster instead."
   ],
-  "generatedAt": "2026-09-14T17:50:41.146Z",
+  "generatedAt": "2026-09-21T17:57:29.400Z",
   "papers": [
     {
       "title": "No Luminous Little Red Dots: A Sharp Cutoff in Their Luminosity Function",
@@ -14,6 +14,7 @@
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1008L..64M/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2509.02662",
       "doiUrl": "https://doi.org/10.3847/2041-8213/aea071"
     },
     {
@@ -27,6 +28,7 @@
         "Yongda Zhu"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1008..217F/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2503.15597",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae743f"
     },
     {
@@ -315,6 +317,18 @@
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae1b9b"
     },
     {
+      "title": "Learning JWST. I. A Foundation Model for New Population Discoveries and Morphology-Aware Photometric Redshift Measurements in the JADES Survey",
+      "authors": "Ding, Jiani, Yue, Minghao, Zhu, Yongda, Fan, Xiaohui, Luo, Yufeng",
+      "year": "2026",
+      "type": "Preprint",
+      "members": [
+        "Yongda Zhu"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260911879D/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2609.11879",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2609.11879"
+    },
+    {
       "title": "Compact Core, Extended Reach: A Bipolar Kiloparsec-scale Elongation in a Little Red Dot at z ≈ 5.5",
       "authors": "Ji, Zhiyuan, Sun, Yang, Giavalisco, Mauro, Zhu, Yongda, Rieke, George H., Williams, Christina C., Maseda, Michael V., Lyu, Jianwei, Rieke, Marcia, Tacchella, Sandro",
       "year": "2026",
@@ -323,6 +337,7 @@
         "Yongda Zhu"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1008L..55J/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2606.18342",
       "doiUrl": "https://doi.org/10.3847/2041-8213/ae9fea"
     },
     {
@@ -431,18 +446,6 @@
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260619449C/abstract",
       "arxivUrl": "https://arxiv.org/abs/2606.19449",
       "doiUrl": "https://doi.org/10.48550/arXiv.2606.19449"
-    },
-    {
-      "title": "Compact Core, Extended Reach: A Bipolar kpc-Scale Elongation in a Little Red Dot at $z \\approx 5.5$",
-      "authors": "Ji, Zhiyuan, Sun, Yang, Giavalisco, Mauro, Zhu, Yongda, Rieke, George H., Williams, Christina C., Maseda, Michael V., Lyu, Jianwei, Rieke, Marcia, Tacchella, Sandro",
-      "year": "2026",
-      "type": "Preprint",
-      "members": [
-        "Yongda Zhu"
-      ],
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260618342J/abstract",
-      "arxivUrl": "https://arxiv.org/abs/2606.18342",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2606.18342"
     },
     {
       "title": "Probing Direct Contributions of Galaxies and AGN to Cosmic Reionization in a Quasar Field J0226+0302 with JWST NIRCam and NIRSpec",
@@ -1508,18 +1511,6 @@
         "Yongda Zhu"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025jwst.prop.7390W/abstract"
-    },
-    {
-      "title": "SAPPHIRES: A Galaxy Over-Density in the Heart of Cosmic Reionization at $z=8.47$",
-      "authors": "Fudamoto, Yoshinobu, Helton, Jakob M., Lin, Xiaojing, Sun, Fengwu, Behroozi, Peter, Hsiao, Tiger Yu-Yang, Egami, Eiichi, Bunker, Andrew J., Harikane, Yuichi, Ouchi, Masami, Liu, Yichen, Liu, Weizhe, Maiolino, Roberto, Ji, Zhiyuan, Jin, Xiangyu, Tee, Wei Leong, Wang, Feige, Willmer, Christopher N. A., Xu, Yi, Zhu, Yongda",
-      "year": "2025",
-      "type": "Preprint",
-      "members": [
-        "Yongda Zhu"
-      ],
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025arXiv250315597F/abstract",
-      "arxivUrl": "https://arxiv.org/abs/2503.15597",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2503.15597"
     },
     {
       "title": "Slitless Areal Pure-Parallel HIgh-Redshift Emission Survey (SAPPHIRES): Early Data Release of Deep JWST/NIRCam Images and Spectra in MACS J0416 Parallel Field",
