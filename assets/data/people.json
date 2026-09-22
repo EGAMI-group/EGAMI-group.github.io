@@ -96,6 +96,13 @@
       "name": "Shruti Karandikar",
       "role": "Undergraduate Student",
       "status": "active"
+    },
+    {
+      "name": "Stone Guymon",
+      "role": "Undergraduate Student",
+      "status": "active",
+      "email": "stguymon@arizona.edu",
+      "photo": "Stone_Guymon.png"
     }
   ]
 }
