@@ -3,7 +3,7 @@
     "This file is generated automatically by the ADS update workflow.",
     "Do not edit the papers array by hand; edit people.json to update the group roster instead."
   ],
-  "generatedAt": "2026-09-21T17:57:29.400Z",
+  "generatedAt": "2026-09-23T22:29:44.708Z",
   "papers": [
     {
       "title": "No Luminous Little Red Dots: A Sharp Cutoff in Their Luminosity Function",
@@ -111,6 +111,7 @@
       "year": "2026",
       "type": "Journal article",
       "members": [
+        "David Puskas",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1004..161H/abstract",
@@ -187,6 +188,7 @@
       "year": "2026",
       "type": "Journal article",
       "members": [
+        "David Puskas",
         "Eiichi Egami",
         "Junyu Zhang",
         "Yongda Zhu",
@@ -216,6 +218,7 @@
       "type": "Journal article",
       "members": [
         "Christa DeCoursey",
+        "David Puskas",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJS..283....6E/abstract",
@@ -353,6 +356,18 @@
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae92fb"
     },
     {
+      "title": "Super-Eddington Little Blue Dots May Reionize Helium Too Early",
+      "authors": "Cain, Christopher, Smith, Brent, Bowling, Gibson B., Zhu, Yongda, Whitler, Lily, Ortiz, Rafael, III, D'Aloisio, Anson, Windhorst, Rogier",
+      "year": "2026",
+      "type": "Preprint",
+      "members": [
+        "Yongda Zhu"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260828745C/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2608.28745",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2608.28745"
+    },
+    {
       "title": "Low Ly$α$ Visibility in Galaxy Overdensities: Reionization Topology and Neutral-Fraction Ceilings from DIVER over $4.8&lt;z&lt;11$",
       "authors": "Zhu, Yongda, Fan, Xiaohui, Keating, Laura C., Becker, George D., Egami, Eiichi, Lin, Xiaojing, Sun, Fengwu, Cain, Christopher, Rieke, Marcia J., Bunker, Andrew J., Cai, Sijia, D'Eugenio, Francesco, Helton, Jakob M., Jin, Xiangyu, Li, Mingyu, Ma, Zheng, Maiolino, Roberto, Rinaldi, Pierluigi, Willmer, Christopher N. A., Wu, Yunjing, Wu, Zihao, Zhang, Junyu",
       "year": "2026",
@@ -477,6 +492,7 @@
       "year": "2026",
       "type": "Journal article",
       "members": [
+        "David Puskas",
         "Yongda Zhu"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.549ag824D/abstract",
@@ -771,6 +787,18 @@
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae7a2f"
     },
     {
+      "title": "JADES and BlackTHUNDER: rest-frame Balmer-line absorption and the local environment in a Little Red Dot at z = 5",
+      "authors": "D'Eugenio, Francesco, Juodžbalis, Ignas, Ji, Xihan, Scholtz, Jan, Maiolino, Roberto, Carniani, Stefano, Perna, Michele, Mazzolari, Giovanni, Übler, Hannah, Arribas, Santiago, Bhatawdekar, Rachana, Bunker, Andrew J., Cresci, Giovanni, Curtis-Lake, Emma, Hainline, Kevin, Inayoshi, Kohei, Isobe, Yuki, Ji, Zhiyuan, Johnson, Benjamin D., Jones, Gareth C., Looser, Tobias J., Nelson, Erica J., Parlanti, Eleonora, Puskás, Dávid, Rinaldi, Pierluigi, Robertson, Brant, Rodríguez Del Pino, Bruno, Shivaei, Irene, Sun, Fengwu, Tacchella, Sandro, Venturi, Giacomo, Volonteri, Marta, Williams, Christina C., Willmer, Christopher N. A., Willott, Chris, Witstok, Joris",
+      "year": "2026",
+      "type": "Journal article",
+      "members": [
+        "David Puskas"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.545f2117D/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2506.14870",
+      "doiUrl": "https://doi.org/10.1093/mnras/staf2117"
+    },
+    {
       "title": "COSMOS-3D: Black Hole Mass Estimators and Luminosity Functions of Paschen-line AGNs",
       "authors": "Jiang, Danyang, Jiang, Linhua, Fu, Shuqi, Zhang, Zijian, Chen, Jie, Pan, Zhiwei, Sun, Shengxiu, Sun, Fengwu, Ho, Luis C., Shangguan, Jinyi, Faisst, Andreas L., Gilbert, Olivier, Li, Mingyu, Liu, Yichen, Li, Zi-Jian, Tanaka, Takumi S.",
       "year": "2026",
@@ -835,6 +863,7 @@
       "type": "Journal article",
       "members": [
         "Christa DeCoursey",
+        "David Puskas",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJS..281...50E/abstract",
@@ -874,6 +903,7 @@
       "year": "2025",
       "type": "Journal article",
       "members": [
+        "David Puskas",
         "Eiichi Egami",
         "Yichen Liu"
       ],
@@ -925,6 +955,7 @@
       "year": "2025",
       "type": "Journal article",
       "members": [
+        "David Puskas",
         "Eiichi Egami",
         "Yongda Zhu"
       ],
@@ -940,6 +971,7 @@
       "members": [
         "Arshia Akhtarkavan",
         "Christa DeCoursey",
+        "David Puskas",
         "Eiichi Egami",
         "Junyu Zhang"
       ],
@@ -1134,6 +1166,7 @@
       "year": "2025",
       "type": "Journal article",
       "members": [
+        "David Puskas",
         "Eiichi Egami",
         "Yongda Zhu"
       ],
@@ -1211,6 +1244,7 @@
       "year": "2025",
       "type": "Journal article",
       "members": [
+        "David Puskas",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025NatAs...9..141B/abstract",
@@ -1596,6 +1630,54 @@
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025AAS...24513901C/abstract"
     },
     {
+      "title": "Bursting at the seams: the star-forming main sequence and its scatter at z = 3─9 using NIRCam photometry from JADES",
+      "authors": "Simmonds, C., Tacchella, S., McClymont, W., Curtis-Lake, E., D'Eugenio, F., Hainline, K., Johnson, B. D., Kravtsov, A., Puskás, D., Robertson, B., Stoffers, A., Willott, C., Baker, W. M., Belokurov, V. A., Bhatawdekar, R., Bunker, A. J., Carniani, S., Chevallard, J., Curti, M., Duan, Q., Helton, J. M., Ji, Z., Looser, T. J., Maiolino, R., Maseda, M. V., Shivaei, I., Williams, C. C.",
+      "year": "2025",
+      "type": "Journal article",
+      "members": [
+        "David Puskas"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025MNRAS.544.4551S/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2508.04410",
+      "doiUrl": "https://doi.org/10.1093/mnras/staf1950"
+    },
+    {
+      "title": "Mergers lighting the early Universe: enhanced star formation, AGN triggering, and Ly$α$ emission in close pairs at $z=3-9$",
+      "authors": "Puskás, Dávid, Tacchella, Sandro, Simmonds, Charlotte, Jones, Gareth C., Juodžbalis, Ignas, Scholtz, Jan, Baker, William M., Bunker, Andrew J., Carniani, Stefano, Curtis-Lake, Emma, Duan, Qiao, Eisenstein, Daniel J., Hainline, Kevin, Johnson, Benjamin D., Maiolino, Roberto, Rieke, Marcia, Robertson, Brant, Williams, Christina C., Witstok, Joris",
+      "year": "2025",
+      "type": "Preprint",
+      "members": [
+        "David Puskas"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025arXiv251014743P/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2510.14743",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2510.14743"
+    },
+    {
+      "title": "Constraining the major merger history of z ~ 3-9 galaxies using JADES: dominant in situ star formation",
+      "authors": "Puskás, Dávid, Tacchella, Sandro, Simmonds, Charlotte, Hainline, Kevin, D'Eugenio, Francesco, Alberts, Stacey, Arribas, Santiago, Baker, William M., Bunker, Andrew J., Carniani, Stefano, Charlot, Stéphane, Duan, Qiao, Eisenstein, Daniel J., Ji, Zhiyuan, Johnson, Benjamin D., Jones, Gareth C., Maiolino, Roberto, McClymont, William, Rieke, Marcia, Rinaldi, Pierluigi, Robertson, Brant, Übler, Hannah, Williams, Christina C., Willmer, Christopher N. A., Willott, Chris, Witstok, Joris",
+      "year": "2025",
+      "type": "Journal article",
+      "members": [
+        "David Puskas"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025MNRAS.540.2146P/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2502.01721",
+      "doiUrl": "https://doi.org/10.1093/mnras/staf813"
+    },
+    {
+      "title": "Resolving the nature and putative nebular emission of GS9422: an obscured AGN without exotic stars",
+      "authors": "Tacchella, Sandro, McClymont, William, Scholtz, Jan, Maiolino, Roberto, Ji, Xihan, Villanueva, Natalia C., Charlot, Stéphane, D'Eugenio, Francesco, Helton, Jakob M., Williams, Christina C., Witstok, Joris, Bhatawdekar, Rachana, Carniani, Stefano, Chevallard, Jacopo, Curti, Mirko, Hainline, Kevin, Ji, Zhiyuan, Johnson, Benjamin D., Leja, Joel, Li, Yijia, Maseda, Michael V., Puskás, Dávid, Rieke, Marcia, Robertson, Brant, Shivaei, Irene, Silcock, Maddie S., Simmonds, Charlotte, Übler, Hannah, Willmer, Christopher N. A., Willott, Chris",
+      "year": "2025",
+      "type": "Journal article",
+      "members": [
+        "David Puskas"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025MNRAS.540..851T/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2404.02194",
+      "doiUrl": "https://doi.org/10.1093/mnras/staf718"
+    },
+    {
       "title": "Dwarf Active Galactic Nuclei from Variability for the Origins of Seeds (DAVOS): Properties of Variability-selected AGN in the Dark Energy Survey Deep Fields",
       "authors": "Liu, Yichen, Burke, Colin J., Miura, Diego, Liu, Xin, Yang, Qian, Natarajan, Priyamvada, Ward, Charlotte A.",
       "year": "2025",
@@ -1711,6 +1793,7 @@
       "year": "2024",
       "type": "Journal article",
       "members": [
+        "David Puskas",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...970...31R/abstract",
@@ -1747,6 +1830,7 @@
       "year": "2024",
       "type": "Journal article",
       "members": [
+        "David Puskas",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...968....4P/abstract",
@@ -1827,6 +1911,7 @@
       "year": "2024",
       "type": "Journal article",
       "members": [
+        "David Puskas",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...964...71H/abstract",
@@ -1914,6 +1999,7 @@
       "year": "2024",
       "type": "Journal article",
       "members": [
+        "David Puskas",
         "Yongda Zhu"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.535.2998S/abstract",
@@ -2099,6 +2185,30 @@
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad1d5d"
     },
     {
+      "title": "The star-forming and ionizing properties of dwarf z 6-9 galaxies in JADES: insights on bursty star formation and ionized bubble growth",
+      "authors": "Endsley, Ryan, Stark, Daniel P., Whitler, Lily, Topping, Michael W., Johnson, Benjamin D., Robertson, Brant, Tacchella, Sandro, Alberts, Stacey, Baker, William M., Bhatawdekar, Rachana, Boyett, Kristan, Bunker, Andrew J., Cameron, Alex J., Carniani, Stefano, Charlot, Stephane, Chen, Zuyi, Chevallard, Jacopo, Curtis-Lake, Emma, Danhaive, A. Lola, Egami, Eiichi, Eisenstein, Daniel J., Hainline, Kevin, Helton, Jakob M., Ji, Zhiyuan, Looser, Tobias J., Maiolino, Roberto, Nelson, Erica, Puskás, Dávid, Rieke, George, Rieke, Marcia, Rix, Hans-Walter, Sandles, Lester, Saxena, Aayush, Simmonds, Charlotte, Smit, Renske, Sun, Fengwu, Williams, Christina C., Willmer, Christopher N. A., Willott, Chris, Witstok, Joris",
+      "year": "2024",
+      "type": "Journal article",
+      "members": [
+        "David Puskas"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.533.1111E/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2306.05295",
+      "doiUrl": "https://doi.org/10.1093/mnras/stae1857"
+    },
+    {
+      "title": "Deciphering Lyman-α emission deep into the epoch of reionization",
+      "authors": "Witten, Callum, Laporte, Nicolas, Martin-Alvarez, Sergio, Sijacki, Debora, Yuan, Yuxuan, Haehnelt, Martin G., Baker, William M., Dunlop, James S., Ellis, Richard S., Grogin, Norman A., Illingworth, Garth, Katz, Harley, Koekemoer, Anton M., Magee, Daniel, Maiolino, Roberto, McClymont, William, Pérez-González, Pablo G., Puskás, Dávid, Roberts-Borsani, Guido, Santini, Paola, Simmonds, Charlotte",
+      "year": "2024",
+      "type": "Journal article",
+      "members": [
+        "David Puskas"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024NatAs...8..384W/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2303.16225",
+      "doiUrl": "https://doi.org/10.1038/s41550-023-02179-3"
+    },
+    {
       "title": "DAVOS: Dwarf Active Galactic Nuclei from Variability for the Origins of Seeds: Properties of Variability-selected Active Galactic Nuclei in the COSMOS Field and Expectations for the Rubin Observatory",
       "authors": "Burke, Colin J., Liu, Yichen, Ward, Charlotte A., Liu, Xin, Natarajan, Priyamvada, Greene, Jenny E.",
       "year": "2024",
@@ -2171,6 +2281,7 @@
       "type": "Journal article",
       "members": [
         "Christa DeCoursey",
+        "David Puskas",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023ApJS..269...16R/abstract",
@@ -2273,6 +2384,7 @@
       "year": "2023",
       "type": "Journal article",
       "members": [
+        "David Puskas",
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023ApJ...952...74T/abstract",
