@@ -3,7 +3,7 @@
     "This file is generated automatically by the ADS update workflow.",
     "Do not edit the papers array by hand; edit people.json to update the group roster instead."
   ],
-  "generatedAt": "2026-09-23T22:35:42.942Z",
+  "generatedAt": "2026-09-28T19:21:29.552Z",
   "papers": [
     {
       "title": "No Luminous Little Red Dots: A Sharp Cutoff in Their Luminosity Function",
@@ -320,6 +320,30 @@
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae1b9b"
     },
     {
+      "title": "Spatially Resolved Active Galactic Nucleus Ionization and Star Formation at Cosmic Noon with JWST/JEMS",
+      "authors": "Lebowitz, Sophie, Hainline, Kevin N., Juneau, Stéphanie, Williams, Christina C., Panda, Swayamtrupta, Lyu, Jianwei, Maseda, Michael V., Tacchella, Sandro, Zhu, Yongda, Aguayo, Jessica L.",
+      "year": "2026",
+      "type": "Journal article",
+      "members": [
+        "Yongda Zhu"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1009..137L/abstract",
+      "doiUrl": "https://doi.org/10.3847/1538-4357/ae984b"
+    },
+    {
+      "title": "JADES: Dynamical Measurements of Dark Matter Halo Masses at $z \\approx 7$ Using Galaxy Pairs",
+      "authors": "Wu, Zihao, Eisenstein, Daniel J., Johnson, Benjamin D., Hernquist, Lars, Tacchella, Sandro, Robertson, Brant E., Arribas, Santiago, Bunker, Andrew J., Duan, Qiao, Helton, Jakob M., Ji, Zhiyuan, Puskás, Dávid, Rinaldi, Pierluigi, Sun, Fengwu, Übler, Hannah, Zhu, Yongda",
+      "year": "2026",
+      "type": "Preprint",
+      "members": [
+        "Dávid Puskás",
+        "Yongda Zhu"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260917756W/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2609.17756",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2609.17756"
+    },
+    {
       "title": "Learning JWST. I. A Foundation Model for New Population Discoveries and Morphology-Aware Photometric Redshift Measurements in the JADES Survey",
       "authors": "Ding, Jiani, Yue, Minghao, Zhu, Yongda, Fan, Xiaohui, Luo, Yufeng",
       "year": "2026",
@@ -517,6 +541,7 @@
       "year": "2026",
       "type": "Preprint",
       "members": [
+        "Dávid Puskás",
         "Yongda Zhu"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260521599D/abstract",
@@ -621,6 +646,18 @@
       "doiUrl": "https://doi.org/10.48550/arXiv.2602.24162"
     },
     {
+      "title": "Little Red Dots: One Photometric Tag Concealing Diverse Spectroscopic Flavors of Massive Star Formation and Black Hole Activity",
+      "authors": "Pérez-González, Pablo G., Barro, Guillermo, Carniani, Stefano, D'Eugenio, Francesco, Rieke, George H., Tripodi, Roberta, Bunker, Andrew J., Ji, Xihan, Marques-Chaves, Rui, Schaerer, Daniel, Venturi, Giacomo, Arévalo-González, Flor, Arribas, Santiago, Rinaldi, Pierluigi, Rodríguez Del Pino, Bruno, Witstok, Joris, Bhatawdekar, Rachana, Boogaard, Leindert A., Charlot, Stephane, Chevallard, Jacopo, Costantin, Luca, Curti, Mirko, Curtis-Lake, Emma, Daddi, Emanuele, Davis, Kelcey, Dickinson, Mark, Donnan, Callum T., Donnan, Fergus R., Dunlop, James S., Eisenstein, Daniel J., Ferguson, Henry C., Fernández Aranda, Román, Finkelstein, Steven L., Fujimoto, Seiji, Gandolfi, Giovanni, Giavalisco, Mauro, Grogin, Norman A., Hamed, Mahmoud, Hirschmann, Michaela, Kartaltepe, Jeyhan S., Kocevski, Dale D., Leung, Gene C. K., Lofaro, Cristina M., Lucas, Ray A., McLeod, Derek J., Melinder, Jens, Östlin, Goran, Papovich, Casey, Pentericci, Laura, Pérez-Díaz, Borja, Rieke, Marcia, Scholtz, Jan, Somerville, Rachel S., Stanton, Thomas M., Stevenson, Struan D., Shivaei, Irene, Tacchella, Sandro, Trump, Jonathan R., Übler, Hannah, Wang, Xin, Williams, Christina C., Willmer, Christopher N. A., Yung, L. Y. Aaron, Zhu, Yongda",
+      "year": "2026",
+      "type": "Preprint",
+      "members": [
+        "Yongda Zhu"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260220247P/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2602.20247",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2602.20247"
+    },
+    {
       "title": "E-XQR-30: evidence for an increase in the ionization state of metal absorbers from z ∼ 6 to z ∼ 2",
       "authors": "Rowlands, Stephanie, Davies, R. L., Ryan-Weber, E., Keating, L. C., Sebastian, A. M., Becker, G. D., Bischetti, M., Bosman, S. E. I., Chen, H., Davies, F. B., D'Odorico, V., Gaikwad, P., Gallerani, S., Haehnelt, M. G., Kulkarni, G., Meyer, R. A., Welsh, L., Zhu, Y.",
       "year": "2026",
@@ -719,6 +756,7 @@
       "year": "2026",
       "type": "Preprint",
       "members": [
+        "Dávid Puskás",
         "Yongda Zhu"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260115957C/abstract",
@@ -731,6 +769,7 @@
       "year": "2026",
       "type": "Preprint",
       "members": [
+        "Dávid Puskás",
         "Yongda Zhu"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260115956R/abstract",
@@ -743,6 +782,7 @@
       "year": "2026",
       "type": "Preprint",
       "members": [
+        "Dávid Puskás",
         "Yongda Zhu"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260115954J/abstract",
@@ -785,6 +825,65 @@
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1005..244O/abstract",
       "arxivUrl": "https://arxiv.org/abs/2506.20634",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae7a2f"
+    },
+    {
+      "title": "Mergers lighting the early Universe: modest star formation enhancement without evidence for AGN or Lyα triggering",
+      "authors": "Puskás, Dávid, Tacchella, Sandro, Simmonds, Charlotte, Jones, Gareth C., Juodžbalis, Ignas, Scholtz, Jan, Baker, William M., Bunker, Andrew J., Carniani, Stefano, Curtis-Lake, Emma, Duan, Qiao, Eisenstein, Daniel J., Hainline, Kevin, Johnson, Benjamin D., Maiolino, Roberto, Rieke, Marcia, Robertson, Brant, Williams, Christina C., Witstok, Joris",
+      "year": "2026",
+      "type": "Journal article",
+      "members": [
+        "Dávid Puskás"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.552g1698P/abstract",
+      "doiUrl": "https://doi.org/10.1093/mnras/stag1698"
+    },
+    {
+      "title": "Out of oxygen: extremely metal-poor galaxy candidates identified at 2.5 &lt; z &lt; 6.5 with deep JADES medium-band imaging",
+      "authors": "Trussler, James A. A., Eisenstein, Daniel J., Bunker, Andrew J., Cameron, Alex J., Carniani, Stefano, Charlot, Stéphane, Chevallard, Jacopo, Conselice, Christopher J., Curti, Mirko, Curtis-Lake, Emma, D'Eugenio, Francesco, Egami, Eiichi, Hainline, Kevin, Hausen, Ryan, Helton, Jakob M., Hsiao, Tiger Yu-Yang, Ji, Zhiyuan, Johnson, Benjamin D., Looser, Tobias J., Maiolino, Roberto, Puskás, Dávid, Rinaldi, Pierluigi, Robertson, Brant, Sun, Fengwu, Tacchella, Sandro, Übler, Hannah, Williams, Christina C., Willmer, Christopher N. A., Witstok, Joris, Wu, Zihao",
+      "year": "2026",
+      "type": "Journal article",
+      "members": [
+        "Dávid Puskás"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.550g1360T/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2603.15761",
+      "doiUrl": "https://doi.org/10.1093/mnras/stag1360"
+    },
+    {
+      "title": "JADES: the mass-metallicity relation at $z=1-10$. New calibrations, extremely metal-poor galaxies, and chemical diversity",
+      "authors": "Isobe, Yuki, Curti, Mirko, Maiolino, Roberto, Duan, Qiao, McClymont, William, Puskás, Dávid, D'Eugenio, Francesco, Rinaldi, Pierluigi, Trussler, James A. A., Scholtz, Jan, Looser, Tobias J., Nelson, Erica, Ji, Xihan, Langeroodi, Danial, Tacchella, Sandro, Jones, Gareth C., Juodžbalis, Ignas, Pascalau, Robert G., Hsiao, Tiger Yu-Yang, Übler, Hannah, Baker, William M., Bunker, Andrew J., Carniani, Stefano, Charlot, Stéphane, Curtis-Lake, Emma, Geris, Sophia, Koller, Maria, Lyu, Jianwei, Robertson, Brant, Williams, Christina C., Wu, Zihao",
+      "year": "2026",
+      "type": "Preprint",
+      "members": [
+        "Dávid Puskás"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260611345I/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2606.11345",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2606.11345"
+    },
+    {
+      "title": "Exploring spatially resolved metallicities, dynamics, and outflows in low-mass galaxies at z ∼ 7.6",
+      "authors": "Ivey, L. R., Scholtz, J., Danhaive, A. L., Koudmani, S., Jones, G. C., Maiolino, R., Curti, M., D'Eugenio, F., Tacchella, S., Baker, W. M., Arribas, S., Charlot, S., Eisenstein, D., Ji, Z., Koller, M., Laporte, N., Perna, M., Puskás, D., Robertson, B., Sijacki, D., Trussler, J. A. A., Witten, C.",
+      "year": "2026",
+      "type": "Journal article",
+      "members": [
+        "Dávid Puskás"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.546ag094I/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2507.14936",
+      "doiUrl": "https://doi.org/10.1093/mnras/stag094"
+    },
+    {
+      "title": "Stellar masses of optically dark galaxies: uncertainty introduced by the attenuation law and star-formation histories",
+      "authors": "Lapasia, Yash, Tacchella, Sandro, D'Eugenio, Francesco, Puskás, Dávid, Bunker, Andrew J., Danhaive, A. Lola, Johnson, Benjamin D., Maiolino, Roberto, Robertson, Brant, Simmonds, Charlotte, Shivaei, Irene, Williams, Christina C., Willmer, Christopher, Xiao, Mengyuan",
+      "year": "2026",
+      "type": "Preprint",
+      "members": [
+        "Dávid Puskás"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260108693L/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2601.08693",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2601.08693"
     },
     {
       "title": "JADES and BlackTHUNDER: rest-frame Balmer-line absorption and the local environment in a Little Red Dot at z = 5",
