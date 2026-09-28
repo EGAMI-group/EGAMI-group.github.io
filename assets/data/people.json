@@ -111,6 +111,14 @@
       "status": "active",
       "email": "stguymon@arizona.edu",
       "photo": "Stone_Guymon.png"
+    },
+    {
+      "name": "Christine Le",
+      "role": "Undergraduate Student",
+      "status": "active",
+      "photo": "Christine_Le.jpeg",
+      "email": "christinele@arizona.edu",
+      "website": "https://christinemountain.github.io/"
     }
   ]
 }
