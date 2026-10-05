@@ -3,7 +3,7 @@
     "This file is generated automatically by the ADS update workflow.",
     "Do not edit the papers array by hand; edit people.json to update the group roster instead."
   ],
-  "generatedAt": "2026-09-28T19:21:29.552Z",
+  "generatedAt": "2026-10-05T20:23:13.855Z",
   "papers": [
     {
       "title": "No Luminous Little Red Dots: A Sharp Cutoff in Their Luminosity Function",
@@ -328,6 +328,7 @@
         "Yongda Zhu"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1009..137L/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2604.01271",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae984b"
     },
     {
@@ -597,18 +598,6 @@
       "doiUrl": "https://doi.org/10.48550/arXiv.2604.18522"
     },
     {
-      "title": "Spatially Resolved AGN Ionization and Star Formation at Cosmic Noon with JWST/JEMS",
-      "authors": "Lebowitz, Sophie, Hainline, Kevin N., Juneau, Stephanie, William, Christina C., Panda, Swayamtrupta, Lyu, Jianwei, Maseda, Michael V., Tacchella, Sandro, Zhu, Yongda, Aguayo, Jessica L.",
-      "year": "2026",
-      "type": "Preprint",
-      "members": [
-        "Yongda Zhu"
-      ],
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260401271L/abstract",
-      "arxivUrl": "https://arxiv.org/abs/2604.01271",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2604.01271"
-    },
-    {
       "title": "A Potential Link between Nuclear Winds and Cold Gas Outflows on Kiloparsec Scales in Reionization-era Quasars",
       "authors": "Zhu, Yongda, Rieke, Marcia J., Ho, Luis C., Sun, Yang, Rieke, George H., Yuan, Feng, Bakx, Tom J. L. C., Becker, George D., Yang, Jinyi, Bañados, Eduardo, Bischetti, Manuela, Cain, Christopher, Fan, Xiaohui, Fudamoto, Yoshinobu, Hashemi, Seyedazim, Ikeda, Ryota, Ji, Zhiyuan, Jin, Xiangyu, Liu, Weizhe, Liu, Yichen, Lyu, Jianwei, Ma, Hai-Xia, Takeuchi, Tsutomu T., Umehata, Hideki, Wang, Feige, Tee, Wei Leong",
       "year": "2026",
@@ -872,18 +861,6 @@
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.546ag094I/abstract",
       "arxivUrl": "https://arxiv.org/abs/2507.14936",
       "doiUrl": "https://doi.org/10.1093/mnras/stag094"
-    },
-    {
-      "title": "Stellar masses of optically dark galaxies: uncertainty introduced by the attenuation law and star-formation histories",
-      "authors": "Lapasia, Yash, Tacchella, Sandro, D'Eugenio, Francesco, Puskás, Dávid, Bunker, Andrew J., Danhaive, A. Lola, Johnson, Benjamin D., Maiolino, Roberto, Robertson, Brant, Simmonds, Charlotte, Shivaei, Irene, Williams, Christina C., Willmer, Christopher, Xiao, Mengyuan",
-      "year": "2026",
-      "type": "Preprint",
-      "members": [
-        "Dávid Puskás"
-      ],
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260108693L/abstract",
-      "arxivUrl": "https://arxiv.org/abs/2601.08693",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2601.08693"
     },
     {
       "title": "JADES and BlackTHUNDER: rest-frame Balmer-line absorption and the local environment in a Little Red Dot at z = 5",
