@@ -3,8 +3,21 @@
     "This file is generated automatically by the ADS update workflow.",
     "Do not edit the papers array by hand; edit people.json to update the group roster instead."
   ],
-  "generatedAt": "2026-10-05T20:23:13.855Z",
+  "generatedAt": "2026-10-12T20:59:56.293Z",
   "papers": [
+    {
+      "title": "Early metal-enriched baryon cycling before the midpoint of cosmic reionization",
+      "authors": "Zhu, Yongda, Ji, Zhiyuan, Becker, George D., Ding, Jiani, Egami, Eiichi, Fan, Xiaohui, Jin, Xiangyu, Liu, Weizhe, Lyu, Jianwei, Ma, Zheng, Narisetty, Suprabhas, Rieke, George H., Wu, Yunjing, Yue, Minghao, Zhang, Junyu, Rieke, Marcia J.",
+      "year": "2026",
+      "type": "Journal article",
+      "members": [
+        "Eiichi Egami",
+        "Yongda Zhu",
+        "Zheng Ma"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026NatAs.tmp..217Z/abstract",
+      "doiUrl": "https://doi.org/10.1038/s41550-026-02988-2"
+    },
     {
       "title": "No Luminous Little Red Dots: A Sharp Cutoff in Their Luminosity Function",
       "authors": "Ma, Yilun, Greene, Jenny E., Volonteri, Marta, Goulding, Andy D., Setton, David J., Annunziatella, Marianna, Egami, Eiichi, Fan, Xiaohui, Kokorev, Vasily, Labbe, Ivo, Lin, Xiaojing, Marchesini, Danilo, Matthee, Jorryt, Nanayakkara, Themiya, Robbins, Luke, Sajina, Anna, Sawicki, Marcin",
@@ -320,6 +333,28 @@
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae1b9b"
     },
     {
+      "title": "JADES: The Star Formation and Dust Reddening Properties of Galaxies at 3 &lt; z &lt; 7",
+      "authors": "Woodrum, Charity, Shivaei, Irene, Witstok, Joris, Saxena, Aayush, Simmonds, Charlotte, Scholtz, Jan, Bhatawdekar, Rachana, Bunker, Andrew J., Carniani, Stefano, Charlot, Stéphane, Curti, Mirko, Curtis-Lake, Emma, Chevallard, Jacopo, D'Eugenio, Francesco, Hainline, Kevin, Helton, Jakob M., Maiolino, Roberto, Perna, Michele, Rinaldi, Pierluigi, Robertson, Brant, Straughn, Amber, Sun, Yang, Tacchella, Sandro, Williams, Christina C., Willott, Chris, Zhu, Yongda, O'Ferrall, Ana Varo",
+      "year": "2026",
+      "type": "Journal article",
+      "members": [
+        "Yongda Zhu"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1009..207W/abstract",
+      "doiUrl": "https://doi.org/10.3847/1538-4357/ae9f4d"
+    },
+    {
+      "title": "Q-IFU: A JWST/NIRSpec Integral Field Unit Survey of Luminous Quasars at z ~ 5-6: Rest-frame Optical Nuclear Properties and Extended Nebulae",
+      "authors": "Liu, Weizhe, Fan, Xiaohui, Green, Richard, Champagne, Jaclyn B., Jin, Xiangyu, Lyu, Jianwei, Pudoka, Maria, Tee, Wei Leong, Wang, Feige, Yang, Jinyi, Zhu, Yongda, Abdessalam, Nayera, Zhang, Haowen",
+      "year": "2026",
+      "type": "Journal article",
+      "members": [
+        "Yongda Zhu"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1009..176L/abstract",
+      "doiUrl": "https://doi.org/10.3847/1538-4357/ae99e0"
+    },
+    {
       "title": "Spatially Resolved Active Galactic Nucleus Ionization and Star Formation at Cosmic Noon with JWST/JEMS",
       "authors": "Lebowitz, Sophie, Hainline, Kevin N., Juneau, Stéphanie, Williams, Christina C., Panda, Swayamtrupta, Lyu, Jianwei, Maseda, Michael V., Tacchella, Sandro, Zhu, Yongda, Aguayo, Jessica L.",
       "year": "2026",
@@ -355,6 +390,17 @@
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260911879D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2609.11879",
       "doiUrl": "https://doi.org/10.48550/arXiv.2609.11879"
+    },
+    {
+      "title": "First-star imprints in a metal-poor galaxy overdensity near the end of reionization",
+      "authors": "Li, Zihao, Kakiichi, Koki, Christensen, Lise, Cai, Zheng, D'Odorico, Valentina, Matthee, Jorryt, Kashino, Daichi, Bordoloi, Rongmon, Mackenzie, Ruari, Berg, Trystyn A. M., Vanni, Irene, Salvadori, Stefania, Venditti, Alessandra, Zhang, Shiwu, Bosman, Sarah E. I., Bañados, Eduardo, Davies, Frederick B., Fan, Xiaohui, Jun, Hyunsung D., Jin, Xiangyu, Li, Mingyu, Rojas-Ruiz, Sofía, Wang, Feige, Yang, Jinyi, Zou, Siwei, Zhang, Huanian, Zhu, Yongda",
+      "year": "2026",
+      "type": "Journal article",
+      "members": [
+        "Yongda Zhu"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026NatAs.tmp..219L/abstract",
+      "doiUrl": "https://doi.org/10.1038/s41550-026-02993-5"
     },
     {
       "title": "Compact Core, Extended Reach: A Bipolar Kiloparsec-scale Elongation in a Little Red Dot at z ≈ 5.5",
