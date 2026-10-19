@@ -3,7 +3,7 @@
     "This file is generated automatically by the ADS update workflow.",
     "Do not edit the papers array by hand; edit people.json to update the group roster instead."
   ],
-  "generatedAt": "2026-10-12T20:59:56.293Z",
+  "generatedAt": "2026-10-19T18:26:03.796Z",
   "papers": [
     {
       "title": "Early metal-enriched baryon cycling before the midpoint of cosmic reionization",
@@ -862,6 +862,18 @@
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae7a2f"
     },
     {
+      "title": "Stellar masses of optically dark galaxies: uncertainty introduced by the attenuation law and star-formation histories",
+      "authors": "Lapasia, Yash, Tacchella, Sandro, D'Eugenio, Francesco, Puskás, Dávid, Bunker, Andrew J., Danhaive, A. Lola, Johnson, Benjamin D., Maiolino, Roberto, Robertson, Brant, Simmonds, Charlotte, Shivaei, Irene, Williams, Christina C., Willmer, Christopher, Xiao, Mengyuan",
+      "year": "2026",
+      "type": "Journal article",
+      "members": [
+        "Dávid Puskás"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.552g1817L/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2601.08693",
+      "doiUrl": "https://doi.org/10.1093/mnras/stag1817"
+    },
+    {
       "title": "Mergers lighting the early Universe: modest star formation enhancement without evidence for AGN or Lyα triggering",
       "authors": "Puskás, Dávid, Tacchella, Sandro, Simmonds, Charlotte, Jones, Gareth C., Juodžbalis, Ignas, Scholtz, Jan, Baker, William M., Bunker, Andrew J., Carniani, Stefano, Curtis-Lake, Emma, Duan, Qiao, Eisenstein, Daniel J., Hainline, Kevin, Johnson, Benjamin D., Maiolino, Roberto, Rieke, Marcia, Robertson, Brant, Williams, Christina C., Witstok, Joris",
       "year": "2026",
@@ -907,6 +919,18 @@
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.546ag094I/abstract",
       "arxivUrl": "https://arxiv.org/abs/2507.14936",
       "doiUrl": "https://doi.org/10.1093/mnras/stag094"
+    },
+    {
+      "title": "Stellar masses of optically dark galaxies: uncertainty introduced by the attenuation law and star-formation histories",
+      "authors": "Lapasia, Yash, Tacchella, Sandro, D'Eugenio, Francesco, Puskás, Dávid, Bunker, Andrew J., Danhaive, A. Lola, Johnson, Benjamin D., Maiolino, Roberto, Robertson, Brant, Simmonds, Charlotte, Shivaei, Irene, Williams, Christina C., Willmer, Christopher, Xiao, Mengyuan",
+      "year": "2026",
+      "type": "Preprint",
+      "members": [
+        "Dávid Puskás"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260108693L/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2601.08693",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2601.08693"
     },
     {
       "title": "JADES and BlackTHUNDER: rest-frame Balmer-line absorption and the local environment in a Little Red Dot at z = 5",
@@ -1764,7 +1788,7 @@
       "doiUrl": "https://doi.org/10.1093/mnras/staf1950"
     },
     {
-      "title": "Mergers lighting the early Universe: enhanced star formation, AGN triggering, and Ly$α$ emission in close pairs at $z=3-9$",
+      "title": "Mergers lighting the early Universe: modest star formation enhancement without evidence for AGN or Ly$α$ triggering",
       "authors": "Puskás, Dávid, Tacchella, Sandro, Simmonds, Charlotte, Jones, Gareth C., Juodžbalis, Ignas, Scholtz, Jan, Baker, William M., Bunker, Andrew J., Carniani, Stefano, Curtis-Lake, Emma, Duan, Qiao, Eisenstein, Daniel J., Hainline, Kevin, Johnson, Benjamin D., Maiolino, Roberto, Rieke, Marcia, Robertson, Brant, Williams, Christina C., Witstok, Joris",
       "year": "2025",
       "type": "Preprint",
