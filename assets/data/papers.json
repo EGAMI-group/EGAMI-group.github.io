@@ -3,7 +3,7 @@
     "This file is generated automatically by the ADS update workflow.",
     "Do not edit the papers array by hand; edit people.json to update the group roster instead."
   ],
-  "generatedAt": "2026-10-19T18:26:03.796Z",
+  "generatedAt": "2026-10-26T18:21:43.904Z",
   "papers": [
     {
       "title": "Early metal-enriched baryon cycling before the midpoint of cosmic reionization",
@@ -444,7 +444,8 @@
       "year": "2026",
       "type": "Preprint",
       "members": [
-        "Yongda Zhu"
+        "Yongda Zhu",
+        "Zheng Ma"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260819311Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2608.19311",
@@ -468,7 +469,8 @@
       "year": "2026",
       "type": "Preprint",
       "members": [
-        "Yongda Zhu"
+        "Yongda Zhu",
+        "Zheng Ma"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260723020Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2607.23020",
@@ -480,7 +482,8 @@
       "year": "2026",
       "type": "Preprint",
       "members": [
-        "Yongda Zhu"
+        "Yongda Zhu",
+        "Zheng Ma"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260722966M/abstract",
       "arxivUrl": "https://arxiv.org/abs/2607.22966",
@@ -625,7 +628,8 @@
       "year": "2026",
       "type": "Preprint",
       "members": [
-        "Yongda Zhu"
+        "Yongda Zhu",
+        "Zheng Ma"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260421218Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2604.21218",
@@ -767,7 +771,8 @@
       "year": "2026",
       "type": "Preprint",
       "members": [
-        "Yongda Zhu"
+        "Yongda Zhu",
+        "Zheng Ma"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260115962M/abstract",
       "arxivUrl": "https://arxiv.org/abs/2601.15962",
@@ -943,6 +948,18 @@
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.545f2117D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2506.14870",
       "doiUrl": "https://doi.org/10.1093/mnras/staf2117"
+    },
+    {
+      "title": "The Way We Tally Becomes the Tale: the Impact of Selection Strategies on the Inferred Evolution of Little Red Dots Across Cosmic Time",
+      "authors": "Rinaldi, Pierluigi, Hainline, Kevin, D'Eugenio, Francesco, Pérez-González, Pablo G., Eisenstein, Daniel J., Willmer, Christopher N. A., Carreira, Courtney, Robertson, Brant, Johnson, Benjamin D., Alberts, Stacey, Baker, William M., Bunker, Andrew J., Carniani, Stefano, Egami, Eiichi, Helton, Jakob M., Ji, Zhiyuan, Juodžbalis, Ignas, Lin, Xiaojing, Lyu, Jianwei, Ma, Zheng, Maiolino, Roberto, Parlanti, Eleonora, Scholtz, Jan, Sun, Yang, Tacchella, Sandro, Venturi, Giacomo, Williams, Christina C., Willott, Chris, Witstok, Joris, Wu, Zihao",
+      "year": "2026",
+      "type": "Preprint",
+      "members": [
+        "Zheng Ma"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260407138R/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2604.07138",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2604.07138"
     },
     {
       "title": "COSMOS-3D: Black Hole Mass Estimators and Luminosity Functions of Paschen-line AGNs",
@@ -1699,7 +1716,8 @@
       "type": "Preprint",
       "members": [
         "Arshia Akhtarkavan",
-        "Yongda Zhu"
+        "Yongda Zhu",
+        "Zheng Ma"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025arXiv250315587S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2503.15587",
