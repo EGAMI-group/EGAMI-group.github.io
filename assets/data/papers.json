@@ -3,8 +3,19 @@
     "This file is generated automatically by the ADS update workflow.",
     "Do not edit the papers array by hand; edit people.json to update the group roster instead."
   ],
-  "generatedAt": "2026-10-26T18:21:43.904Z",
+  "generatedAt": "2026-11-02T21:28:20.729Z",
   "papers": [
+    {
+      "title": "VENUS: A Strongly Lensed Clumpy Galaxy at z ~ 11-12 Behind the Galaxy Cluster MACS J0257.1-2325",
+      "authors": "Nakane, Minami, Kokorev, Vasily, Fujimoto, Seiji, Ouchi, Masami, McLeod, Derek J., Golubchik, Miriam, Oguri, Masamune, Zitrin, Adi, Bondestam, Cecilia, Donnan, Callum T., Brammer, Gabriel, Finkelstein, Steven L., Willott, Chris, Rihtaršič, Gregor, Desprez, Guillaume, Adamo, Angela, Vanzella, Eros, Bradač, Maruša, Messa, Matteo, Yanagisawa, Hiroto, Sun, Fengwu, Ferguson, Henry C., Lucas, Ray A., Coe, Dan, Richard, Johan, Abdurro'uf, Akins, Hollis B., Allingham, Joseph F. V., Amorín, Ricardo O., Asada, Yoshihisa, Atek, Hakim, Bauer, Franz E., Bezanson, Rachel, Bradley, Larry D., Chisholm, John, Conselice, Christopher J., Dayal, Pratika, Dessauges-Zavadsky, Miroslava, Diego, Jose M., Faisst, Andreas L., Farley, Gavin, Fei, Qinyue, Frye, Brenda L., Fudamoto, Yoshinobu, Furtak, Lukas J., Harikane, Yuichi, Hsiao, Tiger Yu-Yang, Jiménez-Teja, Yolanda, Kartaltepe, Jeyhan S., Kiyota, Tomokazu, Koekemoer, Anton M., del P. Lagos, Claudia, Magdis, Georgios E., Meena, Ashish Kumar, Mowla, Lamiya, Noirot, Gaël, Oesch, Pascal A., Ono, Yoshiaki, Ortiz, Rafael, III, Pan, Richard, Papovich, Casey, Pierel, Justin D. R., Ricotti, Massimo, Robbins, Luke, Schaerer, Daniel, Schneider, Raffaella, Treu, Tommaso, Valentino, Francesco, Windhorst, Rogier A., Bromm, Volker, Egami, Eiichi, González-Otero, Mauro, Kohno, Kotaro, Labbe, Ivo, Matthee, Jorryt, Mun, Marcie, Naidu, Rohan P., Tripodi, Roberta",
+      "year": "2026",
+      "type": "Journal article",
+      "members": [
+        "Eiichi Egami"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1010..237N/abstract",
+      "doiUrl": "https://doi.org/10.3847/1538-4357/ae8d09"
+    },
     {
       "title": "Early metal-enriched baryon cycling before the midpoint of cosmic reionization",
       "authors": "Zhu, Yongda, Ji, Zhiyuan, Becker, George D., Ding, Jiani, Egami, Eiichi, Fan, Xiaohui, Jin, Xiangyu, Liu, Weizhe, Lyu, Jianwei, Ma, Zheng, Narisetty, Suprabhas, Rieke, George H., Wu, Yunjing, Yue, Minghao, Zhang, Junyu, Rieke, Marcia J.",
@@ -333,6 +344,42 @@
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae1b9b"
     },
     {
+      "title": "The clumpy fraction of galaxies at $z=1-9$ with JADES: evidence for a mass-dependent transition in clump origin",
+      "authors": "Puskás, Dávid, Tacchella, Sandro, Chapman, Phoebe, van Donkelaar, Floor, Bunker, Andrew J., Carreira, Courtney, Danhaive, A. Lola, D'Eugenio, Francesco, Duan, Qiao, Iglesias-Navarro, Patricia, Stoffers, Amanda, Übler, Hannah, Zhu, Yongda, Curti, Mirko, Curtis-Lake, Emma, Hainline, Kevin, Egami, Eiichi, Eisenstein, Daniel J., Ji, Zhiyuan, Johnson, Benjamin D., Maiolino, Roberto, Rieke, Marcia, Robertson, Brant, Williams, Christina C.",
+      "year": "2026",
+      "type": "Preprint",
+      "members": [
+        "Dávid Puskás",
+        "Yongda Zhu"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv261028515P/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2610.28515",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2610.28515"
+    },
+    {
+      "title": "PRISMS/U13151. A Glimpse into the Earliest Phases of Galaxy Formation through an Ultra-Faint System $\\approx$ 500 Myr after the Big Bang",
+      "authors": "Rinaldi, Pierluigi, Álvarez-Márquez, Javier, Crespo Gómez, Alejandro, Colina, Luis, Carniani, Stefano, Kendrew, Sarah, Iani, Edoardo, Adamo, Angela, Abdurro'uf, Annunziatella, Marianna, Alberts, Stacey, Boogaard, Leindert A., Caputi, Karina I., Castellano, Marco, Catone, Michele, Marques-Chaves, Rui, Cooper, Ryan, Fujimoto, Seiji, Hamed, Mahmoud, Harikane, Yuichi, Harish, Santosh, Hashimoto, Takuya, Helton, Jakob M., Hsiao, Tiger Y.-Y., Kokorev, Vasily, Labiano, Álvaro, Melinder, Jens, Mitsuhashi, Ikki, Östlin, Göran, Napolitano, Lorenzo, Pérez-Díaz, Borja, Pérez-González, Pablo G., Prieto Jiménez, Carlota, Rodighiero, Giulia, Santini, Paola, Varo-O'Ferrall, Ana, Zavala, Jorge A., Zhu, Yongda",
+      "year": "2026",
+      "type": "Preprint",
+      "members": [
+        "Yongda Zhu"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv261026560R/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2610.26560",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2610.26560"
+    },
+    {
+      "title": "Can Blue UV-Bright Galaxies Drive Reionization at Cosmic Dawn? An $M_{\\rm UV}=-19.6$ Galaxy with $f_{\\rm esc}\\approx0.85$ at $z=9.244$",
+      "authors": "Wu, Yunjing, Cai, Sijia, Zhu, Yongda, Ouchi, Masami, Harikane, Yuichi, Cai, Zheng, Tang, Mengtao, Lee, Khee-Gan, Silverman, John D., Sun, Fengwu, Fan, Xiaohui, Chen, Zuyi, Nakane, Minami, Yanagisawa, Hiroto, Adamo, Angela, Bian, Fuyan, Champagne, Jaclyn B., Coe, Dan, Fujimoto, Seiji, Garaldi, Enrico, Hsiao, Tiger Yu-Yang, Jin, Xiangyu, Li, Mingyu, Liang, Yongming, Lin, Xiaojing, Liu, Guan-Fu, Mao, Junjie, Oguri, Masamune, Tsukui, Takafumi, Wang, Feige, Yang, Jinyi",
+      "year": "2026",
+      "type": "Preprint",
+      "members": [
+        "Yongda Zhu"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv261024092W/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2610.24092"
+    },
+    {
       "title": "JADES: The Star Formation and Dust Reddening Properties of Galaxies at 3 &lt; z &lt; 7",
       "authors": "Woodrum, Charity, Shivaei, Irene, Witstok, Joris, Saxena, Aayush, Simmonds, Charlotte, Scholtz, Jan, Bhatawdekar, Rachana, Bunker, Andrew J., Carniani, Stefano, Charlot, Stéphane, Curti, Mirko, Curtis-Lake, Emma, Chevallard, Jacopo, D'Eugenio, Francesco, Hainline, Kevin, Helton, Jakob M., Maiolino, Roberto, Perna, Michele, Rinaldi, Pierluigi, Robertson, Brant, Straughn, Amber, Sun, Yang, Tacchella, Sandro, Williams, Christina C., Willott, Chris, Zhu, Yongda, O'Ferrall, Ana Varo",
       "year": "2026",
@@ -365,6 +412,42 @@
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1009..137L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2604.01271",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae984b"
+    },
+    {
+      "title": "A 210 Megaparsec Ionized Structure at $z=6.8$ Revealed by an Astrophysics Foundation Model",
+      "authors": "Yue, Minghao, Zhu, Yongda, Ding, Jiani, Fan, Xiaohui, Luo, Yufeng",
+      "year": "2026",
+      "type": "Preprint",
+      "members": [
+        "Yongda Zhu"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260936656Y/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2609.36656",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2609.36656"
+    },
+    {
+      "title": "CHAMPS: Data Reduction and Detection of ~3300 Dusty Galaxies at 1.2 mm",
+      "authors": "Martinez, Felix, III, Karaltepe, Jeyhan S., Faisst, Andreas L., Long, Arianna S., Zavala, Jorge A., Casey, Caitlin M., McKinney, Jed, Treister, Ezequiel, Franco, Maximilien, Toft, Sune, Aravena, Manuel, Silverman, John D., Akins, Hollis B., Algera, Hiddo S. B., Antwi-Danso, Jacqueline, Battisti, Andrew J., Cheng, Yingjie, Cooper, Olivia R., Drakos, Nicole E., Flayhart, Carter, Gentile, Fabrizio, Gillman, Steven, Gozaliasl, Ghassem, Harish, Santosh, Hempel-Costello, Simon, Hirschmann, Michaela, Ilbert, Olivier, Jin, Bingcheng, Jin, Shuowen, Kakiichi, Koki, Kelly, Thresa, Li, Zihao, Liu, Daizhong, Liu, Lun-Jun, Manning, Sinclaire M., McCracken, Henry Joy, Meyer, Romain A., Paquereau, Louise, Pudoka, Maria, Rhodes, Jason, Robertson, Brant E., Rodighiero, Giulia, Samir, Rasha M., Sanders, David B., Shuntov, Marko, Talia, Margherita, Vaccari, Mattia, Valentino, Francesco, Vijayan, Aswin P., Wang, Feige, Wang, Wuji, Xu, Can, Yang, Jinyi, Zhu, Yongda, Zou, Siwei",
+      "year": "2026",
+      "type": "Preprint",
+      "members": [
+        "Yongda Zhu"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260936076M/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2609.36076",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2609.36076"
+    },
+    {
+      "title": "Balmer Break Measurements Trace Departures from the Star-Forming Main Sequence at $1&lt;z&lt;4$ with JWST/NIRSpec",
+      "authors": "Narisetty, Suprabhas, Zhu, Yongda, Egami, Eiichi, Carniani, Stefano, D'Eugenio, Francesco, DeCoursey, Christa, Willmer, Christopher N. A.",
+      "year": "2026",
+      "type": "Preprint",
+      "members": [
+        "Yongda Zhu"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260931827N/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2609.31827",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2609.31827"
     },
     {
       "title": "JADES: Dynamical Measurements of Dark Matter Halo Masses at $z \\approx 7$ Using Galaxy Pairs",
@@ -986,7 +1069,7 @@
       "doiUrl": "https://doi.org/10.1051/0004-6361/202557934"
     },
     {
-      "title": "First constraints on the local ionization topology in front of two quasars at z ∼ 7.5",
+      "title": "First constraints on the local ionization topology in front of two quasars at z ~ 7.5",
       "authors": "Kist, Timo, Hennawi, Joseph F., Davies, Frederick B., Bañados, Eduardo, Bosman, Sarah E. I., Cai, Zheng, Eilers, Anna-Christina, Fan, Xiaohui, Haiman, Zoltán, Jun, Hyunsung D., Liu, Yichen, Yang, Jinyi, Wang, Feige",
       "year": "2026",
       "type": "Journal article",
