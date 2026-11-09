@@ -3,7 +3,7 @@
     "This file is generated automatically by the ADS update workflow.",
     "Do not edit the papers array by hand; edit people.json to update the group roster instead."
   ],
-  "generatedAt": "2026-11-02T21:28:20.729Z",
+  "generatedAt": "2026-11-09T21:59:38.905Z",
   "papers": [
     {
       "title": "VENUS: A Strongly Lensed Clumpy Galaxy at z ~ 11-12 Behind the Galaxy Cluster MACS J0257.1-2325",
@@ -14,6 +14,7 @@
         "Eiichi Egami"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1010..237N/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2511.14483",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae8d09"
     },
     {
@@ -27,6 +28,7 @@
         "Zheng Ma"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026NatAs.tmp..217Z/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2604.21218",
       "doiUrl": "https://doi.org/10.1038/s41550-026-02988-2"
     },
     {
@@ -344,6 +346,41 @@
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae1b9b"
     },
     {
+      "title": "Why a Multi-Cycle Treasury Program is Essential to Maximize JWST's Scientific Contributions to Galaxy Formation",
+      "authors": "Community, Genesis, Shapley, Alice, Finkelstein, Steven L., Somerville, Rachel S., Dunlop, James, Fontana, Adriano, Oesch, Pascal A., Berg, Danielle A., Bezanson, Rachel, Bradač, Maruša, Brammer, Gabriel, Casey, Caitlin M, Chisholm, John, Curtis-Lake, Emma, Dickinson, Mark, Fan, Xiaohui, Harikane, Yuichi, Katz, Harley, Pérez-González, Pablo G., Robertson, Brant E., Schneider, Raffaella, Abdurro'uf, Adamo, Angela, Aditya, K., Afonso, Jose M., Alcalde Pampliega, Belen, Algera, Hiddo, Almaini, Omar, Alonso-Herrero, Almudena, Álvarez-Márquez, Javier, Amorín, Ricardo, Ando, Makoto, Antwi-Danso, Jacqueline, Aragüete Riesco, Lorena, Aravindan, Archana, Arellano-Cordova, Karla Z., Denisse Arevalo Gonzalez, Flor, Arita, Junya, Atek, Hakim, Bagley, Mic, Baker, William M., Barro, Guillermo, Basu, Arghyadeep, Battisti, Andrew J., Begley, Ryan, Behroozi, Peter, Belli, Sirio, Berek, Samantha, Bergamini, Pietro, Bevacqua, Davide, Bhattacharya, Souradeep, Bian, Fuyan, Bing, Longji, Bisigello, Laura, Böker, Torsten, Boogaard, Leindert A., Bose, Sownak, Bosman, Sarah E. I., Bourne, Martin A., Bowling, Gibson B., Boylan-Kolchin, Michael, Bradley, Larry D., Bromm, Volker, Bryan, Greg L., Bunker, Andrew J, Burgarella, Denis, Burnham, Emilie, Cabello, Cristina, Cadiou, Corentin, Cain, Christopher, Calabro', Antonello, Caleno, Riccardo, Cameron, Alex J., Capelo, Pedro R., Caputi, Karina, Carleton, Timothy, Carnall, Adam, Carniani, Stefano, Carreira, Courtney, Castellano, Marco, Catone, Michele, Cescon, Karin, Chakraborty, Anirban, Champagne, Jaclyn, Chan, Tsang Keung, Chandrashekhar, Chandana, Charlot, Stéphane, Chase, Owen, Cheng, Yingjie, Cheng, Chloe M., Choi, Hyunseop, Chon, Sunmyon, Choustikov, Nicholas, Chworowsky, Katherine, Clarke, Leonardo, Cleri, Nikko J., Cochrane, R. K., Colina, Luis, Collins, Benjamin P., Connor, Thomas, Conselice, Christopher J., Cooper, M. C., Cooper, Ryan A., Cooray, Suchetha, Cornil-Baïotto, Carla, Costantin, Luca, Andrez de Oliveira Covas, Nuno Miguel, Cox, Isa, Cui, Weiguang, Cullen, Fergus, Curti, Mirko, Dam, Poulomi, Davé, Romeel, Davies, Rebecca L., Davis, Kelcey, Debski, Maya, Deconto-Machado, Alice, Desprez, Guillaume, Dessauges-Zavadsky, Miroslava, Di Cesare, Claudia, Diego, Jose M., van Donkelaar, Floor, Donnan, Callum T., Drakos, Nicole E., Duan, Qiao, Egami, Eiichi, Eilers, Anna-Christina, Eisenstein, Daniel J., Elbaz, David, Ellis, Richard, Edes Esposito, Gaia, Faisst, Andreas L., Farcy, Marion, Farina, Emanuele Paolo, Fei, Qinyue, Ferguson, Henry, Fernández Ontiveros, Juan Antonio, Ferrara, Andrea, Ferré-Mateu, Anna, Flury, Sophia R., Franco, Maximilien, Fujimoto, Seiji, Furtak, Lukas, Gabrielli, Francesco, Gagnon-Hartman, Samuel, Gaikwad, Prakash, Gandolfi, Giovanni, Garaldi, Enrico, García-Bernete, Ismael, Gawiser, Eric, Giavalisco, Mauro, Gillman, Steven, Giovanni, Girardi, Giorgia, Glazebrook, Karl, Gloudemans, Anniek, Glover, Simon C. O., Gnedin, Nickolay Y., Gomez, Sebastian, González-Otero, Mauro, Grazian, Andrea, Graziani, Luca, E Greene, Jenny, Greve, Thomas R., Grogin, Norman A., Guo, Yicheng, Gupta, Ansh R., Gutcke, Thales A., Haehnelt, Martin G., Haghjoo, Aryana, Hahn, ChangHoon, Harish, Santosh, Arrabal Haro, Pablo, Harshan, Anishya, Hathi, Nimish P., Hatziminaoglou, Evanthia, Hawcroft, Calum, Hayes, Matthew J., Heintz, Kasper E., Helton, Jakob M., Henry, Aurélien, Hirschmann, Michaela, Holwerda, Benne W., Hsiao, Tiger, Huertas-Company, Marc, Hutchison, Taylor A., Hutter, Anne, Iglesias-Navarro, Patricia, Martinez, Felix, III, Ikeda, Ryota, Inayoshi, Kohei, Inoue, Akio, Ito, Kei, Ivey, Lucy R., Iyer, Kartheik, Izumi, Takuma, Jauzac, Mathilde, Jeon, Junehyoung, Jeong, Tae Bong, Jespersen, Christian Kragh, Jin, Shuowen, Jones, Gareth C, Jones, Tucker, Jones, Brenda L., Juneau, Stephanie, Jung, Intae, Juodžbalis, Ignas, Kakkad, Darshan, Kartaltepe, Jeyhan S., Karthikeyan, Shreya, Khullar, Gourav, Kimm, Taysun, Kiyota, Tomokazu, Kocevski, Dale, Koekemoer, Anton M., Kokorev, Vasily, Kokubo, Mitsuru, Kong, Hyunsu, Koudmani, Sophie, Kriek, Mariska, Kumari, Nimisha, Kusakabe, Haruka, Labiano, Alvaro, Lambrides, Erini, Langan, Ivanna, Langeroodi, Danial, Lapi, Andrea, Latif, Muhammad, Lee, Khee-Gan, Lee, Joohyun, Leja, Joel, Leung, Gene C. K., Leung, Ho-Hin, Li, Zi-Jian, Li, Mingyu, Liang, Yongming, Liang, Yongming, Lin, Xiaojing, Liu, Weizhe, Liu, Yuankang, Llerena, Mario, Loiacono, Federica, Long, Arianna S., Lovell, Christopher C., Lu, Ting-Yi, Lupi, Alessandro, Magdis, Georgios, Maio, Umberto, Malkan, Matthew, Mannucci, Filippo, Marques-Chaves, Rui, Martin-Alvarez, Sergio, Martinez, Zorayda, Martis, Nicholas S., Mascia, Sara, Massey, Richard, Matthee, Jorryt, Mayer, Lucio, McGrath, Elizabeth J., McLeod, Derek J., Menon, Shyam H, Merlin, Emiliano, Mesinger, Andrei, Meyer, Romain A., Mezcua, Mar, Millan-Irigoyen, Iker, Morishita, Takahiro, Moriya, Takashi, Moscardini, Lauro, Munoz, Julian B., Nagamine, Kentaro, Nakazato, Yurina, Nanayakkara, Themiya, Napolitano, Lorenzo, Narayanan, Desika, Nebrin, Olof, Nelson, Dylan, Nikolić, Ivan, Noirot, Gaël, Ocvirk, Pierre, Omukai, Kazuyuki, Ono, Yoshiaki, Onoue, Masafusa, Ormerod, Katherine, Östlin, Göran, Ouchi, Masami, Pacucci, Fabio, Pahl, Anthony, Pan, Zhiwei, Pan, Richard, Papovich, Casey, Pascalau, Robert, Peng, Yingjie, Pentericci, Laura, Pérez-Díaz, Borja, Pizzati, Elia, Polzin, Ava, Pozzi, Francesca, Price, Sedona H., Pudoka, Maria, Quilley, Louis, Rafelski, Marc, Singh Rai, Raunaq, Regan, John, Regos, Eniko, Reina-Campos, Marta, Rey, Martin P., Ricotti, Massimo, Rinaldi, Pierluigi, Roberts, Daniel, Roberts-Borsani, Guido, Rodighiero, Giulia, Rodríguez Montero, Francisco, Roper, William, Rowland, Lucie E., Choudhury, Tirthankar Roy, Rusta, Elka, Ryan, R. E., Jr, Saha, Kanak, Salmasi, Bahareh S., Salvadori, Stefania, Samir, Rasha M., Samuel, Jenna, Sanders, Ryan L., Santini, Paola, Schaerer, Daniel, Schindler, Jan-Torge, Schleicher, Dominik R. G., Shankar, Francesco, Shapiro, Paul, Shen, Xuejian, Shen, Yue, Shivaei, Irene, Silcock, Maddie, Simcoe, Robert, Simmonds, Charlotte, Simons, Raymond C., Smit, Renske, Stanton, Thomas M., Stanway, Elizabeth R, Stefanon, Mauro, Stiavelli, Massimo, Straight, Maria C., Straughn, Amber, Sugahara, Yuma, Sun, Yang, Sun, Guochao, Tacchella, Sandro, Talia, Margherita, Tamura, Yoichi, Tanaka, Takumi, Tanaka, Masayuki, Tarrasse, Maxime, Taylor, Anthony J., Taylor, Elizabeth, Tee, Wei Leong, Terp, Chamilla, Tim, Dewachter, Toba, Yoshiki, Toyouchi, Daisuke, Traina, Alberto, Trakhtenbrot, Benny, Trenti, Michele, Treu, Tommaso, Triantafyllou, Nikolaos, Trinca, Alessandro, Tripodi, Roberta, Trump, Jonathan R., Tsukui, Takafumi, Turner, Jack C., Übler, Hannah, Umehata, Hideki, Uppal, Anavi, Vanzella, Eros, Venditti, Alessandra, Venturi, Giacomo, Veraldi, Enrico, Vijayan, Aswin P, Villanueva, Natalia C., Vito, Fabio, Vogelsberger, Mark, Volonteri, Marta, Vulcani, Benedetta, Walter, Fabian, Wang, Feige, Wang, Tao, Wang, Bingjie, Weaver, John R., van der Wel, Arjen, Weldon, Andrew, Whitaker, Katherine E., Wilkins, Stephen, Williams, Hayley, Willmer, Christopher N. A., Windhorst, Rogier, Wise, John H., Wise, Eden, Witstok, Joris, Wolter, Ian E., Wu, Zihao, Wu, Yunjing, Wu, Po-Feng, Xiao, Mengyuan, Yan, Haojing, Yanagisawa, Hiroto, Yang, Jinyi, Yang, Guang, Yung, L. Y. Aaron, Zackrisson, Erik, Zana, Tommaso, Zanella, Anita, Zhang, Zijian, Zhang, Huanian, Zhang, Saiyang, Zhang, Hao, Zhang, Haowen, Zhao, Roy J., Zhou, Dazhi, Zhu, Yongda, Zhuang, Ming-Yang, Zitrin, Adi",
+      "year": "2026",
+      "type": "Preprint",
+      "members": [
+        "Yongda Zhu"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv261107027C/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2611.07027",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2611.07027"
+    },
+    {
+      "title": "Ly$α$ in Compact Broad-Line Emitters, Including Little Red Dots, Is More Closely Linked to the Host Galaxy than to the Broad-Line Nucleus",
+      "authors": "Zhu, Yongda, Ma, Zheng, Lin, Xiaojing, Zhang, Junyu, Lyu, Jianwei, Fan, Xiaohui, Egami, Eiichi, Bunker, Andrew J., Cai, Sijia, Keating, Laura C., Shields, Joseph, Ji, Zhiyuan, Jin, Xiangyu, Liu, Weizhe, Narisetty, Suprabhas, Rieke, George H., Rieke, Marcia J., Rinaldi, Pierluigi, Sun, Fengwu",
+      "year": "2026",
+      "type": "Preprint",
+      "members": [
+        "Yongda Zhu"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv261103801Z/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2611.03801",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2611.03801"
+    },
+    {
+      "title": "A Census of Na D-Traced Neutral Interstellar Medium and Outflows at 0.6 &lt; z &lt; 4",
+      "authors": "Sun, Yang, Ji, Zhiyuan, D'Eugenio, Francesco, Zhu, Yongda, Rieke, George H., Baker, William M., Bunker, Andrew J., Carniani, Stefano, Helton, Jakob M., Perna, Michele, Pérez-González, Pablo G., Rinaldi, Pierluigi, Übler, Hannah, Willmer, Christopher N. A.",
+      "year": "2026",
+      "type": "Journal article",
+      "members": [
+        "Yongda Zhu"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1011..218S/abstract",
+      "doiUrl": "https://doi.org/10.3847/1538-4357/aeaccf"
+    },
+    {
       "title": "The clumpy fraction of galaxies at $z=1-9$ with JADES: evidence for a mass-dependent transition in clump origin",
       "authors": "Puskás, Dávid, Tacchella, Sandro, Chapman, Phoebe, van Donkelaar, Floor, Bunker, Andrew J., Carreira, Courtney, Danhaive, A. Lola, D'Eugenio, Francesco, Duan, Qiao, Iglesias-Navarro, Patricia, Stoffers, Amanda, Übler, Hannah, Zhu, Yongda, Curti, Mirko, Curtis-Lake, Emma, Hainline, Kevin, Egami, Eiichi, Eisenstein, Daniel J., Ji, Zhiyuan, Johnson, Benjamin D., Maiolino, Roberto, Rieke, Marcia, Robertson, Brant, Williams, Christina C.",
       "year": "2026",
@@ -388,6 +425,7 @@
         "Yongda Zhu"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1009..207W/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2510.00235",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae9f4d"
     },
     {
@@ -399,6 +437,7 @@
         "Yongda Zhu"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1009..176L/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2511.06085",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae99e0"
     },
     {
@@ -483,6 +522,7 @@
         "Yongda Zhu"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026NatAs.tmp..219L/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2606.31638",
       "doiUrl": "https://doi.org/10.1038/s41550-026-02993-5"
     },
     {
@@ -582,18 +622,6 @@
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1005...54C/abstract",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae70fa"
-    },
-    {
-      "title": "First-star imprints in a metal-poor galaxy overdensity near the end of reionization",
-      "authors": "Li, Zihao, Kakiichi, Koki, Christensen, Lise, Cai, Zheng, D'Odorico, Valentina, Matthee, Jorryt, Kashino, Daichi, Bordoloi, Rongmon, Mackenzie, Ruari, Berg, Trystyn A. M., Vanni, Irene, Salvadori, Stefania, Venditti, Alessandra, Zhang, Shiwu, Bosman, Sarah E. I., Bañados, Eduardo, Davies, Frederick B., Fan, Xiaohui, Jun, Hyunsung D., Jin, Xiangyu, Li, Mingyu, Rojas-Ruiz, Sofía, Wang, Feige, Yang, Jinyi, Zou, Siwei, Zhang, Huanian, Zhu, Yongda",
-      "year": "2026",
-      "type": "Preprint",
-      "members": [
-        "Yongda Zhu"
-      ],
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260631638L/abstract",
-      "arxivUrl": "https://arxiv.org/abs/2606.31638",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2606.31638"
     },
     {
       "title": "Little Red and Blue Dots: AGN-excited narrow lines, Lyman-$α$ emission, and resemblance to standard quasars",
@@ -704,19 +732,6 @@
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1002...93Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2510.09568",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae5bbb"
-    },
-    {
-      "title": "Early metal-enriched baryon cycling before the midpoint of cosmic reionization",
-      "authors": "Zhu, Yongda, Ji, Zhiyuan, Becker, George D., Ding, Jiani, Egami, Eiichi, Fan, Xiaohui, Jin, Xiangyu, Liu, Weizhe, Lyu, Jianwei, Ma, Zheng, Narisetty, Suprabhas, Rieke, George H., Wu, Yunjing, Yue, Minghao, Zhang, Junyu, Rieke, Marcia J.",
-      "year": "2026",
-      "type": "Preprint",
-      "members": [
-        "Yongda Zhu",
-        "Zheng Ma"
-      ],
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260421218Z/abstract",
-      "arxivUrl": "https://arxiv.org/abs/2604.21218",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2604.21218"
     },
     {
       "title": "A Census of Na D-traced neutral ISM and outflows at $0.6&lt;z&lt;4$",
@@ -950,6 +965,18 @@
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae7a2f"
     },
     {
+      "title": "Tiny Galaxies, Mighty Nitrogen: Linking Chemical Anomalies to Compact Galaxies at High Redshift using JWST/JADES",
+      "authors": "Thakurdesai, Urvi, Ji, Xihan, Isobe, Yuki, Maiolino, Roberto, Belokurov, Vasily, Carreira, Courtney, Robertson, Brant, McClymont, Will, Puskas, David, Bunker, Andrew, Charlot, Stephane, Curti, Mirko, Duan, Qiao, D'Eugenio, Francesco, Koller, Maria, Powley, Jonah, Rinaldi, Pierluigi, Scholtz, Jan, Simmonds, Charlotte, Tacchella, Sandro, Ubler, Hannah",
+      "year": "2026",
+      "type": "Preprint",
+      "members": [
+        "Dávid Puskás"
+      ],
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv261103799T/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2611.03799",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2611.03799"
+    },
+    {
       "title": "Stellar masses of optically dark galaxies: uncertainty introduced by the attenuation law and star-formation histories",
       "authors": "Lapasia, Yash, Tacchella, Sandro, D'Eugenio, Francesco, Puskás, Dávid, Bunker, Andrew J., Danhaive, A. Lola, Johnson, Benjamin D., Maiolino, Roberto, Robertson, Brant, Simmonds, Charlotte, Shivaei, Irene, Williams, Christina C., Willmer, Christopher, Xiao, Mengyuan",
       "year": "2026",
@@ -970,6 +997,7 @@
         "Dávid Puskás"
       ],
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.552g1698P/abstract",
+      "arxivUrl": "https://arxiv.org/abs/2510.14743",
       "doiUrl": "https://doi.org/10.1093/mnras/stag1698"
     },
     {
@@ -1007,18 +1035,6 @@
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.546ag094I/abstract",
       "arxivUrl": "https://arxiv.org/abs/2507.14936",
       "doiUrl": "https://doi.org/10.1093/mnras/stag094"
-    },
-    {
-      "title": "Stellar masses of optically dark galaxies: uncertainty introduced by the attenuation law and star-formation histories",
-      "authors": "Lapasia, Yash, Tacchella, Sandro, D'Eugenio, Francesco, Puskás, Dávid, Bunker, Andrew J., Danhaive, A. Lola, Johnson, Benjamin D., Maiolino, Roberto, Robertson, Brant, Simmonds, Charlotte, Shivaei, Irene, Williams, Christina C., Willmer, Christopher, Xiao, Mengyuan",
-      "year": "2026",
-      "type": "Preprint",
-      "members": [
-        "Dávid Puskás"
-      ],
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260108693L/abstract",
-      "arxivUrl": "https://arxiv.org/abs/2601.08693",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2601.08693"
     },
     {
       "title": "JADES and BlackTHUNDER: rest-frame Balmer-line absorption and the local environment in a Little Red Dot at z = 5",
@@ -1511,18 +1527,6 @@
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad973b"
     },
     {
-      "title": "A JWST/NIRSpec Integral Field Unit Survey of Luminous Quasars at z ~ 5-6 (Q-IFU): Rest-frame Optical Nuclear Properties and Extended Nebulae",
-      "authors": "Liu, Weizhe, Fan, Xiaohui, Green, Richard, Champagne, Jaclyn B., Jin, Xiangyu, Lyu, Jianwei, Pudoka, Maria, Tee, Wei Leong, Wang, Feige, Yang, Jinyi, Zhu, Yongda, Abdessalam, Nayera, Zhang, Haowen",
-      "year": "2025",
-      "type": "Preprint",
-      "members": [
-        "Yongda Zhu"
-      ],
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025arXiv251106085L/abstract",
-      "arxivUrl": "https://arxiv.org/abs/2511.06085",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2511.06085"
-    },
-    {
       "title": "Deciphering the Nature of Virgil: An Obscured Active Galactic Nucleus Lurking within an Apparently Normal Lyα Emitter during Cosmic Reionization",
       "authors": "Rinaldi, Pierluigi, Pérez-González, Pablo G., Rieke, George H., Lyu, Jianwei, D'Eugenio, Francesco, Wu, Zihao, Carniani, Stefano, Looser, Tobias J., Shivaei, Irene, Boogaard, Leindert A., Diaz-Santos, Tanio, Colina, Luis, Östlin, Göran, Alberts, Stacey, Álvarez-Márquez, Javier, Annuziatella, Marianna, Aravena, Manuel, Bhatawdekar, Rachana, Bunker, Andrew J., Caputi, Karina I., Charlot, Stéphane, Crespo Gómez, Alejandro, Curti, Mirko, Eckart, Andreas, Gillman, Steven, Hainline, Kevin, Kumari, Nimisha, Hjorth, Jens, Iani, Edoardo, Inami, Hanae, Ji, Zhiyuan, Johnson, Benjamin D., Jones, Gareth C., Labiano, Álvaro, Maiolino, Roberto, Melinder, Jens, Moutard, Thibaud, Peissker, Florian, Rieke, Marcia, Robertson, Brant, Scholtz, Jan, Tacchella, Sandro, van der Werf, Paul P., Walter, Fabian, Williams, Christina C., Willott, Chris, Witstok, Joris, Übler, Hannah, Zhu, Yongda",
       "year": "2025",
@@ -1593,18 +1597,6 @@
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...992..212W/abstract",
       "arxivUrl": "https://arxiv.org/abs/2507.22858",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae01a1"
-    },
-    {
-      "title": "JADES: The Star Formation and Dust Attenuation Properties of Galaxies at 3&lt;z&lt;7",
-      "authors": "Woodrum, Charity, Shivaei, Irene, Witstok, Joris, Saxena, Aayush, Simmonds, Charlotte, Scholtz, Jan, Bhatawdekar, Rachana, Bunker, Andrew J., Carniani, Stéfano, Charlot, Stephane, Curti, Mirko, Curtis-Lake, Emma, Chevallard, Jacopo, D'Eugenio, Francesco, Hainline, Kevin, Helton, Jakob M., Maiolino, Roberto, Perna, Michele, Rinaldi, Pierluigi, Robertson, Brant, Straughn, Amber, Sun, Yang, Tacchella, Sandro, Williams, Christina C., Willott, Chris, Zhu, Yongda",
-      "year": "2025",
-      "type": "Preprint",
-      "members": [
-        "Yongda Zhu"
-      ],
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025arXiv251000235W/abstract",
-      "arxivUrl": "https://arxiv.org/abs/2510.00235",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2510.00235"
     },
     {
       "title": "Lyα emission from [O III] emitters near reionization: the role of environment in galaxy Lyα detection",
@@ -1887,18 +1879,6 @@
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025MNRAS.544.4551S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2508.04410",
       "doiUrl": "https://doi.org/10.1093/mnras/staf1950"
-    },
-    {
-      "title": "Mergers lighting the early Universe: modest star formation enhancement without evidence for AGN or Ly$α$ triggering",
-      "authors": "Puskás, Dávid, Tacchella, Sandro, Simmonds, Charlotte, Jones, Gareth C., Juodžbalis, Ignas, Scholtz, Jan, Baker, William M., Bunker, Andrew J., Carniani, Stefano, Curtis-Lake, Emma, Duan, Qiao, Eisenstein, Daniel J., Hainline, Kevin, Johnson, Benjamin D., Maiolino, Roberto, Rieke, Marcia, Robertson, Brant, Williams, Christina C., Witstok, Joris",
-      "year": "2025",
-      "type": "Preprint",
-      "members": [
-        "Dávid Puskás"
-      ],
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025arXiv251014743P/abstract",
-      "arxivUrl": "https://arxiv.org/abs/2510.14743",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2510.14743"
     },
     {
       "title": "Constraining the major merger history of z ~ 3-9 galaxies using JADES: dominant in situ star formation",
