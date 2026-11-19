@@ -89,7 +89,8 @@ function renderPublications(papers, showAll = isPublicationArchive) {
     return;
   }
 
-  matching.sort((first, second) => Number(second.year) - Number(first.year));
+  const sortKey = (paper) => paper.date || String(paper.year);
+  matching.sort((first, second) => sortKey(second).localeCompare(sortKey(first)));
   const visiblePapers = showAll ? matching : matching.slice(0, 5);
 
   publicationResults.append(

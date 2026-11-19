@@ -59,7 +59,7 @@ async function searchAds(query, memberName) {
   const url = new URL("https://api.adsabs.harvard.edu/v1/search/query");
   url.search = new URLSearchParams({
     q: query,
-    fl: "bibcode,title,author,year,doctype,pub,doi,identifier",
+    fl: "bibcode,title,author,year,date,doctype,pub,doi,identifier",
     rows: "2000",
     sort: "date desc,bibcode desc"
   });
@@ -98,6 +98,8 @@ for (const member of members) {
       title: document.title[0],
       authors: (document.author || []).join(", "),
       year: document.year,
+      // ADS gives e.g. "2026-11-01T00:00:00Z"; month precision is what drives ordering.
+      date: document.date?.slice(0, 10),
       type: publicationType(document.doctype),
       members: [member.name],
       adsUrl: `https://ui.adsabs.harvard.edu/abs/${encodeURIComponent(document.bibcode)}/abstract`,
@@ -107,16 +109,34 @@ for (const member of members) {
   }
 }
 
-const papers = [...publications.values()]
-  .map((paper) => ({ ...paper, members: [...new Set(paper.members)].sort() }))
-  .sort((first, second) => Number(second.year) - Number(first.year));
+// Papers were collected member by member, so sort the whole list newest first.
+// Sorting by year alone would leave each year grouped by roster order, burying
+// other members' new papers beneath every earlier paper by the first member.
+const papers = [...publications.entries()]
+  .sort(([firstBibcode, first], [secondBibcode, second]) =>
+    (second.date || String(second.year)).localeCompare(first.date || String(first.year)) ||
+    secondBibcode.localeCompare(firstBibcode)
+  )
+  .map(([, paper]) => ({ ...paper, members: [...new Set(paper.members)].sort() }));
+
+// Keep the previous timestamp when nothing changed, so the workflow does not
+// commit (and redeploy the site) every week just to bump generatedAt.
+let generatedAt = new Date().toISOString();
+try {
+  const previous = JSON.parse(await readFile(papersPath, "utf8"));
+  if (previous.generatedAt && JSON.stringify(previous.papers) === JSON.stringify(papers)) {
+    generatedAt = previous.generatedAt;
+  }
+} catch {
+  // No previous file (or unreadable): use the new timestamp.
+}
 
 const output = {
   _instructions: [
     "This file is generated automatically by the ADS update workflow.",
     "Do not edit the papers array by hand; edit people.json to update the group roster instead."
   ],
-  generatedAt: new Date().toISOString(),
+  generatedAt,
   papers
 };
 
