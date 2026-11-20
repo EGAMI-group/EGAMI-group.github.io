@@ -22,44 +22,57 @@ function addOptions(select, values) {
   });
 }
 
-function escapeForRegex(text) {
-  return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+// Accents and case vary between ADS records (e.g. "Puskas" vs "Puskás").
+function normalizeName(name) {
+  return name.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().trim();
 }
 
-function authorVariants(memberName) {
+// The ADS forms of a member's name: "Surname, Given" and "Surname, G.".
+function memberNameKeys(memberName) {
   const nameParts = memberName.trim().split(/\s+/);
-  if (nameParts.length < 2) return [memberName];
+  if (nameParts.length < 2) return [normalizeName(memberName)];
 
   const surname = nameParts.at(-1);
   const givenName = nameParts.slice(0, -1).join(" ");
-  const initial = givenName.charAt(0);
-  return [memberName, `${surname}, ${givenName}`, `${surname}, ${initial}.`];
+  return [`${surname}, ${givenName}`, `${surname}, ${givenName.charAt(0)}.`].map(normalizeName);
+}
+
+const nameSuffix = /^(jr\.?|sr\.?|ii|iii|iv)$/i;
+
+// ADS writes "Surname, Given", sometimes with a suffix ("Ryan, R. E., Jr").
+// Show "Given Surname" so a comma-separated author list reads unambiguously.
+function displayAuthorName(adsName) {
+  const [surname, ...rest] = adsName.split(",").map((part) => part.trim()).filter(Boolean);
+  if (!rest.length) return surname || adsName.trim();
+
+  const suffix = nameSuffix.test(rest.at(-1)) ? rest.pop() : "";
+  return [rest.join(" "), surname, suffix].filter(Boolean).join(" ");
 }
 
 function appendAuthorsWithHighlights(container, authors, members = []) {
-  const variants = members
-    .flatMap(authorVariants)
-    .filter(Boolean)
-    .sort((first, second) => second.length - first.length);
-
-  if (!variants.length) {
+  // Older papers.json files stored authors as one pre-joined string.
+  if (!Array.isArray(authors)) {
     container.textContent = authors;
     return;
   }
 
-  const pattern = new RegExp(variants.map(escapeForRegex).join("|"), "gi");
-  let lastIndex = 0;
-  let match;
+  const memberKeys = members.flatMap(memberNameKeys);
+  const isGroupMember = (adsName) => {
+    const name = normalizeName(adsName);
+    return memberKeys.some((key) => name === key || name.startsWith(`${key} `));
+  };
 
-  while ((match = pattern.exec(authors))) {
-    container.append(document.createTextNode(authors.slice(lastIndex, match.index)));
-    const highlightedAuthor = publicationElement("span", "group-author", match[0]);
-    highlightedAuthor.title = "EGAMI Group member";
-    container.append(highlightedAuthor);
-    lastIndex = pattern.lastIndex;
-  }
-
-  container.append(document.createTextNode(authors.slice(lastIndex)));
+  authors.forEach((adsName, index) => {
+    if (index) container.append(document.createTextNode(", "));
+    const displayName = displayAuthorName(adsName);
+    if (isGroupMember(adsName)) {
+      const highlightedAuthor = publicationElement("span", "group-author", displayName);
+      highlightedAuthor.title = "EGAMI Group member";
+      container.append(highlightedAuthor);
+    } else {
+      container.append(document.createTextNode(displayName));
+    }
+  });
 }
 
 const isPublicationArchive = publicationResults.dataset.showAll === "true";

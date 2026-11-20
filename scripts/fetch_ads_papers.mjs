@@ -96,7 +96,9 @@ for (const member of members) {
 
     publications.set(document.bibcode, {
       title: document.title[0],
-      authors: (document.author || []).join(", "),
+      // Keep ADS's "Surname, Given" names as a list: joined into one string,
+      // the commas inside and between names become indistinguishable.
+      authors: document.author || [],
       year: document.year,
       // ADS gives e.g. "2026-11-01T00:00:00Z"; month precision is what drives ordering.
       date: document.date?.slice(0, 10),
