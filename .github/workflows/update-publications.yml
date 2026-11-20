@@ -4,6 +4,20 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 12 * * 1"
+  # Rebuild right away when the fetcher or the roster changes, instead of
+  # waiting for Monday. (The bot's own papers.json commits don't match these
+  # paths, and pushes made with GITHUB_TOKEN never trigger workflows anyway.)
+  push:
+    branches: [main]
+    paths:
+      - scripts/fetch_ads_papers.mjs
+      - assets/data/people.json
+      - .github/workflows/update-publications.yml
+
+# Never let two updates race to push papers.json.
+concurrency:
+  group: update-publications
+  cancel-in-progress: false
 
 permissions:
   contents: write
