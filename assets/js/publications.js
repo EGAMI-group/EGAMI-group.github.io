@@ -4,8 +4,9 @@ const roleFilter = document.querySelector("#publication-role");
 const yearFilter = document.querySelector("#publication-year");
 const authorshipFilter = document.querySelector("#publication-authorship");
 const publicationReset = document.querySelector("#publication-reset");
-// "Group-led" papers have a group member among this many leading authors.
-const leadAuthorPositions = 3;
+// Authorship options: the latest author position a group member may hold.
+// "any" is absent, so it applies no limit.
+const authorshipPositionLimits = { first: 1, lead: 3 };
 let memberRoles = new Map();
 let groupMemberNames = [];
 
@@ -87,13 +88,14 @@ function renderPublications(papers, showAll = isPublicationArchive) {
   const year = yearFilter.value;
   // Older papers.json files have no author positions; show everything until
   // the ADS workflow regenerates the file rather than an empty list.
-  const leadOnly =
-    authorshipFilter.value === "lead" && papers.some((paper) => paper.groupAuthorPosition);
+  const positionLimit = papers.some((paper) => paper.groupAuthorPosition)
+    ? authorshipPositionLimits[authorshipFilter.value]
+    : undefined;
   const matching = papers.filter((paper) => {
     const hasPerson = !person || (paper.members || []).includes(person);
     const hasRole = !role || (paper.members || []).some((member) => memberRoles.get(member) === role);
     const hasYear = !year || String(paper.year) === year;
-    const hasAuthorship = !leadOnly || paper.groupAuthorPosition <= leadAuthorPositions;
+    const hasAuthorship = !positionLimit || paper.groupAuthorPosition <= positionLimit;
     return hasPerson && hasRole && hasYear && hasAuthorship;
   });
 

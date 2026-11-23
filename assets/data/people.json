@@ -12,6 +12,7 @@
     "status: optional. Leave it out for present members; use alumni only for former members.",
     "email: optional public email address. It appears as a clickable email link on the person's profile page.",
     "orcid: optional ORCID iD, written as 0000-0000-0000-0000. It enables the publication updater and View papers on ADS link for that person.",
+    "adsName: optional name as written in ADS, for example \"Egami, E.\", or a list of variants. Use it for anyone whose papers aren't all linked to their ORCID. Papers found this way are only included when that author is listed at the University of Arizona. Use an initial for an uncommon surname (\"Egami, E.\") and the full given name for a common one (\"Ma, Zheng\").",
     "website: optional personal or professional website, such as https://example.com. A domain without https:// also works. This creates a Personal website link on their profile page.",
     "scholar: optional Google Scholar profile. Paste the full URL from the address bar of your Scholar profile page. This creates a Google Scholar link on their profile page."
   ],
@@ -21,6 +22,7 @@
       "role": "Professor",
       "status": "active",
       "orcid": "0000-0003-1344-9475",
+      "adsName": "Egami, E.",
       "photo": "Eiichi_Egami.jpg",
       "email": "egami@arizona.edu"
     },
@@ -29,6 +31,7 @@
       "role": "Assistant Research Professor",
       "status": "active",
       "orcid": "0000-0003-3307-7525",
+      "adsName": "Zhu, Yongda",
       "website": "https://ydzhuastro.github.io/",
       "photo": "Yongda_Zhu.jpg",
       "email": "yongdaz@arizona.edu",
@@ -39,6 +42,7 @@
       "role": "Postdoc",
       "status": "active",
       "orcid": "0000-0002-4781-9078",
+      "adsName": "DeCoursey, C.",
       "photo": "Christa_DeCoursey.jpg",
       "email": "cndecoursey@arizona.edu"
     },
@@ -47,6 +51,7 @@
       "role": "Postdoc",
       "status": "active",
       "orcid": "0000-0001-8630-2031",
+      "adsName": "Puskás, D.",
       "photo": "David_Puskas.jpg",
       "email": "dpuskas@arizona.edu"
     },
@@ -55,6 +60,7 @@
       "role": "Graduate Student",
       "status": "active",
       "orcid": "0009-0003-5402-4809",
+      "adsName": "Ma, Zheng",
       "photo": "Zheng_Ma.jpg",
       "email": "mazh@arizona.edu",
       "website": "https://zhengmaastro.github.io/"
@@ -64,6 +70,7 @@
       "role": "Graduate Student",
       "status": "active",
       "orcid": "0000-0002-1574-2045",
+      "adsName": "Zhang, Junyu",
       "photo": "Junyu_Zhang.jpg",
       "email": "junyuzhang@arizona.edu"
     },
@@ -72,6 +79,7 @@
       "role": "Graduate Student",
       "status": "active",
       "orcid": "0000-0003-4247-0169",
+      "adsName": "Liu, Yichen",
       "website": "https://yliu.fit/",
       "photo": "Yichen_Liu.png",
       "email": "yichenliu@arizona.edu"
@@ -81,6 +89,7 @@
       "role": "Graduate Student",
       "status": "active",
       "orcid": "0000-0002-7456-2167",
+      "adsName": "VanWyngarden, M.",
       "email": "madiv@arizona.edu",
       "website": "https://mvanwyngarden.github.io/",
       "photo": "Madi_VanWyngarden.jpg",
@@ -91,6 +100,7 @@
       "role": "Undergraduate Student",
       "status": "active",
       "orcid": "0009-0003-7532-3197",
+      "adsName": "Akhtarkavan, A.",
       "website": "https://aakavan.com/",
       "photo": "Arshia_Akhtarkavan.jpg",
       "email": "aakhtarkavan@arizona.edu"
@@ -98,23 +108,27 @@
     {
       "name": "Magdalena Sammut",
       "role": "Undergraduate Student",
-      "status": "active"
+      "status": "active",
+      "adsName": "Sammut, M."
     },
     {
       "name": "Shruti Karandikar",
       "role": "Undergraduate Student",
-      "status": "active"
+      "status": "active",
+      "adsName": "Karandikar, S."
     },
     {
       "name": "Stone Guymon",
       "role": "Undergraduate Student",
       "status": "active",
+      "adsName": "Guymon, S.",
       "photo": "Stone_Guymon.png"
     },
     {
       "name": "Christine Le",
       "role": "Undergraduate Student",
       "status": "active",
+      "adsName": "Le, Christine",
       "photo": "Christine_Le.jpeg",
       "website": "https://christinemountain.github.io/"
     },
@@ -122,6 +136,7 @@
       "name": "Ben Brody",
       "role": "Undergraduate Student",
       "status": "active",
+      "adsName": "Brody, B.",
       "photo": "Ben_Brody.jpg"
     }
   ]

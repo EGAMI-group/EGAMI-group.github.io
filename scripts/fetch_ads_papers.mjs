@@ -50,16 +50,25 @@ function arxivUrl(identifiers = []) {
   return `https://arxiv.org/abs/${identifier.replace(/^arxiv:/i, "")}`;
 }
 
+// Optional ADS author names ("Egami, E." or a list of variants) for members
+// whose papers aren't all linked to their ORCID.
+function adsNames(person) {
+  return [].concat(person.adsName || []).map((name) => name.trim()).filter(Boolean);
+}
+
 function adsQuery(person) {
+  const clauses = [];
   const orcid = person.orcid?.trim();
-  return orcid ? `orcid:${orcid}` : null;
+  if (orcid) clauses.push(`orcid:${orcid}`);
+  for (const name of adsNames(person)) clauses.push(`author:"${name.replace(/"/g, "")}"`);
+  return clauses.length ? clauses.join(" OR ") : null;
 }
 
 async function searchAds(query, memberName) {
   const url = new URL("https://api.adsabs.harvard.edu/v1/search/query");
   url.search = new URLSearchParams({
     q: query,
-    fl: "bibcode,title,author,year,date,doctype,pub,doi,identifier,orcid_pub,orcid_user,orcid_other",
+    fl: "bibcode,title,author,aff,year,date,doctype,pub,doi,identifier,orcid_pub,orcid_user,orcid_other",
     rows: "2000",
     sort: "date desc,bibcode desc"
   });
@@ -73,7 +82,11 @@ async function searchAds(query, memberName) {
   }
 
   const data = await response.json();
-  return data.response?.docs || [];
+  const docs = data.response?.docs || [];
+  if (data.response?.numFound > docs.length) {
+    console.warn(`  Warning: ADS found ${data.response.numFound} records but returned only ${docs.length}.`);
+  }
+  return docs;
 }
 
 // Accents and case vary between ADS records (e.g. "Puskas" vs "Puskás").
@@ -94,6 +107,31 @@ function orcidAuthorPosition(document, orcid) {
 function earliestPosition(...positions) {
   const known = positions.filter(Number.isInteger);
   return known.length ? Math.min(...known) : undefined;
+}
+
+// A paper found by name rather than ORCID is only kept when that author is
+// listed at the University of Arizona, so a shared name can't pull in someone
+// else's papers. (Deliberately excludes "Arizona State University".)
+const groupAffiliation = /\buniv(?:ersity|\.)?\s+of\s+arizona\b|\bsteward\s+obs/i;
+
+function splitAdsName(name) {
+  const [surname = "", given = ""] = normalizeName(name).split(",").map((part) => part.trim());
+  return [surname, given.replace(/\.$/, "")];
+}
+
+// 1-based position of the first author who matches one of the member's ADS
+// names (same surname, given name starting with the configured one, so
+// "Egami, E." matches "Egami, Eiichi") and is affiliated with Arizona.
+function verifiedNamePosition(document, names) {
+  const wanted = names.map(splitAdsName);
+  const index = (document.author || []).findIndex((author, authorIndex) => {
+    const [surname, given] = splitAdsName(author);
+    const nameMatches = wanted.some(
+      ([wantedSurname, wantedGiven]) => surname === wantedSurname && given.startsWith(wantedGiven)
+    );
+    return nameMatches && groupAffiliation.test(document.aff?.[authorIndex] || "");
+  });
+  return index === -1 ? undefined : index + 1;
 }
 
 const rosterData = JSON.parse(await readFile(peoplePath, "utf8"));
@@ -118,13 +156,28 @@ function nameAuthorPosition(authors) {
 
 for (const member of members) {
   const query = adsQuery(member);
-  console.log(`Fetching ADS papers for ${member.name} using ORCID...`);
+  const orcid = member.orcid?.trim();
+  const names = adsNames(member);
+  console.log(`Fetching ADS papers for ${member.name}: ${query}`);
   const documents = await searchAds(query, member.name);
+  const counts = { orcid: 0, name: 0, skipped: 0 };
 
   for (const document of documents) {
     if (!document.bibcode || !document.title?.[0]) continue;
 
-    const memberPosition = orcidAuthorPosition(document, member.orcid.trim());
+    let memberPosition = orcid ? orcidAuthorPosition(document, orcid) : undefined;
+    if (memberPosition) {
+      counts.orcid += 1;
+    } else if (names.length) {
+      // Not linked to their ORCID, so ADS matched the name: verify it.
+      memberPosition = verifiedNamePosition(document, names);
+      if (!memberPosition) {
+        counts.skipped += 1;
+        continue;
+      }
+      counts.name += 1;
+    }
+
     const existing = publications.get(document.bibcode);
     if (existing) {
       existing.members.push(member.name);
@@ -150,6 +203,13 @@ for (const member of members) {
       arxivUrl: arxivUrl(document.identifier),
       doiUrl: document.doi?.[0] ? `https://doi.org/${document.doi[0]}` : undefined
     });
+  }
+
+  if (names.length) {
+    console.log(
+      `  ${counts.orcid} via ORCID, ${counts.name} more by name at Arizona, ` +
+        `${counts.skipped} name matches skipped (not listed at Arizona).`
+    );
   }
 }
 
