@@ -59,7 +59,7 @@ async function searchAds(query, memberName) {
   const url = new URL("https://api.adsabs.harvard.edu/v1/search/query");
   url.search = new URLSearchParams({
     q: query,
-    fl: "bibcode,title,author,year,date,doctype,pub,doi,identifier",
+    fl: "bibcode,title,author,year,date,doctype,pub,doi,identifier,orcid_pub,orcid_user,orcid_other",
     rows: "2000",
     sort: "date desc,bibcode desc"
   });
@@ -76,9 +76,45 @@ async function searchAds(query, memberName) {
   return data.response?.docs || [];
 }
 
+// Accents and case vary between ADS records (e.g. "Puskas" vs "Puskás").
+function normalizeName(name) {
+  return name.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().trim();
+}
+
+// ADS's orcid_pub/orcid_user/orcid_other lists line up with the author list
+// ("-" where unknown), so they give the exact 1-based position of a member.
+function orcidAuthorPosition(document, orcid) {
+  for (const field of ["orcid_pub", "orcid_user", "orcid_other"]) {
+    const index = (document[field] || []).indexOf(orcid);
+    if (index !== -1) return index + 1;
+  }
+  return undefined;
+}
+
+function earliestPosition(...positions) {
+  const known = positions.filter(Number.isInteger);
+  return known.length ? Math.min(...known) : undefined;
+}
+
 const rosterData = JSON.parse(await readFile(peoplePath, "utf8"));
-const members = getRoster(rosterData).filter((person) => adsQuery(person));
+const roster = getRoster(rosterData);
+const members = roster.filter((person) => adsQuery(person));
 const publications = new Map();
+
+// Backup for papers a member hasn't linked to their ORCID: match the full
+// "Surname, Given" name only. Initials ("Liu, Y.") are too common to trust.
+const rosterNameKeys = roster
+  .map((person) => person.name?.trim().split(/\s+/) || [])
+  .filter((nameParts) => nameParts.length > 1)
+  .map((nameParts) => normalizeName(`${nameParts.at(-1)}, ${nameParts.slice(0, -1).join(" ")}`));
+
+function nameAuthorPosition(authors) {
+  const index = authors.findIndex((author) => {
+    const name = normalizeName(author);
+    return rosterNameKeys.some((key) => name === key || name.startsWith(`${key} `));
+  });
+  return index === -1 ? undefined : index + 1;
+}
 
 for (const member of members) {
   const query = adsQuery(member);
@@ -88,22 +124,28 @@ for (const member of members) {
   for (const document of documents) {
     if (!document.bibcode || !document.title?.[0]) continue;
 
+    const memberPosition = orcidAuthorPosition(document, member.orcid.trim());
     const existing = publications.get(document.bibcode);
     if (existing) {
       existing.members.push(member.name);
+      existing.groupAuthorPosition = earliestPosition(existing.groupAuthorPosition, memberPosition);
       continue;
     }
 
+    const authors = document.author || [];
     publications.set(document.bibcode, {
       title: document.title[0],
       // Keep ADS's "Surname, Given" names as a list: joined into one string,
       // the commas inside and between names become indistinguishable.
-      authors: document.author || [],
+      authors,
       year: document.year,
       // ADS gives e.g. "2026-11-01T00:00:00Z"; month precision is what drives ordering.
       date: document.date?.slice(0, 10),
       type: publicationType(document.doctype),
       members: [member.name],
+      // 1-based author position of the earliest group member; the site uses it
+      // to show group-led papers (a member among the first authors) by default.
+      groupAuthorPosition: earliestPosition(memberPosition, nameAuthorPosition(authors)),
       adsUrl: `https://ui.adsabs.harvard.edu/abs/${encodeURIComponent(document.bibcode)}/abstract`,
       arxivUrl: arxivUrl(document.identifier),
       doiUrl: document.doi?.[0] ? `https://doi.org/${document.doi[0]}` : undefined
@@ -144,3 +186,6 @@ const output = {
 
 await writeFile(papersPath, `${JSON.stringify(output, null, 2)}\n`);
 console.log(`Wrote ${papers.length} unique publications from ${members.length} group members.`);
+const groupLed = papers.filter((paper) => paper.groupAuthorPosition <= 3).length;
+const unplaced = papers.filter((paper) => !paper.groupAuthorPosition).length;
+console.log(`${groupLed} have a group member among the first 3 authors; ${unplaced} have no group author position.`);

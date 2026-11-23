@@ -2,7 +2,10 @@ const publicationResults = document.querySelector("#publication-results");
 const personFilter = document.querySelector("#publication-person");
 const roleFilter = document.querySelector("#publication-role");
 const yearFilter = document.querySelector("#publication-year");
+const authorshipFilter = document.querySelector("#publication-authorship");
 const publicationReset = document.querySelector("#publication-reset");
+// "Group-led" papers have a group member among this many leading authors.
+const leadAuthorPositions = 3;
 let memberRoles = new Map();
 let groupMemberNames = [];
 
@@ -82,11 +85,16 @@ function renderPublications(papers, showAll = isPublicationArchive) {
   const person = personFilter.value;
   const role = roleFilter.value;
   const year = yearFilter.value;
+  // Older papers.json files have no author positions; show everything until
+  // the ADS workflow regenerates the file rather than an empty list.
+  const leadOnly =
+    authorshipFilter.value === "lead" && papers.some((paper) => paper.groupAuthorPosition);
   const matching = papers.filter((paper) => {
     const hasPerson = !person || (paper.members || []).includes(person);
     const hasRole = !role || (paper.members || []).some((member) => memberRoles.get(member) === role);
     const hasYear = !year || String(paper.year) === year;
-    return hasPerson && hasRole && hasYear;
+    const hasAuthorship = !leadOnly || paper.groupAuthorPosition <= leadAuthorPositions;
+    return hasPerson && hasRole && hasYear && hasAuthorship;
   });
 
   if (!matching.length) {
@@ -171,7 +179,7 @@ async function loadPublicationExplorer() {
     addOptions(roleFilter, [...new Set(memberRoles.values())].sort());
     addOptions(yearFilter, [...new Set(papers.map((paper) => String(paper.year)))].sort().reverse());
 
-    [personFilter, roleFilter, yearFilter].forEach((filter) => {
+    [personFilter, roleFilter, yearFilter, authorshipFilter].forEach((filter) => {
       filter.addEventListener("change", () => renderPublications(papers, isPublicationArchive));
     });
     if (publicationReset) {
@@ -179,6 +187,7 @@ async function loadPublicationExplorer() {
         personFilter.value = "";
         roleFilter.value = "";
         yearFilter.value = "";
+        authorshipFilter.value = "lead";
         renderPublications(papers, isPublicationArchive);
       });
     }
