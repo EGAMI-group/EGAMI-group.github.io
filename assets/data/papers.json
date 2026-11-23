@@ -3,7 +3,7 @@
     "This file is generated automatically by the ADS update workflow.",
     "Do not edit the papers array by hand; edit people.json to update the group roster instead."
   ],
-  "generatedAt": "2026-11-20T00:35:39.640Z",
+  "generatedAt": "2026-11-23T20:20:46.910Z",
   "papers": [
     {
       "title": "Stellar masses of optically dark galaxies: uncertainty introduced by the attenuation law and star-formation histories",
@@ -29,6 +29,7 @@
       "members": [
         "Dávid Puskás"
       ],
+      "groupAuthorPosition": 4,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.552g1817L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2601.08693",
       "doiUrl": "https://doi.org/10.1093/mnras/stag1817"
@@ -464,6 +465,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 126,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv261107027C/abstract",
       "arxivUrl": "https://arxiv.org/abs/2611.07027",
       "doiUrl": "https://doi.org/10.48550/arXiv.2611.07027"
@@ -497,6 +499,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv261103801Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2611.03801",
       "doiUrl": "https://doi.org/10.48550/arXiv.2611.03801"
@@ -532,9 +535,39 @@
       "members": [
         "Dávid Puskás"
       ],
+      "groupAuthorPosition": 9,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv261103799T/abstract",
       "arxivUrl": "https://arxiv.org/abs/2611.03799",
       "doiUrl": "https://doi.org/10.48550/arXiv.2611.03799"
+    },
+    {
+      "title": "(LRDs)<SUP>2</SUP>: The Low-ReDshift Little Red Dots Survey. II. DESI DR1 Sample",
+      "authors": [
+        "Lin, Xiaojing",
+        "Fan, Xiaohui",
+        "Cai, Zheng",
+        "Liu, Yichen",
+        "Sun, Fengwu",
+        "Bian, Fuyan",
+        "Li, Mingyu",
+        "Mao, Junjie",
+        "Greene, Jenny E.",
+        "Liu, Hanpu",
+        "Li, Jiaxuan",
+        "Liu, Weizhe",
+        "Ma, Yilun",
+        "Sun, Zechang",
+        "Zhang, Zijian"
+      ],
+      "year": "2026",
+      "date": "2026-11-01",
+      "type": "Journal article",
+      "members": [
+        "Yichen Liu"
+      ],
+      "groupAuthorPosition": 4,
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1012...75L/abstract",
+      "doiUrl": "https://doi.org/10.3847/1538-4357/aeac19"
     },
     {
       "title": "A Census of Na D-Traced Neutral Interstellar Medium and Outflows at 0.6 &lt; z &lt; 4",
@@ -560,8 +593,45 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 4,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1011..218S/abstract",
       "doiUrl": "https://doi.org/10.3847/1538-4357/aeaccf"
+    },
+    {
+      "title": "Probing Direct Contributions of Galaxies and Active Galactic Nuclei to Cosmic Reionization in a Quasar Field J0226+0302 with JWST/NIRCam and NIRSpec",
+      "authors": [
+        "Jin, Xiangyu",
+        "Yang, Jinyi",
+        "Wang, Feige",
+        "Kakiichi, Koki",
+        "Fan, Xiaohui",
+        "Garaldi, Enrico",
+        "Champagne, Jaclyn B.",
+        "Becker, George D.",
+        "Zhu, Yongda",
+        "Wu, Yunjing",
+        "Vestergaard, Marianne",
+        "Chen, Huanqing",
+        "D'Odorico, Valentina",
+        "Eilers, Anna-Christina",
+        "Huang, Jiamu",
+        "Jun, Hyunsung D.",
+        "Li, Mingyu",
+        "Pudoka, Maria",
+        "Tee, Wei Leong",
+        "Yue, Minghao",
+        "Zhang, Huanian",
+        "Zou, Siwei"
+      ],
+      "year": "2026",
+      "date": "2026-11-01",
+      "type": "Journal article",
+      "members": [
+        "Yongda Zhu"
+      ],
+      "groupAuthorPosition": 9,
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1011....7J/abstract",
+      "doiUrl": "https://doi.org/10.3847/1538-4357/aea55d"
     },
     {
       "title": "Mergers lighting the early Universe: modest star formation enhancement without evidence for AGN or Lyα triggering",
@@ -592,6 +662,7 @@
       "members": [
         "Dávid Puskás"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.552g1698P/abstract",
       "arxivUrl": "https://arxiv.org/abs/2510.14743",
       "doiUrl": "https://doi.org/10.1093/mnras/stag1698"
@@ -631,6 +702,7 @@
         "Dávid Puskás",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv261028515P/abstract",
       "arxivUrl": "https://arxiv.org/abs/2610.28515",
       "doiUrl": "https://doi.org/10.48550/arXiv.2610.28515"
@@ -683,6 +755,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 38,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv261026560R/abstract",
       "arxivUrl": "https://arxiv.org/abs/2610.26560",
       "doiUrl": "https://doi.org/10.48550/arXiv.2610.26560"
@@ -728,6 +801,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 3,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv261024092W/abstract",
       "arxivUrl": "https://arxiv.org/abs/2610.24092"
     },
@@ -819,6 +893,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 71,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1010..237N/abstract",
       "arxivUrl": "https://arxiv.org/abs/2511.14483",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae8d09"
@@ -860,6 +935,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 26,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1009..207W/abstract",
       "arxivUrl": "https://arxiv.org/abs/2510.00235",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae9f4d"
@@ -887,6 +963,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 11,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1009..176L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2511.06085",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae99e0"
@@ -911,6 +988,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 9,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1009..137L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2604.01271",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae984b"
@@ -952,6 +1030,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 27,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026NatAs.tmp..219L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2606.31638",
       "doiUrl": "https://doi.org/10.1038/s41550-026-02993-5"
@@ -984,6 +1063,7 @@
         "Yongda Zhu",
         "Zheng Ma"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026NatAs.tmp..217Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2604.21218",
       "doiUrl": "https://doi.org/10.1038/s41550-026-02988-2"
@@ -1003,6 +1083,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 2,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260936656Y/abstract",
       "arxivUrl": "https://arxiv.org/abs/2609.36656",
       "doiUrl": "https://doi.org/10.48550/arXiv.2609.36656"
@@ -1072,6 +1153,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 54,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260936076M/abstract",
       "arxivUrl": "https://arxiv.org/abs/2609.36076",
       "doiUrl": "https://doi.org/10.48550/arXiv.2609.36076"
@@ -1093,6 +1175,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 2,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260931827N/abstract",
       "arxivUrl": "https://arxiv.org/abs/2609.31827",
       "doiUrl": "https://doi.org/10.48550/arXiv.2609.31827"
@@ -1124,6 +1207,7 @@
         "Dávid Puskás",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 12,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260917756W/abstract",
       "arxivUrl": "https://arxiv.org/abs/2609.17756",
       "doiUrl": "https://doi.org/10.48550/arXiv.2609.17756"
@@ -1143,6 +1227,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 3,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260911879D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2609.11879",
       "doiUrl": "https://doi.org/10.48550/arXiv.2609.11879"
@@ -1174,6 +1259,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 7,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1008L..64M/abstract",
       "arxivUrl": "https://arxiv.org/abs/2509.02662",
       "doiUrl": "https://doi.org/10.3847/2041-8213/aea071"
@@ -1198,6 +1284,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 4,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1008L..55J/abstract",
       "arxivUrl": "https://arxiv.org/abs/2606.18342",
       "doiUrl": "https://doi.org/10.3847/2041-8213/ae9fea"
@@ -1236,6 +1323,7 @@
         "Yichen Liu",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 7,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1008..217F/abstract",
       "arxivUrl": "https://arxiv.org/abs/2503.15597",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae743f"
@@ -1255,6 +1343,7 @@
       "members": [
         "Madi VanWyngarden"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1008...52V/abstract",
       "arxivUrl": "https://arxiv.org/abs/2511.04786",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae8c3d"
@@ -1278,6 +1367,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 9,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1008....3D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2607.28875",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae92fb"
@@ -1322,6 +1412,7 @@
       "members": [
         "Dávid Puskás"
       ],
+      "groupAuthorPosition": 12,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.550g1360T/abstract",
       "arxivUrl": "https://arxiv.org/abs/2603.15761",
       "doiUrl": "https://doi.org/10.1093/mnras/stag1360"
@@ -1344,6 +1435,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 4,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260828745C/abstract",
       "arxivUrl": "https://arxiv.org/abs/2608.28745",
       "doiUrl": "https://doi.org/10.48550/arXiv.2608.28745"
@@ -1381,6 +1473,7 @@
         "Yongda Zhu",
         "Zheng Ma"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260819311Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2608.19311",
       "doiUrl": "https://doi.org/10.48550/arXiv.2608.19311"
@@ -1409,6 +1502,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 10,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1007L..35L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2607.11182",
       "doiUrl": "https://doi.org/10.3847/2041-8213/ae88ff"
@@ -1443,6 +1537,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 20,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1006..247S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2606.25856",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae8261"
@@ -1483,6 +1578,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 26,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1006..205R/abstract",
       "arxivUrl": "https://arxiv.org/abs/2507.17738",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae80cd"
@@ -1523,6 +1619,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 15,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026A%26A...712A.132S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2509.01795",
       "doiUrl": "https://doi.org/10.1051/0004-6361/202557064"
@@ -1566,6 +1663,7 @@
         "Yongda Zhu",
         "Zheng Ma"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260723020Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2607.23020",
       "doiUrl": "https://doi.org/10.48550/arXiv.2607.23020"
@@ -1605,6 +1703,7 @@
         "Yongda Zhu",
         "Zheng Ma"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260722966M/abstract",
       "arxivUrl": "https://arxiv.org/abs/2607.22966",
       "doiUrl": "https://doi.org/10.48550/arXiv.2607.22966"
@@ -1652,6 +1751,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 20,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1006...43H/abstract",
       "arxivUrl": "https://arxiv.org/abs/2506.02099",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae5dcd"
@@ -1674,6 +1774,7 @@
       "members": [
         "Christa DeCoursey"
       ],
+      "groupAuthorPosition": 8,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1005..244O/abstract",
       "arxivUrl": "https://arxiv.org/abs/2506.20634",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae7a2f"
@@ -1705,6 +1806,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 12,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1005...54C/abstract",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae70fa"
     },
@@ -1760,6 +1862,7 @@
         "Eiichi Egami",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 17,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026A%26A...712A..16M/abstract",
       "arxivUrl": "https://arxiv.org/abs/2510.11373",
       "doiUrl": "https://doi.org/10.1051/0004-6361/202557671"
@@ -1818,6 +1921,7 @@
         "Dávid Puskás",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 35,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.549ag824D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2510.11626",
       "doiUrl": "https://doi.org/10.1093/mnras/stag824"
@@ -1861,6 +1965,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 29,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.548ag808S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2411.14532",
       "doiUrl": "https://doi.org/10.1093/mnras/stag808"
@@ -1913,6 +2018,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 38,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260621614G/abstract",
       "arxivUrl": "https://arxiv.org/abs/2606.21614",
       "doiUrl": "https://doi.org/10.48550/arXiv.2606.21614"
@@ -1934,6 +2040,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 6,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260619449C/abstract",
       "arxivUrl": "https://arxiv.org/abs/2606.19449",
       "doiUrl": "https://doi.org/10.48550/arXiv.2606.19449"
@@ -1970,6 +2077,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 9,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260614959J/abstract",
       "arxivUrl": "https://arxiv.org/abs/2606.14959",
       "doiUrl": "https://doi.org/10.48550/arXiv.2606.14959"
@@ -2015,6 +2123,7 @@
       "members": [
         "Dávid Puskás"
       ],
+      "groupAuthorPosition": 6,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260611345I/abstract",
       "arxivUrl": "https://arxiv.org/abs/2606.11345",
       "doiUrl": "https://doi.org/10.48550/arXiv.2606.11345"
@@ -2037,6 +2146,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 6,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260609970J/abstract",
       "arxivUrl": "https://arxiv.org/abs/2606.09970",
       "doiUrl": "https://doi.org/10.48550/arXiv.2606.09970"
@@ -2095,6 +2205,7 @@
         "Eiichi Egami",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 22,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1004L..30H/abstract",
       "arxivUrl": "https://arxiv.org/abs/2512.19695",
       "doiUrl": "https://doi.org/10.3847/2041-8213/ae7446"
@@ -2147,6 +2258,7 @@
         "Dávid Puskás",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 7,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1004..161H/abstract",
       "arxivUrl": "https://arxiv.org/abs/2601.15959",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae710a"
@@ -2177,6 +2289,7 @@
       "members": [
         "Yichen Liu"
       ],
+      "groupAuthorPosition": 14,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1004...92J/abstract",
       "arxivUrl": "https://arxiv.org/abs/2603.19548",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae6cd7"
@@ -2231,6 +2344,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 19,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026Natur.653.1017J/abstract",
       "arxivUrl": "https://arxiv.org/abs/2508.21748",
       "doiUrl": "https://doi.org/10.1038/s41586-026-10579-4"
@@ -2271,6 +2385,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 9,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026Natur.653..368L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2509.08793",
       "doiUrl": "https://doi.org/10.1038/s41586-026-10477-9"
@@ -2326,6 +2441,7 @@
         "Dávid Puskás",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 28,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260521599D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2605.21599",
       "doiUrl": "https://doi.org/10.48550/arXiv.2605.21599"
@@ -2364,6 +2480,7 @@
         "Christa DeCoursey",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 5,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1002L...3S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2512.19783",
       "doiUrl": "https://doi.org/10.3847/2041-8213/ae5a37"
@@ -2430,6 +2547,7 @@
         "Christa DeCoursey",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 15,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1002..162F/abstract",
       "arxivUrl": "https://arxiv.org/abs/2601.08931",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae5bbf"
@@ -2453,6 +2571,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1002...93Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2510.09568",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae5bbb"
@@ -2501,6 +2620,7 @@
         "Christa DeCoursey",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 3,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1002...83C/abstract",
       "arxivUrl": "https://arxiv.org/abs/2501.05513",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae595d"
@@ -2534,6 +2654,7 @@
         "Eiichi Egami",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 7,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.547ag437D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2510.06315",
       "doiUrl": "https://doi.org/10.1093/mnras/stag437"
@@ -2562,6 +2683,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 4,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260418522S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2604.18522",
       "doiUrl": "https://doi.org/10.48550/arXiv.2604.18522"
@@ -2606,6 +2728,7 @@
       "members": [
         "Zheng Ma"
       ],
+      "groupAuthorPosition": 14,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260407138R/abstract",
       "arxivUrl": "https://arxiv.org/abs/2604.07138",
       "doiUrl": "https://doi.org/10.48550/arXiv.2604.07138"
@@ -2647,6 +2770,7 @@
         "Yichen Liu",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1000..312Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2504.02305",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae4ed1"
@@ -2688,6 +2812,7 @@
         "Yongda Zhu",
         "Zheng Ma"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1000..303Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2601.15965",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae50f1"
@@ -2708,6 +2833,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 6,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026PASA...43...46C/abstract",
       "arxivUrl": "https://arxiv.org/abs/2508.05739",
       "doiUrl": "https://doi.org/10.1017/pasa.2026.10166"
@@ -2741,6 +2867,7 @@
         "Eiichi Egami",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 8,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.546ag119D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2510.14779",
       "doiUrl": "https://doi.org/10.1093/mnras/stag119"
@@ -2777,6 +2904,7 @@
       "members": [
         "Dávid Puskás"
       ],
+      "groupAuthorPosition": 18,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.546ag094I/abstract",
       "arxivUrl": "https://arxiv.org/abs/2507.14936",
       "doiUrl": "https://doi.org/10.1093/mnras/stag094"
@@ -2871,6 +2999,7 @@
         "Dávid Puskás",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 37,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJS..283....6E/abstract",
       "arxivUrl": "https://arxiv.org/abs/2306.02465",
       "doiUrl": "https://doi.org/10.3847/1538-4365/ae3163"
@@ -2913,6 +3042,7 @@
       "members": [
         "Yichen Liu"
       ],
+      "groupAuthorPosition": 18,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026A%26A...707A.299W/abstract",
       "arxivUrl": "https://arxiv.org/abs/2512.15881",
       "doiUrl": "https://doi.org/10.1051/0004-6361/202557934"
@@ -2945,6 +3075,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 18,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.546f2254R/abstract",
       "arxivUrl": "https://arxiv.org/abs/2601.02634",
       "doiUrl": "https://doi.org/10.1093/mnras/staf2254"
@@ -2974,6 +3105,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 15,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260224162R/abstract",
       "arxivUrl": "https://arxiv.org/abs/2602.24162",
       "doiUrl": "https://doi.org/10.48550/arXiv.2602.24162"
@@ -3052,6 +3184,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 64,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260220247P/abstract",
       "arxivUrl": "https://arxiv.org/abs/2602.20247",
       "doiUrl": "https://doi.org/10.48550/arXiv.2602.20247"
@@ -3116,6 +3249,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 18,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998L..36Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2512.16215",
       "doiUrl": "https://doi.org/10.3847/2041-8213/ae382a"
@@ -3171,6 +3305,7 @@
         "Christa DeCoursey",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 21,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...998..239J/abstract",
       "arxivUrl": "https://arxiv.org/abs/2401.00934",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae3b2a"
@@ -3214,6 +3349,7 @@
         "Yichen Liu",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 19,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...997..364L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2507.10659",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae2bdf"
@@ -3244,6 +3380,7 @@
         "Eiichi Egami",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...997..301Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2508.12599",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae29b4"
@@ -3279,6 +3416,7 @@
         "Yongda Zhu",
         "Zheng Ma"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...997..250Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2505.02895",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae2681"
@@ -3318,6 +3456,7 @@
         "Junyu Zhang",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 2,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...997..207L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2504.08028",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae225e"
@@ -3343,6 +3482,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 5,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...997..140S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2504.14682",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae2c83"
@@ -3362,6 +3502,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026AAS...24741205M/abstract"
     },
     {
@@ -3379,6 +3520,7 @@
       "members": [
         "Arshia Akhtarkavan"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026AAS...24728204A/abstract"
     },
     {
@@ -3421,6 +3563,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026AAS...24715704Z/abstract"
     },
     {
@@ -3446,6 +3589,7 @@
       "members": [
         "Yichen Liu"
       ],
+      "groupAuthorPosition": 11,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.545f2219K/abstract",
       "arxivUrl": "https://arxiv.org/abs/2508.21818",
       "doiUrl": "https://doi.org/10.1093/mnras/staf2219"
@@ -3496,6 +3640,7 @@
       "members": [
         "Dávid Puskás"
       ],
+      "groupAuthorPosition": 24,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.545f2117D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2506.14870",
       "doiUrl": "https://doi.org/10.1093/mnras/staf2117"
@@ -3529,6 +3674,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 19,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.545f1862D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2510.25829",
       "doiUrl": "https://doi.org/10.1093/mnras/staf1862"
@@ -3560,6 +3706,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 12,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260122844C/abstract",
       "arxivUrl": "https://arxiv.org/abs/2601.22844",
       "doiUrl": "https://doi.org/10.48550/arXiv.2601.22844"
@@ -3596,6 +3743,7 @@
         "Yongda Zhu",
         "Zheng Ma"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260115962M/abstract",
       "arxivUrl": "https://arxiv.org/abs/2601.15962",
       "doiUrl": "https://doi.org/10.48550/arXiv.2601.15962"
@@ -3636,6 +3784,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 14,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260115961S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2601.15961",
       "doiUrl": "https://doi.org/10.48550/arXiv.2601.15961"
@@ -3680,6 +3829,7 @@
         "Dávid Puskás",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 10,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260115957C/abstract",
       "arxivUrl": "https://arxiv.org/abs/2601.15957",
       "doiUrl": "https://doi.org/10.48550/arXiv.2601.15957"
@@ -3732,6 +3882,7 @@
         "Dávid Puskás",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 18,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260115956R/abstract",
       "arxivUrl": "https://arxiv.org/abs/2601.15956",
       "doiUrl": "https://doi.org/10.48550/arXiv.2601.15956"
@@ -3780,6 +3931,7 @@
         "Dávid Puskás",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 5,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260115954J/abstract",
       "arxivUrl": "https://arxiv.org/abs/2601.15954",
       "doiUrl": "https://doi.org/10.48550/arXiv.2601.15954"
@@ -3809,6 +3961,7 @@
         "Yichen Liu",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 8,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...997...83J/abstract",
       "arxivUrl": "https://arxiv.org/abs/2512.03433",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae27a2"
@@ -3847,6 +4000,7 @@
         "Junyu Zhang",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 4,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...997...61L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2505.02896",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae1eef"
@@ -3896,6 +4050,7 @@
         "Eiichi Egami",
         "Yichen Liu"
       ],
+      "groupAuthorPosition": 6,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026ApJ...996...93L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2504.08039",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae1b9b"
@@ -3937,6 +4092,7 @@
       "members": [
         "Dávid Puskás"
       ],
+      "groupAuthorPosition": 9,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025MNRAS.544.4551S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2508.04410",
       "doiUrl": "https://doi.org/10.1093/mnras/staf1950"
@@ -4014,6 +4170,7 @@
         "Dávid Puskás",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 14,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJS..281...50E/abstract",
       "arxivUrl": "https://arxiv.org/abs/2310.12340",
       "doiUrl": "https://doi.org/10.3847/1538-4365/ae1137"
@@ -4061,6 +4218,7 @@
         "Yongda Zhu",
         "Zheng Ma"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...995L...5Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2509.00153",
       "doiUrl": "https://doi.org/10.3847/2041-8213/ae1f8e"
@@ -4142,6 +4300,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 17,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...995...21T/abstract",
       "arxivUrl": "https://arxiv.org/abs/2508.00057",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae145f"
@@ -4163,6 +4322,7 @@
       "members": [
         "Yichen Liu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...994..162L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2503.06372",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae0e64"
@@ -4210,6 +4370,7 @@
         "Eiichi Egami",
         "Yichen Liu"
       ],
+      "groupAuthorPosition": 5,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025MNRAS.543.3249D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2503.21863",
       "doiUrl": "https://doi.org/10.1093/mnras/staf1540"
@@ -4273,6 +4434,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 49,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...994...86R/abstract",
       "arxivUrl": "https://arxiv.org/abs/2504.01852",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae089c"
@@ -4296,6 +4458,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 5,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...994...35R/abstract",
       "arxivUrl": "https://arxiv.org/abs/2510.07303",
       "doiUrl": "https://doi.org/10.3847/1538-4357/adff79"
@@ -4317,6 +4480,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 7,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...993..168S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2507.13489",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae062a"
@@ -4348,6 +4512,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 13,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025A%26A...703A.274W/abstract",
       "arxivUrl": "https://arxiv.org/abs/2509.03585",
       "doiUrl": "https://doi.org/10.1051/0004-6361/202554459"
@@ -4408,6 +4573,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 16,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025NatAs...9.1553F/abstract",
       "arxivUrl": "https://arxiv.org/abs/2402.18543",
       "doiUrl": "https://doi.org/10.1038/s41550-025-02592-w"
@@ -4449,6 +4615,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 9,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025arXiv251011770F/abstract",
       "arxivUrl": "https://arxiv.org/abs/2510.11770",
       "doiUrl": "https://doi.org/10.48550/arXiv.2510.11770"
@@ -4495,6 +4662,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 32,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...992..212W/abstract",
       "arxivUrl": "https://arxiv.org/abs/2507.22858",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ae01a1"
@@ -4545,6 +4713,7 @@
         "Junyu Zhang",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 13,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...992...71R/abstract",
       "arxivUrl": "https://arxiv.org/abs/2411.14383",
       "doiUrl": "https://doi.org/10.3847/1538-4357/adfa10"
@@ -4586,6 +4755,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 16,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...992...63W/abstract",
       "arxivUrl": "https://arxiv.org/abs/2501.00984",
       "doiUrl": "https://doi.org/10.3847/1538-4357/adfddc"
@@ -4637,6 +4807,7 @@
         "Eiichi Egami",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 12,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025MNRAS.542..960D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2503.15590",
       "doiUrl": "https://doi.org/10.1093/mnras/staf1138"
@@ -4655,6 +4826,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 3,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025MNRAS.542..104H/abstract",
       "arxivUrl": "https://arxiv.org/abs/2507.16231",
       "doiUrl": "https://doi.org/10.1093/mnras/staf1225"
@@ -4703,6 +4875,7 @@
         "Eiichi Egami",
         "Junyu Zhang"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...990...31D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2504.17007",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ade78c"
@@ -4744,6 +4917,7 @@
         "Christa DeCoursey",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 3,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025PASJ...77..851M/abstract",
       "arxivUrl": "https://arxiv.org/abs/2501.08969",
       "doiUrl": "https://doi.org/10.1093/pasj/psaf052"
@@ -4768,6 +4942,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 2,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025arXiv250809258D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2508.09258",
       "doiUrl": "https://doi.org/10.48550/arXiv.2508.09258"
@@ -4818,6 +4993,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 27,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...989..115T/abstract",
       "arxivUrl": "https://arxiv.org/abs/2406.09890",
       "doiUrl": "https://doi.org/10.3847/1538-4357/adb41d"
@@ -4849,6 +5025,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 3,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...988L..69J/abstract",
       "arxivUrl": "https://arxiv.org/abs/2504.01067",
       "doiUrl": "https://doi.org/10.3847/2041-8213/adf194"
@@ -4889,6 +5066,7 @@
       "members": [
         "Dávid Puskás"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025MNRAS.540.2146P/abstract",
       "arxivUrl": "https://arxiv.org/abs/2502.01721",
       "doiUrl": "https://doi.org/10.1093/mnras/staf813"
@@ -4915,6 +5093,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 4,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025hst..prop18038L/abstract"
     },
     {
@@ -4945,6 +5124,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 18,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...988...73L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2412.04542",
       "doiUrl": "https://doi.org/10.3847/1538-4357/adddb5"
@@ -4973,6 +5153,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 14,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...988...17R/abstract",
       "doiUrl": "https://doi.org/10.3847/1538-4357/add2fd"
     },
@@ -5025,6 +5206,7 @@
         "Eiichi Egami",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 21,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...987..186F/abstract",
       "arxivUrl": "https://arxiv.org/abs/2503.03829",
       "doiUrl": "https://doi.org/10.3847/1538-4357/adddb1"
@@ -5046,6 +5228,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 7,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025RNAAS...9..133M/abstract",
       "arxivUrl": "https://arxiv.org/abs/2505.18262",
       "doiUrl": "https://doi.org/10.3847/2515-5172/addec5"
@@ -5090,6 +5273,7 @@
       "members": [
         "Dávid Puskás"
       ],
+      "groupAuthorPosition": 22,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025MNRAS.540..851T/abstract",
       "arxivUrl": "https://arxiv.org/abs/2404.02194",
       "doiUrl": "https://doi.org/10.1093/mnras/staf718"
@@ -5127,6 +5311,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...986..162Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2409.11464",
       "doiUrl": "https://doi.org/10.3847/1538-4357/add2f4"
@@ -5159,6 +5344,7 @@
         "Junyu Zhang",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...986...18Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2410.14804",
       "doiUrl": "https://doi.org/10.3847/1538-4357/add263"
@@ -5208,6 +5394,7 @@
         "Eiichi Egami",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 16,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025NatAs...9..729H/abstract",
       "arxivUrl": "https://arxiv.org/abs/2405.18462",
       "doiUrl": "https://doi.org/10.1038/s41550-025-02503-z"
@@ -5245,6 +5432,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 23,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025MNRAS.539..557B/abstract",
       "arxivUrl": "https://arxiv.org/abs/2410.14773",
       "doiUrl": "https://doi.org/10.1093/mnras/staf475"
@@ -5281,6 +5469,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 5,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025arXiv250503873H/abstract",
       "arxivUrl": "https://arxiv.org/abs/2505.03873",
       "doiUrl": "https://doi.org/10.48550/arXiv.2505.03873"
@@ -5315,6 +5504,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 20,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025A%26A...697A..90B/abstract",
       "arxivUrl": "https://arxiv.org/abs/2501.09070",
       "doiUrl": "https://doi.org/10.1051/0004-6361/202553766"
@@ -5345,6 +5535,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 16,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025PASA...42...49Q/abstract",
       "arxivUrl": "https://arxiv.org/abs/2412.00799",
       "doiUrl": "https://doi.org/10.1017/pasa.2025.35"
@@ -5367,6 +5558,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 8,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...983..165S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2503.03675",
       "doiUrl": "https://doi.org/10.3847/1538-4357/adc250"
@@ -5406,6 +5598,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025yCat..19320076Z/abstract"
     },
     {
@@ -5455,6 +5648,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 37,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025Natur.639..897W/abstract",
       "arxivUrl": "https://arxiv.org/abs/2408.16608",
       "doiUrl": "https://doi.org/10.1038/s41586-025-08779-5"
@@ -5517,6 +5711,7 @@
         "Eiichi Egami",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 10,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025NatAs...9..428F/abstract",
       "arxivUrl": "https://arxiv.org/abs/2404.08045",
       "doiUrl": "https://doi.org/10.1038/s41550-024-02432-3"
@@ -5568,6 +5763,7 @@
         "Eiichi Egami",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 11,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025jwst.prop.8544H/abstract"
     },
     {
@@ -5612,6 +5808,7 @@
         "Eiichi Egami",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025jwst.prop.8060E/abstract"
     },
     {
@@ -5651,6 +5848,7 @@
         "Eiichi Egami",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 7,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025jwst.prop.8018L/abstract"
     },
     {
@@ -5699,6 +5897,7 @@
         "Eiichi Egami",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 11,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025jwst.prop.7935S/abstract"
     },
     {
@@ -5722,6 +5921,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 7,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025jwst.prop.7573D/abstract"
     },
     {
@@ -5753,6 +5953,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 18,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025jwst.prop.7436J/abstract"
     },
     {
@@ -5793,6 +5994,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 28,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025jwst.prop.7390W/abstract"
     },
     {
@@ -5851,6 +6053,7 @@
         "Eiichi Egami",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 12,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025jwst.prop.7345F/abstract"
     },
     {
@@ -5886,6 +6089,7 @@
         "Eiichi Egami",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 8,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025jwst.prop.7336S/abstract"
     },
     {
@@ -5935,6 +6139,7 @@
         "Eiichi Egami",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 11,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025jwst.prop.7335D/abstract"
     },
     {
@@ -6042,6 +6247,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 26,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025jwst.prop.6882F/abstract"
     },
     {
@@ -6117,6 +6323,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 15,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025jwst.prop.6796F/abstract"
     },
     {
@@ -6159,6 +6366,7 @@
         "Yongda Zhu",
         "Zheng Ma"
       ],
+      "groupAuthorPosition": 6,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025arXiv250315587S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2503.15587",
       "doiUrl": "https://doi.org/10.48550/arXiv.2503.15587"
@@ -6229,6 +6437,7 @@
         "Eiichi Egami",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 20,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJS..277....4D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2404.06531",
       "doiUrl": "https://doi.org/10.3847/1538-4365/ada148"
@@ -6250,6 +6459,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 4,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...982L..26K/abstract",
       "arxivUrl": "https://arxiv.org/abs/2502.19481",
       "doiUrl": "https://doi.org/10.3847/2041-8213/adb83d"
@@ -6273,6 +6483,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 7,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...981L..20L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2412.04548",
       "doiUrl": "https://doi.org/10.3847/2041-8213/adb613"
@@ -6329,6 +6540,7 @@
         "Christa DeCoursey",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 13,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...981L...9P/abstract",
       "arxivUrl": "https://arxiv.org/abs/2411.11953",
       "doiUrl": "https://doi.org/10.3847/2041-8213/adb1d9"
@@ -6347,6 +6559,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 4,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025MNRAS.537.1504M/abstract",
       "arxivUrl": "https://arxiv.org/abs/2405.09855",
       "doiUrl": "https://doi.org/10.1093/mnras/staf115"
@@ -6397,6 +6610,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 22,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...980..138H/abstract",
       "arxivUrl": "https://arxiv.org/abs/2406.18352",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad9b2c"
@@ -6439,6 +6653,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 10,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...980...12S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2412.06894",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad9d0e"
@@ -6492,6 +6707,7 @@
         "Christa DeCoursey",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...979..250D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2406.05060",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad8fab"
@@ -6536,6 +6752,7 @@
         "Junyu Zhang",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 16,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...979..138H/abstract",
       "arxivUrl": "https://arxiv.org/abs/2410.00100",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad9920"
@@ -6590,6 +6807,7 @@
         "Dávid Puskás",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 23,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025NatAs...9..141B/abstract",
       "arxivUrl": "https://arxiv.org/abs/2306.02472",
       "doiUrl": "https://doi.org/10.1038/s41550-024-02384-8"
@@ -6626,6 +6844,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 22,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025MNRAS.536.2355J/abstract",
       "arxivUrl": "https://arxiv.org/abs/2409.06405",
       "doiUrl": "https://doi.org/10.1093/mnras/stae2670"
@@ -6663,6 +6882,7 @@
         "Eiichi Egami",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 6,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025ApJ...978...98S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2409.06796",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad973b"
@@ -6698,6 +6918,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 21,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025AAS...24513901C/abstract"
     },
     {
@@ -6740,6 +6961,7 @@
         "Dávid Puskás",
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 5,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.535.2998S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2409.01286",
       "doiUrl": "https://doi.org/10.1093/mnras/stae2537"
@@ -6797,6 +7019,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 28,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJS..275...36F/abstract",
       "arxivUrl": "https://arxiv.org/abs/2303.01658",
       "doiUrl": "https://doi.org/10.3847/1538-4365/ad5ae2"
@@ -6826,6 +7049,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 7,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...976..224A/abstract",
       "arxivUrl": "https://arxiv.org/abs/2405.15972",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad7396"
@@ -6872,12 +7096,13 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 19,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...976..160H/abstract",
       "arxivUrl": "https://arxiv.org/abs/2404.04325",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad8447"
     },
     {
-      "title": "Discovery of a Unique Close Quasar─DSFG Pair Linked by a [C II] Bridge at z = 5.63",
+      "title": "Discovery of a Unique Close Quasar-DSFG Pair Linked by a [C II] Bridge at z = 5.63",
       "authors": [
         "Zhu, Yongda",
         "Bakx, Tom J. L. C.",
@@ -6900,6 +7125,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024RNAAS...8..284Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2411.06698",
       "doiUrl": "https://doi.org/10.3847/2515-5172/ad91ad"
@@ -6930,6 +7156,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 16,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...975..214J/abstract",
       "arxivUrl": "https://arxiv.org/abs/2409.06174",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad7d09"
@@ -6982,6 +7209,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 8,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...975...87M/abstract",
       "arxivUrl": "https://arxiv.org/abs/2406.04617",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad7b32"
@@ -7029,6 +7257,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 18,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...974..135J/abstract",
       "arxivUrl": "https://arxiv.org/abs/2305.18518",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad6e7f"
@@ -7064,6 +7293,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 17,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...974...41H/abstract",
       "arxivUrl": "https://arxiv.org/abs/2311.04270",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad6867"
@@ -7080,6 +7310,7 @@
       "members": [
         "Madi VanWyngarden"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024AJ....168..154V/abstract",
       "arxivUrl": "https://arxiv.org/abs/2407.15979",
       "doiUrl": "https://doi.org/10.3847/1538-3881/ad6903"
@@ -7123,6 +7354,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 29,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024A%26A...690A..89S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2402.07989",
       "doiUrl": "https://doi.org/10.1051/0004-6361/202449579"
@@ -7154,6 +7386,7 @@
       "members": [
         "Arshia Akhtarkavan"
       ],
+      "groupAuthorPosition": 4,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024TNSAN.264....1D/abstract"
     },
     {
@@ -7211,6 +7444,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 24,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024Natur.633..318C/abstract",
       "arxivUrl": "https://arxiv.org/abs/2405.18485",
       "doiUrl": "https://doi.org/10.1038/s41586-024-07860-9"
@@ -7256,6 +7490,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.533L..49Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2405.12275",
       "doiUrl": "https://doi.org/10.1093/mnrasl/slae061"
@@ -7274,6 +7509,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 3,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.533.1525B/abstract",
       "arxivUrl": "https://arxiv.org/abs/2405.08885",
       "doiUrl": "https://doi.org/10.1093/mnras/stae1918"
@@ -7328,6 +7564,7 @@
       "members": [
         "Dávid Puskás"
       ],
+      "groupAuthorPosition": 20,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.533.1111E/abstract",
       "arxivUrl": "https://arxiv.org/abs/2306.05295",
       "doiUrl": "https://doi.org/10.1093/mnras/stae1857"
@@ -7359,6 +7596,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 13,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024arXiv240917233J/abstract",
       "arxivUrl": "https://arxiv.org/abs/2409.17233",
       "doiUrl": "https://doi.org/10.48550/arXiv.2409.17233"
@@ -7403,6 +7641,7 @@
         "Christa DeCoursey",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 2,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...972L..13S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2406.05076",
       "doiUrl": "https://doi.org/10.3847/2041-8213/ad6c32"
@@ -7425,6 +7664,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 8,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...972...62S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2405.18470",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad6308"
@@ -7470,6 +7710,7 @@
         "Christa DeCoursey",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 4,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...971L..32P/abstract",
       "arxivUrl": "https://arxiv.org/abs/2406.05089",
       "doiUrl": "https://doi.org/10.3847/2041-8213/ad6908"
@@ -7490,6 +7731,7 @@
       "members": [
         "Yichen Liu"
       ],
+      "groupAuthorPosition": 2,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...971..140B/abstract",
       "arxivUrl": "https://arxiv.org/abs/2402.06882",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad54ca"
@@ -7509,6 +7751,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 5,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024A%26A...688L..26S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2405.12273",
       "doiUrl": "https://doi.org/10.1051/0004-6361/202450798"
@@ -7524,6 +7767,7 @@
       "members": [
         "Madi VanWyngarden"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024zndo..12802750V/abstract",
       "doiUrl": "https://doi.org/10.5281/zenodo.12802750"
     },
@@ -7538,6 +7782,7 @@
       "members": [
         "Madi VanWyngarden"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024zndo..12785928V/abstract",
       "doiUrl": "https://doi.org/10.5281/zenodo.12785928"
     },
@@ -7568,6 +7813,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 17,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.531.3069W/abstract",
       "arxivUrl": "https://arxiv.org/abs/2309.03341",
       "doiUrl": "https://doi.org/10.1093/mnras/stae1293"
@@ -7619,6 +7865,7 @@
         "Dávid Puskás",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 17,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...970...31R/abstract",
       "arxivUrl": "https://arxiv.org/abs/2312.10033",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad463d"
@@ -7654,6 +7901,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 21,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...970....9B/abstract",
       "arxivUrl": "https://arxiv.org/abs/2404.12443",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad4a77"
@@ -7707,6 +7955,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 20,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024Natur.630E...2M/abstract",
       "doiUrl": "https://doi.org/10.1038/s41586-024-07494-x"
     },
@@ -7726,6 +7975,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 5,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.530.5209R/abstract",
       "arxivUrl": "https://arxiv.org/abs/2311.06348",
       "doiUrl": "https://doi.org/10.1093/mnras/stae1194"
@@ -7779,6 +8029,7 @@
         "Christa DeCoursey",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 22,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...968...34W/abstract",
       "arxivUrl": "https://arxiv.org/abs/2311.07483",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad3f17"
@@ -7817,6 +8068,7 @@
         "Dávid Puskás",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 10,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...968....4P/abstract",
       "arxivUrl": "https://arxiv.org/abs/2401.08782",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad38bb"
@@ -7832,6 +8084,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024PhDT.........7Z/abstract"
     },
     {
@@ -7889,6 +8142,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 29,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024Natur.629...53L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2302.14155",
       "doiUrl": "https://doi.org/10.1038/s41586-024-07227-0"
@@ -7922,6 +8176,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 19,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.530.3208G/abstract",
       "arxivUrl": "https://arxiv.org/abs/2404.12585",
       "doiUrl": "https://doi.org/10.1093/mnras/stae1080"
@@ -7958,6 +8213,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 11,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...966..229L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2310.12330",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad3643"
@@ -7991,6 +8247,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 19,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...965..134D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2312.08464",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad1d5d"
@@ -8045,6 +8302,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 34,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024A%26A...684A..75C/abstract",
       "arxivUrl": "https://arxiv.org/abs/2304.08516",
       "doiUrl": "https://doi.org/10.1051/0004-6361/202346698"
@@ -8098,6 +8356,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 20,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024Natur.627...59M/abstract",
       "arxivUrl": "https://arxiv.org/abs/2305.12492",
       "doiUrl": "https://doi.org/10.1038/s41586-024-07052-5"
@@ -8133,6 +8392,7 @@
       "members": [
         "Dávid Puskás"
       ],
+      "groupAuthorPosition": 18,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024NatAs...8..384W/abstract",
       "arxivUrl": "https://arxiv.org/abs/2303.16225",
       "doiUrl": "https://doi.org/10.1038/s41550-023-02179-3"
@@ -8179,6 +8439,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 6,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024jwst.prop.6585C/abstract"
     },
     {
@@ -8209,6 +8470,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024jwst.prop.6434E/abstract"
     },
     {
@@ -8268,6 +8530,7 @@
         "Dávid Puskás",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 30,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...964...71H/abstract",
       "arxivUrl": "https://arxiv.org/abs/2306.02468",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad1ee4"
@@ -8309,6 +8572,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 12,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024jwst.prop.5997L/abstract"
     },
     {
@@ -8363,6 +8627,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 2,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024jwst.prop.5893K/abstract"
     },
     {
@@ -8399,6 +8664,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 10,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024jwst.prop.5086M/abstract"
     },
     {
@@ -8452,6 +8718,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 13,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024jwst.prop.5015U/abstract"
     },
     {
@@ -8470,6 +8737,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 3,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024jwst.prop.4924S/abstract"
     },
     {
@@ -8513,6 +8781,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 25,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...962..124H/abstract",
       "arxivUrl": "https://arxiv.org/abs/2302.10217",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad0da7"
@@ -8559,6 +8828,7 @@
         "Christa DeCoursey",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 3,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024ApJ...961...69S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2309.04529",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ad07e3"
@@ -8581,6 +8851,7 @@
       "members": [
         "Yichen Liu"
       ],
+      "groupAuthorPosition": 2,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.526.1122M/abstract",
       "arxivUrl": "https://arxiv.org/abs/2307.05826",
       "doiUrl": "https://doi.org/10.1093/mnras/stad2785"
@@ -8614,6 +8885,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 15,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.525.4093G/abstract",
       "arxivUrl": "https://arxiv.org/abs/2304.02038",
       "doiUrl": "https://doi.org/10.1093/mnras/stad2566"
@@ -8645,6 +8917,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023jwst.prop.6541E/abstract"
     },
     {
@@ -8718,6 +8991,7 @@
         "Dávid Puskás",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 10,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023ApJS..269...16R/abstract",
       "arxivUrl": "https://arxiv.org/abs/2306.02466",
       "doiUrl": "https://doi.org/10.3847/1538-4365/acf44d"
@@ -8767,6 +9041,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 22,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023ApJS..268...64W/abstract",
       "arxivUrl": "https://arxiv.org/abs/2301.09780",
       "doiUrl": "https://doi.org/10.3847/1538-4365/acf130"
@@ -8790,6 +9065,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 5,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023ApJ...955..138C/abstract",
       "arxivUrl": "https://arxiv.org/abs/2308.13064",
       "doiUrl": "https://doi.org/10.3847/1538-4357/acf450"
@@ -8829,6 +9105,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023ApJ...955..115Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2308.04614",
       "doiUrl": "https://doi.org/10.3847/1538-4357/aceef4"
@@ -8885,6 +9162,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 24,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023Natur.621..267W/abstract",
       "arxivUrl": "https://arxiv.org/abs/2302.05468",
       "doiUrl": "https://doi.org/10.1038/s41586-023-06413-w"
@@ -8915,6 +9193,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 13,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023ApJ...955L..18L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2211.01382",
       "doiUrl": "https://doi.org/10.3847/2041-8213/acf470"
@@ -8976,6 +9255,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 9,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023jwst.prop.4573F/abstract"
     },
     {
@@ -9003,6 +9283,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 5,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023jwst.prop.4237O/abstract"
     },
     {
@@ -9058,6 +9339,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023jwst.prop.3577E/abstract"
     },
     {
@@ -9099,6 +9381,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 2,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023ApJ...953...53S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2209.03374",
       "doiUrl": "https://doi.org/10.3847/1538-4357/acd53c"
@@ -9135,6 +9418,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 22,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023A%26A...676A..71M/abstract",
       "arxivUrl": "https://arxiv.org/abs/2306.16474",
       "doiUrl": "https://doi.org/10.1051/0004-6361/202346317"
@@ -9198,6 +9482,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 19,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.1399D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2305.05053",
       "doiUrl": "https://doi.org/10.1093/mnras/stad1468"
@@ -9252,6 +9537,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 21,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.522.6236T/abstract",
       "arxivUrl": "https://arxiv.org/abs/2208.03281",
       "doiUrl": "https://doi.org/10.1093/mnras/stad1408"
@@ -9315,6 +9601,7 @@
         "Dávid Puskás",
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 11,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023ApJ...952...74T/abstract",
       "arxivUrl": "https://arxiv.org/abs/2302.07234",
       "doiUrl": "https://doi.org/10.3847/1538-4357/acdbc6"
@@ -9349,6 +9636,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 20,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023ApJ...952...44B/abstract",
       "arxivUrl": "https://arxiv.org/abs/2301.09731",
       "doiUrl": "https://doi.org/10.3847/1538-4357/accea4"
@@ -9370,6 +9658,7 @@
       "members": [
         "Junyu Zhang"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023ApJ...952....6Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2211.10450",
       "doiUrl": "https://doi.org/10.3847/1538-4357/acd84a"
@@ -9440,6 +9729,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 28,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023ApJ...951L...5Y/abstract",
       "arxivUrl": "https://arxiv.org/abs/2304.09888",
       "doiUrl": "https://doi.org/10.3847/2041-8213/acc9c8"
@@ -9513,6 +9803,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 28,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023ApJ...951L...4W/abstract",
       "arxivUrl": "https://arxiv.org/abs/2304.09894",
       "doiUrl": "https://doi.org/10.3847/2041-8213/accd6f"
@@ -9548,6 +9839,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 9,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023AJ....166...25A/abstract",
       "arxivUrl": "https://arxiv.org/abs/2305.13363",
       "doiUrl": "https://doi.org/10.3847/1538-3881/acd773"
@@ -9588,6 +9880,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 25,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023yCatp038060501B/abstract"
     },
     {
@@ -9617,6 +9910,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023yCat..19230223Z/abstract"
     },
     {
@@ -9646,6 +9940,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 7,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023jwst.prop.4549R/abstract"
     },
     {
@@ -9670,6 +9965,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 3,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023jwst.prop.4540E/abstract"
     },
     {
@@ -9741,6 +10037,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 28,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023NatAs...7..622C/abstract",
       "arxivUrl": "https://arxiv.org/abs/2212.04568",
       "doiUrl": "https://doi.org/10.1038/s41550-023-01918-w"
@@ -9811,6 +10108,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 12,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023NatAs...7..611R/abstract",
       "arxivUrl": "https://arxiv.org/abs/2212.04480",
       "doiUrl": "https://doi.org/10.1038/s41550-023-01921-1"
@@ -9840,6 +10138,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 15,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.521..314D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2303.02816",
       "doiUrl": "https://doi.org/10.1093/mnras/stad294"
@@ -9868,6 +10167,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 14,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.521..289D/abstract",
       "arxivUrl": "https://arxiv.org/abs/2211.15816",
       "doiUrl": "https://doi.org/10.1093/mnras/stac3662"
@@ -9910,6 +10210,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 7,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023jwst.prop.4358S/abstract"
     },
     {
@@ -9928,6 +10229,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 6,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023jwst.prop.4092B/abstract"
     },
     {
@@ -9950,6 +10252,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 3,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023jwst.prop.3905J/abstract"
     },
     {
@@ -9998,6 +10301,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 13,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023jwst.prop.3659D/abstract"
     },
     {
@@ -10025,6 +10329,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 5,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023jwst.prop.3432A/abstract"
     },
     {
@@ -10085,6 +10390,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 18,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023jwst.prop.3215E/abstract"
     },
     {
@@ -10123,6 +10429,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 11,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023jwst.prop.2959S/abstract"
     },
     {
@@ -10181,6 +10488,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 16,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023jwst.prop.2957U/abstract"
     },
     {
@@ -10262,6 +10570,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 12,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023jwst.prop.2883S/abstract"
     },
     {
@@ -10300,6 +10609,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 10,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023jwst.prop.4426M/abstract"
     },
     {
@@ -10322,6 +10632,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.519.4479Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2211.13153",
       "doiUrl": "https://doi.org/10.1093/mnras/stac3483"
@@ -10358,6 +10669,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 18,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023ApJ...944L..59L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2209.03376",
       "doiUrl": "https://doi.org/10.3847/2041-8213/aca1c4"
@@ -10396,6 +10708,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 9,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023ApJ...942L..42R/abstract",
       "arxivUrl": "https://arxiv.org/abs/2208.11456",
       "doiUrl": "https://doi.org/10.3847/2041-8213/aca086"
@@ -10426,6 +10739,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 9,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023ApJ...942L...1W/abstract",
       "arxivUrl": "https://arxiv.org/abs/2208.08473",
       "doiUrl": "https://doi.org/10.3847/2041-8213/aca652"
@@ -10442,6 +10756,7 @@
       "members": [
         "Madi VanWyngarden"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023AAS...24136803V/abstract"
     },
     {
@@ -10487,6 +10802,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 12,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2022ApJS..263...38K/abstract",
       "arxivUrl": "https://arxiv.org/abs/2207.07125",
       "doiUrl": "https://doi.org/10.3847/1538-4365/ac9909"
@@ -10520,6 +10836,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 2,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2022ApJ...936L...8S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2207.11259",
       "doiUrl": "https://doi.org/10.3847/2041-8213/ac8938"
@@ -10560,6 +10877,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 6,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2022MNRAS.514...55B/abstract",
       "arxivUrl": "https://arxiv.org/abs/2108.03699",
       "doiUrl": "https://doi.org/10.1093/mnras/stac1046"
@@ -10594,6 +10912,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 20,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2022MNRAS.513.1801L/abstract",
       "arxivUrl": "https://arxiv.org/abs/2204.03335",
       "doiUrl": "https://doi.org/10.1093/mnras/stac1001"
@@ -10636,6 +10955,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 2,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2022ApJ...932...77S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2204.07187",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ac6e3f"
@@ -10675,6 +10995,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2022ApJ...932...76Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2205.04569",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ac6e60"
@@ -10715,6 +11036,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 25,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2022Natur.605..244B/abstract",
       "arxivUrl": "https://arxiv.org/abs/2205.00021",
       "doiUrl": "https://doi.org/10.1038/s41586-022-04608-1"
@@ -10732,6 +11054,7 @@
       "members": [
         "Yichen Liu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2022OExpr..3014073L/abstract",
       "doiUrl": "https://doi.org/10.1364/OE.455736"
     },
@@ -10765,6 +11088,7 @@
       "members": [
         "Madi VanWyngarden"
       ],
+      "groupAuthorPosition": 8,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2022MNRAS.511.1574R/abstract",
       "arxivUrl": "https://arxiv.org/abs/2201.04158",
       "doiUrl": "https://doi.org/10.1093/mnras/stac093"
@@ -10785,6 +11109,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 4,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2021MNRAS.508.1853B/abstract",
       "arxivUrl": "https://arxiv.org/abs/2103.16610",
       "doiUrl": "https://doi.org/10.1093/mnras/stab2696"
@@ -10816,6 +11141,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2021ApJ...923..223Z/abstract",
       "arxivUrl": "https://arxiv.org/abs/2109.06295",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ac26c2"
@@ -10838,6 +11164,7 @@
       "members": [
         "Yongda Zhu"
       ],
+      "groupAuthorPosition": 6,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2021ApJ...923...87C/abstract",
       "arxivUrl": "https://arxiv.org/abs/2109.13170",
       "doiUrl": "https://doi.org/10.3847/1538-4357/ac2a34"
@@ -10858,6 +11185,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2021hst..prop16641E/abstract"
     },
     {
@@ -10882,6 +11210,7 @@
       "members": [
         "Christa DeCoursey"
       ],
+      "groupAuthorPosition": 6,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2021ApJ...910..105H/abstract",
       "arxivUrl": "https://arxiv.org/abs/2103.07806",
       "doiUrl": "https://doi.org/10.3847/1538-4357/abdf61"
@@ -10908,6 +11237,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 7,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2021jwst.prop.2484D/abstract"
     },
     {
@@ -10927,6 +11257,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 3,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2021jwst.prop.2134T/abstract"
     },
     {
@@ -10983,6 +11314,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 16,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2021jwst.prop.2078W/abstract"
     },
     {
@@ -11020,6 +11352,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 10,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2021jwst.prop.1963W/abstract"
     },
     {
@@ -11061,6 +11394,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 7,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2021jwst.prop.1567F/abstract"
     },
     {
@@ -11084,6 +11418,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 6,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2020ApJ...903....4N/abstract",
       "arxivUrl": "https://arxiv.org/abs/2009.05070",
       "doiUrl": "https://doi.org/10.3847/1538-4357/abb705"
@@ -11193,6 +11528,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 40,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2020ApJS..247...64S/abstract",
       "arxivUrl": "https://arxiv.org/abs/2001.09999",
       "doiUrl": "https://doi.org/10.3847/1538-4365/ab75ed"
@@ -11246,6 +11582,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2018PASA...35...48E/abstract",
       "arxivUrl": "https://arxiv.org/abs/1809.07710",
       "doiUrl": "https://doi.org/10.1017/pasa.2018.41"
@@ -11279,6 +11616,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 1,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2016hst..prop14148E/abstract"
     },
     {
@@ -11307,6 +11645,7 @@
       "members": [
         "Eiichi Egami"
       ],
+      "groupAuthorPosition": 4,
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2015hst..prop14138T/abstract"
     }
   ]
