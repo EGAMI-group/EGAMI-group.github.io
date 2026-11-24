@@ -60,33 +60,56 @@ function adsQuery(person) {
   const clauses = [];
   const orcid = person.orcid?.trim();
   if (orcid) clauses.push(`orcid:${orcid}`);
-  for (const name of adsNames(person)) clauses.push(`author:"${name.replace(/"/g, "")}"`);
+  // ADS also matches "Zhu, Y." for "Zhu, Yongda", so a bare name search can
+  // return thousands of records (and time out). Pre-filter to papers with an
+  // Arizona affiliation; verifiedNamePosition then checks it is this author's.
+  for (const name of adsNames(person)) {
+    clauses.push(`(author:"${name.replace(/"/g, "")}" AND aff:(Arizona OR Steward))`);
+  }
   return clauses.length ? clauses.join(" OR ") : null;
 }
 
+const adsPageSize = 200;
+const adsAttempts = 3;
+
 async function searchAds(query, memberName) {
+  const docs = [];
+  for (let start = 0; ; start += adsPageSize) {
+    const page = await fetchAdsPage(query, start, memberName);
+    docs.push(...page.docs);
+    if (!page.docs.length || docs.length >= page.numFound) return docs;
+  }
+}
+
+async function fetchAdsPage(query, start, memberName) {
   const url = new URL("https://api.adsabs.harvard.edu/v1/search/query");
   url.search = new URLSearchParams({
     q: query,
     fl: "bibcode,title,author,aff,year,date,doctype,pub,doi,identifier,orcid_pub,orcid_user,orcid_other",
-    rows: "2000",
+    rows: String(adsPageSize),
+    start: String(start),
     sort: "date desc,bibcode desc"
   });
 
-  const response = await fetch(url, {
-    headers: { Authorization: `Bearer ${apiToken}` }
-  });
+  // ADS sometimes times out (504) or rate-limits (429); retry those briefly.
+  for (let attempt = 1; ; attempt += 1) {
+    let failure;
+    try {
+      const response = await fetch(url, { headers: { Authorization: `Bearer ${apiToken}` } });
+      if (response.ok) {
+        const data = await response.json();
+        return { docs: data.response?.docs || [], numFound: data.response?.numFound ?? 0 };
+      }
+      failure = `${response.status} ${response.statusText}`;
+      if (response.status !== 429 && response.status < 500) attempt = adsAttempts;
+    } catch (error) {
+      failure = error.message;
+    }
 
-  if (!response.ok) {
-    throw new Error(`ADS search failed for ${memberName}: ${response.status} ${response.statusText}`);
+    if (attempt >= adsAttempts) throw new Error(`ADS search failed for ${memberName}: ${failure}`);
+    console.warn(`  ADS request failed (${failure}); retrying in ${attempt * 10}s...`);
+    await new Promise((resolve) => setTimeout(resolve, attempt * 10_000));
   }
-
-  const data = await response.json();
-  const docs = data.response?.docs || [];
-  if (data.response?.numFound > docs.length) {
-    console.warn(`  Warning: ADS found ${data.response.numFound} records but returned only ${docs.length}.`);
-  }
-  return docs;
 }
 
 // Accents and case vary between ADS records (e.g. "Puskas" vs "Puskás").
