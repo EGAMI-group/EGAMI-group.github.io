@@ -8,7 +8,6 @@ const publicationReset = document.querySelector("#publication-reset");
 // "any" is absent, so it applies no limit.
 const authorshipPositionLimits = { first: 1, lead: 3 };
 let memberRoles = new Map();
-let groupMemberNames = [];
 
 function publicationElement(tagName, className, text) {
   const element = document.createElement(tagName);
@@ -26,19 +25,13 @@ function addOptions(select, values) {
   });
 }
 
-// Accents and case vary between ADS records (e.g. "Puskas" vs "Puskás").
-function normalizeName(name) {
-  return name.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().trim();
-}
-
-// The ADS forms of a member's name: "Surname, Given" and "Surname, G.".
-function memberNameKeys(memberName) {
-  const nameParts = memberName.trim().split(/\s+/);
-  if (nameParts.length < 2) return [normalizeName(memberName)];
-
-  const surname = nameParts.at(-1);
-  const givenName = nameParts.slice(0, -1).join(" ");
-  return [`${surname}, ${givenName}`, `${surname}, ${givenName.charAt(0)}.`].map(normalizeName);
+// 1-based author positions of the group members on a paper, worked out by the
+// ADS updater from ORCIDs and verified names, so nicknames ("Madi" vs
+// "Madison") and initials don't matter. Files written before the updater
+// saved every position only have the earliest one.
+function groupAuthorPositions(paper) {
+  if (Array.isArray(paper.groupAuthorPositions)) return paper.groupAuthorPositions;
+  return paper.groupAuthorPosition ? [paper.groupAuthorPosition] : [];
 }
 
 const nameSuffix = /^(jr\.?|sr\.?|ii|iii|iv)$/i;
@@ -53,23 +46,18 @@ function displayAuthorName(adsName) {
   return [rest.join(" "), surname, suffix].filter(Boolean).join(" ");
 }
 
-function appendAuthorsWithHighlights(container, authors, members = []) {
+function appendAuthorsWithHighlights(container, authors, groupPositions = []) {
   // Older papers.json files stored authors as one pre-joined string.
   if (!Array.isArray(authors)) {
     container.textContent = authors;
     return;
   }
 
-  const memberKeys = members.flatMap(memberNameKeys);
-  const isGroupMember = (adsName) => {
-    const name = normalizeName(adsName);
-    return memberKeys.some((key) => name === key || name.startsWith(`${key} `));
-  };
-
+  const highlighted = new Set(groupPositions);
   authors.forEach((adsName, index) => {
     if (index) container.append(document.createTextNode(", "));
     const displayName = displayAuthorName(adsName);
-    if (isGroupMember(adsName)) {
+    if (highlighted.has(index + 1)) {
       const highlightedAuthor = publicationElement("span", "group-author", displayName);
       highlightedAuthor.title = "EGAMI Group member";
       container.append(highlightedAuthor);
@@ -88,14 +76,14 @@ function renderPublications(papers, showAll = isPublicationArchive) {
   const year = yearFilter.value;
   // Older papers.json files have no author positions; show everything until
   // the ADS workflow regenerates the file rather than an empty list.
-  const positionLimit = papers.some((paper) => paper.groupAuthorPosition)
+  const positionLimit = papers.some((paper) => groupAuthorPositions(paper).length)
     ? authorshipPositionLimits[authorshipFilter.value]
     : undefined;
   const matching = papers.filter((paper) => {
     const hasPerson = !person || (paper.members || []).includes(person);
     const hasRole = !role || (paper.members || []).some((member) => memberRoles.get(member) === role);
     const hasYear = !year || String(paper.year) === year;
-    const hasAuthorship = !positionLimit || paper.groupAuthorPosition <= positionLimit;
+    const hasAuthorship = !positionLimit || groupAuthorPositions(paper)[0] <= positionLimit;
     return hasPerson && hasRole && hasYear && hasAuthorship;
   });
 
@@ -130,7 +118,7 @@ function renderPublications(papers, showAll = isPublicationArchive) {
       article.append(publicationElement("h3", "publication-title", paper.title));
       if (paper.authors) {
         const authors = publicationElement("p", "publication-authors");
-        appendAuthorsWithHighlights(authors, paper.authors, groupMemberNames);
+        appendAuthorsWithHighlights(authors, paper.authors, groupAuthorPositions(paper));
         article.append(authors);
       }
 
@@ -175,7 +163,6 @@ async function loadPublicationExplorer() {
     const people = Array.isArray(roster) ? roster : roster.people || [];
     const papers = Array.isArray(paperData) ? paperData : paperData.papers || [];
     memberRoles = new Map(people.map((person) => [person.name, person.role]).filter(([, role]) => role));
-    groupMemberNames = people.map((person) => person.name).filter(Boolean);
 
     addOptions(personFilter, people.map((person) => person.name).sort());
     addOptions(roleFilter, [...new Set(memberRoles.values())].sort());

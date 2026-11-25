@@ -127,11 +127,6 @@ function orcidAuthorPosition(document, orcid) {
   return undefined;
 }
 
-function earliestPosition(...positions) {
-  const known = positions.filter(Number.isInteger);
-  return known.length ? Math.min(...known) : undefined;
-}
-
 // A paper found by name rather than ORCID is only kept when that author is
 // listed at the University of Arizona, so a shared name can't pull in someone
 // else's papers. (Deliberately excludes "Arizona State University".)
@@ -169,12 +164,11 @@ const rosterNameKeys = roster
   .filter((nameParts) => nameParts.length > 1)
   .map((nameParts) => normalizeName(`${nameParts.at(-1)}, ${nameParts.slice(0, -1).join(" ")}`));
 
-function nameAuthorPosition(authors) {
-  const index = authors.findIndex((author) => {
+function nameAuthorPositions(authors) {
+  return authors.flatMap((author, index) => {
     const name = normalizeName(author);
-    return rosterNameKeys.some((key) => name === key || name.startsWith(`${key} `));
+    return rosterNameKeys.some((key) => name === key || name.startsWith(`${key} `)) ? [index + 1] : [];
   });
-  return index === -1 ? undefined : index + 1;
 }
 
 for (const member of members) {
@@ -204,7 +198,7 @@ for (const member of members) {
     const existing = publications.get(document.bibcode);
     if (existing) {
       existing.members.push(member.name);
-      existing.groupAuthorPosition = earliestPosition(existing.groupAuthorPosition, memberPosition);
+      if (memberPosition) existing.groupAuthorPositions.add(memberPosition);
       continue;
     }
 
@@ -219,9 +213,9 @@ for (const member of members) {
       date: document.date?.slice(0, 10),
       type: publicationType(document.doctype),
       members: [member.name],
-      // 1-based author position of the earliest group member; the site uses it
-      // to show group-led papers (a member among the first authors) by default.
-      groupAuthorPosition: earliestPosition(memberPosition, nameAuthorPosition(authors)),
+      // 1-based author positions of every group member (from ORCID or a verified
+      // name). The site highlights these authors and filters on the earliest.
+      groupAuthorPositions: new Set([memberPosition, ...nameAuthorPositions(authors)].filter(Boolean)),
       adsUrl: `https://ui.adsabs.harvard.edu/abs/${encodeURIComponent(document.bibcode)}/abstract`,
       arxivUrl: arxivUrl(document.identifier),
       doiUrl: document.doi?.[0] ? `https://doi.org/${document.doi[0]}` : undefined
@@ -244,7 +238,11 @@ const papers = [...publications.entries()]
     (second.date || String(second.year)).localeCompare(first.date || String(first.year)) ||
     secondBibcode.localeCompare(firstBibcode)
   )
-  .map(([, paper]) => ({ ...paper, members: [...new Set(paper.members)].sort() }));
+  .map(([, paper]) => ({
+    ...paper,
+    members: [...new Set(paper.members)].sort(),
+    groupAuthorPositions: [...paper.groupAuthorPositions].sort((first, second) => first - second)
+  }));
 
 // Keep the previous timestamp when nothing changed, so the workflow does not
 // commit (and redeploy the site) every week just to bump generatedAt.
@@ -269,6 +267,6 @@ const output = {
 
 await writeFile(papersPath, `${JSON.stringify(output, null, 2)}\n`);
 console.log(`Wrote ${papers.length} unique publications from ${members.length} group members.`);
-const groupLed = papers.filter((paper) => paper.groupAuthorPosition <= 3).length;
-const unplaced = papers.filter((paper) => !paper.groupAuthorPosition).length;
+const groupLed = papers.filter((paper) => paper.groupAuthorPositions[0] <= 3).length;
+const unplaced = papers.filter((paper) => !paper.groupAuthorPositions.length).length;
 console.log(`${groupLed} have a group member among the first 3 authors; ${unplaced} have no group author position.`);
